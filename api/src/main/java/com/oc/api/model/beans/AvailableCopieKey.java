@@ -28,7 +28,10 @@ public class AvailableCopieKey implements Serializable {
     public AvailableCopieKey() {
     }
 
-    
+    public AvailableCopieKey(@NotNull int bookId, @NotNull int libraryId) {
+        this.bookId = bookId;
+        this.libraryId = libraryId;
+    }
 
     public int getBookId() {
         return bookId;

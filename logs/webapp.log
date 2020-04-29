@@ -146,3 +146,9 @@
 2020-04-29 16:48:33,223 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.999 seconds (JVM running for 4.697)
 2020-04-29 16:48:58,729 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
 2020-04-29 16:54:12,150 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /books - GET
+2020-04-29 17:20:05,496 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-04-29 17:20:06,428 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-04-29 17:20:06,429 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-04-29 17:20:06,429 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-04-29 17:20:07,673 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.095 seconds (JVM running for 3.645)
+2020-04-29 17:20:17,279 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
