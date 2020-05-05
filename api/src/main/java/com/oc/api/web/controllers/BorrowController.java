@@ -9,6 +9,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
 import com.oc.api.dao.BorrowDao;
+import com.oc.api.manager.BorrowManager;
 import com.oc.api.model.beans.AvailableCopie;
 import com.oc.api.model.beans.Borrow;
 import com.oc.api.web.exceptions.ForeignKeyNotExistsException;
@@ -43,8 +44,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Validated
 public class BorrowController {
 
+    /*@Autowired
+    private BorrowDao borrowDao;*/
+
     @Autowired
-    private BorrowDao borrowDao;
+    private BorrowManager borrowManager;
 
     @Autowired
     private AvailableCopieController availableCopieController;
@@ -56,7 +60,7 @@ public class BorrowController {
 
         logger.info("Providing borrow resource from database: all borrow list");
 
-        List<Borrow> borrows = borrowDao.findAll();
+        List<Borrow> borrows = borrowManager.getAllBorrows();
 
         return borrows;
     }
@@ -66,7 +70,7 @@ public class BorrowController {
 
         logger.info("Providing borrow resource from database: borrow id: " + id);
 
-        Optional<Borrow> borrow = borrowDao.findById(id);
+        Optional<Borrow> borrow = borrowManager.getById(id);
 
         if(!borrow.isPresent()) throw new RessourceNotFoundException("Le prêt n'existe pas, id: "+ id);
 
@@ -81,26 +85,11 @@ public class BorrowController {
           
         Borrow borrowAdded;
         try {
-            borrowAdded = borrowDao.save(borrow);
+            borrowAdded = borrowManager.save(borrow, "out");
         } catch (Exception e) {
             logger.debug("Une ou plusieurs clé étrangères n'existent pas.");
             throw new ForeignKeyNotExistsException("Une ou plusieurs clé étrangères n'existent pas.");
         }
-
-        // Init Ids
-        int bookId = borrow.getBook().getId();
-        int libraryId = borrow.getLibrary().getId();
-
-        // Get available copie
-        AvailableCopie availableCopie = availableCopieController.getAvailableCopieById(bookId, libraryId).get();
-
-        // Remove one copie
-        int availableQuantity = availableCopie.getAvailableQuantity();
-        availableCopie.setAvailableQuantity(availableQuantity - 1);
-
-        // Update available copie in datatbase
-        availableCopieController.updateAvailableCopie(bookId, libraryId, availableCopie);
-        
 
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest()
@@ -117,13 +106,13 @@ public class BorrowController {
         logger.info("Updating borrow in database, id: " + id);
 
         try {
-            borrowDao.findById(borrowDetails.getId()).get(); 
+            borrowManager.getById(borrowDetails.getId()).get();
         } catch (NoSuchElementException e) {
             logger.debug("L'entité prêt demandée n'existe pas, id: " + borrowDetails.getId());
             throw new RessourceNotFoundException("L'entité prêt demandée n'existe pas, id: " + borrowDetails.getId());
         }
         
-        borrowDao.save(borrowDetails);
+        borrowManager.save(borrowDetails , "");
 
         return ResponseEntity.ok().build();        
 
@@ -137,28 +126,14 @@ public class BorrowController {
 
         Borrow returnedBorrow;
         try {
-            returnedBorrow = borrowDao.findById(id).get();
+            returnedBorrow = borrowManager.getById(id).get();
         } catch (NoSuchElementException e) {
             logger.debug("L'entité prêt demandée n'existe pas, id: " + id);
             throw new RessourceNotFoundException("L'entité prêt demandée n'existe pas, id: " + id);
         }
 
         returnedBorrow.setBookReturned(true);
-        borrowDao.save(returnedBorrow);
-
-        // Init Ids
-        int bookId = returnedBorrow.getBook().getId();
-        int libraryId = returnedBorrow.getLibrary().getId();
-
-        // Get available copie
-        AvailableCopie availableCopie = availableCopieController.getAvailableCopieById(bookId, libraryId).get();
-
-        // Add one copie
-        int availableQuantity = availableCopie.getAvailableQuantity();
-        availableCopie.setAvailableQuantity(availableQuantity + 1);
-
-        // Update available copie in datatbase
-        availableCopieController.updateAvailableCopie(bookId, libraryId, availableCopie);
+        borrowManager.save(returnedBorrow, "in");
 
         return ResponseEntity.ok().build();
 
@@ -170,7 +145,7 @@ public class BorrowController {
         logger.info("Deleting borrow from database: id: "+ id);
 
         try {
-            borrowDao.deleteById(id);
+            borrowManager.deleteById(id);
         } catch (EmptyResultDataAccessException e) {
             logger.debug("L'entité prêt n'existe pas, id: "+ id);
             throw new RessourceNotFoundException("L'entité prêt n'existe pas, id: "+ id);
@@ -184,7 +159,7 @@ public class BorrowController {
 
         logger.info("Providing borrow resources from database by user id: " + userId);
 
-        List<Borrow>  borrows = borrowDao.findByRegistereduserId(userId);
+        List<Borrow>  borrows = borrowManager.getAllBorrowsByRegistereduserId(userId);
 
         return borrows;
     }  

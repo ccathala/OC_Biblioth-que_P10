@@ -1,0 +1,154 @@
+package com.oc.api.manager.impl;
+
+import com.oc.api.dao.AvailableCopieDao;
+import com.oc.api.manager.AvailableCopieManager;
+import com.oc.api.manager.BorrowManager;
+import com.oc.api.manager.ReservationManager;
+import com.oc.api.model.beans.AvailableCopie;
+import com.oc.api.model.beans.AvailableCopieKey;
+import com.oc.api.model.beans.Borrow;
+import com.oc.api.model.beans.Reservation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class AvailableCopieManagerImpl implements AvailableCopieManager {
+
+    @Autowired
+    private AvailableCopieDao availableCopieDao;
+
+    @Autowired
+    private ReservationManager reservationManager;
+
+    @Autowired
+    private BorrowManager borrowManager;
+
+    public void setAvailableCopieDao(AvailableCopieDao availableCopieDao) {
+        this.availableCopieDao = availableCopieDao;
+    }
+
+    public void setReservationManager(ReservationManager reservationManager) {
+        this.reservationManager = reservationManager;
+    }
+
+    public void setBorrowManager(BorrowManager borrowManager) {
+        this.borrowManager = borrowManager;
+    }
+
+    /**
+     *
+     * @param
+     * @return
+     */
+    @Override
+    public Boolean updateStatusBookCanBeReserved(AvailableCopie availableCopie) {
+        List<Reservation> reservationList = reservationManager.findAllByBookIdAndLibraryId(availableCopie.getId().getBookId(), availableCopie.getId().getLibraryId());
+
+        int currentReservationCount = reservationList.size();
+
+        int maxReservationCount = availableCopie.getOwnedQuantity() * 2;
+
+        if(currentReservationCount < maxReservationCount){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+
+    @Override
+    public int updateAvailableQuantity(int currentQuantity, String operationType) {
+        int availableQuantityToUpdate = currentQuantity;
+
+        if (operationType.equals("in")){
+            availableQuantityToUpdate = currentQuantity + 1;
+        } else if (operationType.equals("out")){
+            availableQuantityToUpdate = currentQuantity - 1;
+        }
+
+        return availableQuantityToUpdate;
+    }
+
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public AvailableCopie relatedAvailableCopieUpdate(Borrow borrow, String operationType) {
+        // Get related availableCopie
+        AvailableCopie copieToRefresh = findById(new AvailableCopieKey(borrow.getBook().getId(), borrow.getLibrary().getId())).get();
+
+        // Get updated available quantity
+        int availableQuantityUpdated = updateAvailableQuantity(copieToRefresh.getAvailableQuantity(), operationType);
+
+        // Set updated available quantity on bean to update
+        copieToRefresh.setAvailableQuantity(availableQuantityUpdated);
+
+        // Get updated bookCanBeReserved status
+        Boolean bookCanBeReservedUpdated = updateStatusBookCanBeReserved(copieToRefresh);
+
+        // Set updated bookCanBeReserved status on bean to update
+        copieToRefresh.setBookCanBeReserved(bookCanBeReservedUpdated);
+
+        // Get nearest return date
+        LocalDate nearestReturnDate = getNearestReturnDate(borrow.getBook().getId(), borrow.getLibrary().getId());
+
+        // Set nearest return date
+        copieToRefresh.setNearestReturnDate(nearestReturnDate);
+
+        return save(copieToRefresh);
+    }
+
+    /**
+     *
+     */
+    public LocalDate getNearestReturnDate(int book_id, int library_id) {
+        LocalDate updatedNearestReturnDate = null;
+        List<Borrow> borrowList = borrowManager.getAllBorrowsByBookIdAndLibraryId(book_id, library_id);
+
+        for (int i=0 ; i<borrowList.size(); i++){
+            if(i==0){
+                updatedNearestReturnDate = borrowList.get(i).getReturnDate();
+            }
+            
+            if (i>0){
+                if (updatedNearestReturnDate.isBefore(borrowList.get(i).getReturnDate())){
+                    updatedNearestReturnDate = borrowList.get(i).getReturnDate();
+                }
+            }
+        }
+        return updatedNearestReturnDate;
+
+    }
+
+
+    /**
+     *
+     */
+    @Override
+    public void updateReservationCount(int bookId, int libraryId) {
+        AvailableCopie copieToUpdate = availableCopieDao.findById(new AvailableCopieKey(bookId, libraryId)).get();
+
+        int updatedReservationCount = reservationManager.findAllByBookIdAndLibraryId(bookId, libraryId).size();
+
+        copieToUpdate.setReservationCount(updatedReservationCount);
+
+        save(copieToUpdate);
+
+    }
+
+    @Override
+    public Optional<AvailableCopie> findById(AvailableCopieKey key) {
+        return availableCopieDao.findById(key);
+    }
+
+    @Override
+    public AvailableCopie save(AvailableCopie availableCopie) {
+        return availableCopieDao.save(availableCopie);
+    }
+}

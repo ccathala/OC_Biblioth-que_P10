@@ -1,0 +1,6 @@
+2020-04-30 17:06:23,112 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-04-30 17:06:24,028 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-04-30 17:06:24,028 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-04-30 17:06:24,028 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-04-30 17:06:25,176 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 2.845 seconds (JVM running for 3.438)
+2020-04-30 17:07:03,821 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
