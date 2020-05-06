@@ -8,7 +8,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
-import com.oc.api.dao.RegisteredUserDao;
+import com.oc.api.integration.dao.RegisteredUserDao;
 import com.oc.api.model.beans.RegisteredUser;
 import com.oc.api.web.exceptions.EntityAlreadyExistsException;
 import com.oc.api.web.exceptions.RessourceNotFoundException;

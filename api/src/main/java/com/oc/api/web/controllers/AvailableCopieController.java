@@ -10,7 +10,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
-import com.oc.api.dao.AvailableCopieDao;
+import com.oc.api.integration.dao.AvailableCopieDao;
 import com.oc.api.model.beans.AvailableCopie;
 import com.oc.api.model.beans.AvailableCopieKey;
 import com.oc.api.web.exceptions.EntityAlreadyExistsException;

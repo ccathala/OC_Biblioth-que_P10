@@ -8,9 +8,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
-import com.oc.api.dao.BorrowDao;
 import com.oc.api.manager.BorrowManager;
-import com.oc.api.model.beans.AvailableCopie;
 import com.oc.api.model.beans.Borrow;
 import com.oc.api.web.exceptions.ForeignKeyNotExistsException;
 import com.oc.api.web.exceptions.RessourceNotFoundException;

@@ -74,14 +74,14 @@ INSERT INTO public.available_copie
 (book_id, library_id, owned_quantity, available_quantity, book_can_be_reserved, nearest_return_date, reservation_count)
 VALUES
 (1, 1, 2, 0, true, '2019-12-01', 2),
-(1, 2, 2, 2, false, null, 0),
-(1, 3, 2, 2, false, null, 0),
-(2, 1, 2, 1, false, '2020-02-14', 0),
-(2, 2, 2, 2, false, null, 0),
-(2, 3, 2, 2, false, null, 0),
-(3, 1, 2, 1, false, '2020-02-14', 0),
-(3, 2, 2, 2, false, null, 0),
-(3, 3, 2, 2, false, null, 0);
+(1, 2, 2, 2, true, null, 0),
+(1, 3, 2, 2, true, null, 0),
+(2, 1, 2, 1, true, '2020-02-14', 0),
+(2, 2, 2, 2, true, null, 0),
+(2, 3, 2, 2, true, null, 0),
+(3, 1, 2, 1, true, '2020-02-14', 0),
+(3, 2, 2, 2, true, null, 0),
+(3, 3, 2, 2, true, null, 0);
 
 -- Create Borrow
 insert into public.borrow (

@@ -1,6 +1,6 @@
 package com.oc.api.manager.impl;
 
-import com.oc.api.dao.BorrowDao;
+import com.oc.api.integration.dao.BorrowDao;
 import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.manager.BorrowManager;
 import com.oc.api.manager.ReservationManager;
@@ -38,16 +38,20 @@ public class BorrowManagerImpl implements BorrowManager {
     @Transactional
     public Borrow save(Borrow borrow, String operationType) {
 
+        int bookId = borrow.getBook().getId();
+        int libraryId = borrow.getLibrary().getId();
+        int userId = borrow.getRegistereduser().getId();
+
         // Save or update borrow
         Borrow savedBorrow = borrowDao.save(borrow);
 
         // Update related availableCopie, triggered by borrow action(add or return)
-        availableCopieManager.relatedAvailableCopieUpdate(borrow, operationType);
+        availableCopieManager.relatedAvailableCopieUpdate(bookId, libraryId, operationType);
 
         // If outing borrow need to check
         if(operationType.equals("out")){
             // Update related reservation
-            reservationManager.relatedReservationUpdate(borrow.getBook().getId(), borrow.getLibrary().getId(), borrow.getRegistereduser().getId());
+            reservationManager.relatedReservationUpdate(bookId, libraryId, userId);
         }
 
         return savedBorrow;

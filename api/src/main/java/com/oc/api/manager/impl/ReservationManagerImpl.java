@@ -1,6 +1,6 @@
 package com.oc.api.manager.impl;
 
-import com.oc.api.dao.ReservationDao;
+import com.oc.api.integration.dao.ReservationDao;
 import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Reservation;

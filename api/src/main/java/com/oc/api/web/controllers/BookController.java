@@ -13,7 +13,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
-import com.oc.api.dao.BookDao;
+import com.oc.api.integration.dao.BookDao;
 import com.oc.api.manager.UtilsManager;
 import com.oc.api.model.beans.Book;
 import com.oc.api.web.exceptions.EntityAlreadyExistsException;

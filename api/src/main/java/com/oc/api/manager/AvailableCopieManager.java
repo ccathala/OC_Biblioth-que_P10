@@ -10,11 +10,9 @@ public interface AvailableCopieManager {
 
     Boolean updateStatusBookCanBeReserved(AvailableCopie availableCopie);
     int updateAvailableQuantity(int currentQuantity, String operationType);
-
-    void updateReservationCount(int bookId, int libraryId);
-
+    AvailableCopie relatedAvailableCopieUpdate(int bookId, int libraryId, String operationType);
+    AvailableCopie updateReservationCount(int bookId, int libraryId);
     Optional<AvailableCopie> findById(AvailableCopieKey key);
     AvailableCopie save(AvailableCopie availableCopie);
 
-    AvailableCopie relatedAvailableCopieUpdate(Borrow borrow, String operationType);
 }

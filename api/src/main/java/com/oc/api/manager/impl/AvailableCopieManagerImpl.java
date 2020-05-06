@@ -1,6 +1,6 @@
 package com.oc.api.manager.impl;
 
-import com.oc.api.dao.AvailableCopieDao;
+import com.oc.api.integration.dao.AvailableCopieDao;
 import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.manager.BorrowManager;
 import com.oc.api.manager.ReservationManager;
@@ -79,9 +79,9 @@ public class AvailableCopieManagerImpl implements AvailableCopieManager {
      * @return
      */
     @Override
-    public AvailableCopie relatedAvailableCopieUpdate(Borrow borrow, String operationType) {
+    public AvailableCopie relatedAvailableCopieUpdate(int bookId, int libraryId, String operationType) {
         // Get related availableCopie
-        AvailableCopie copieToRefresh = findById(new AvailableCopieKey(borrow.getBook().getId(), borrow.getLibrary().getId())).get();
+        AvailableCopie copieToRefresh = findById(new AvailableCopieKey(bookId, libraryId)).get();
 
         // Get updated available quantity
         int availableQuantityUpdated = updateAvailableQuantity(copieToRefresh.getAvailableQuantity(), operationType);
@@ -96,7 +96,7 @@ public class AvailableCopieManagerImpl implements AvailableCopieManager {
         copieToRefresh.setBookCanBeReserved(bookCanBeReservedUpdated);
 
         // Get nearest return date
-        LocalDate nearestReturnDate = getNearestReturnDate(borrow.getBook().getId(), borrow.getLibrary().getId());
+        LocalDate nearestReturnDate = getNearestReturnDate(bookId, libraryId);
 
         // Set nearest return date
         copieToRefresh.setNearestReturnDate(nearestReturnDate);
@@ -129,16 +129,17 @@ public class AvailableCopieManagerImpl implements AvailableCopieManager {
 
     /**
      *
+     * @return
      */
     @Override
-    public void updateReservationCount(int bookId, int libraryId) {
+    public AvailableCopie updateReservationCount(int bookId, int libraryId) {
         AvailableCopie copieToUpdate = availableCopieDao.findById(new AvailableCopieKey(bookId, libraryId)).get();
 
         int updatedReservationCount = reservationManager.findAllByBookIdAndLibraryId(bookId, libraryId).size();
 
         copieToUpdate.setReservationCount(updatedReservationCount);
 
-        save(copieToUpdate);
+        return save(copieToUpdate);
 
     }
 
