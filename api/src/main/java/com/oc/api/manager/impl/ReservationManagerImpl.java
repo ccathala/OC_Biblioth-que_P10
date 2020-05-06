@@ -39,18 +39,19 @@ public class ReservationManagerImpl implements ReservationManager {
     @Transactional
     public void deleteById(int id) {
         Reservation reservationToDelete = reservationDao.findById(id).get();
+        int bookId = reservationToDelete.getAvailableCopie().getId().getBookId();
+        int libraryid = reservationToDelete.getAvailableCopie().getId().getLibraryId();
         reservationDao.deleteById(id);
-        offsetReservationsPositionAfterDelete(reservationToDelete);
+        offsetReservationsPositionAfterDelete(bookId, libraryid);
         availableCopieManager.updateReservationCount(reservationToDelete.getAvailableCopie().getId().getBookId(), reservationToDelete.getAvailableCopie().getId().getLibraryId());
     }
 
     /**
      * After delete reservation action, decrease by one each reservations positions for the same copy
      */
-    private void offsetReservationsPositionAfterDelete(Reservation reservationToDelete) {
+    public void offsetReservationsPositionAfterDelete(int bookId, int libraryId) {
         List<Reservation> reservationList =
-                reservationDao.findAllByBookIdAndLibraryId(reservationToDelete.getAvailableCopie().getBook().getId(),
-                        reservationToDelete.getAvailableCopie().getLibrary().getId());
+                findAllByBookIdAndLibraryId(bookId, libraryId);
 
         for (Reservation reservation : reservationList) {
             int currentPosition = reservation.getPosition();

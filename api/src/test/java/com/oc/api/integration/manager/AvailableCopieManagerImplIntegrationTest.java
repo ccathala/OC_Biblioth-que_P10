@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class AvailableCopieManagerIntegrationTest {
+public class AvailableCopieManagerImplIntegrationTest {
 
     @Autowired
     private AvailableCopieManagerImpl classUnderTest;
