@@ -11,7 +11,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
-import com.oc.api.integration.dao.LibraryDao;
+import com.oc.api.dao.LibraryDao;
 import com.oc.api.model.beans.Library;
 import com.oc.api.web.exceptions.EntityAlreadyExistsException;
 import com.oc.api.web.exceptions.RessourceNotFoundException;

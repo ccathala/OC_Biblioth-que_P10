@@ -1,6 +1,6 @@
 package com.oc.api.manager.impl;
 
-import com.oc.api.integration.dao.ReservationDao;
+import com.oc.api.dao.ReservationDao;
 import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Reservation;
@@ -42,21 +42,24 @@ public class ReservationManagerImpl implements ReservationManager {
         int bookId = reservationToDelete.getAvailableCopie().getId().getBookId();
         int libraryid = reservationToDelete.getAvailableCopie().getId().getLibraryId();
         reservationDao.deleteById(id);
-        offsetReservationsPositionAfterDelete(bookId, libraryid);
+        offsetReservationsPositionAfterDelete(bookId, libraryid, reservationToDelete.getPosition());
         availableCopieManager.updateReservationCount(reservationToDelete.getAvailableCopie().getId().getBookId(), reservationToDelete.getAvailableCopie().getId().getLibraryId());
     }
 
     /**
      * After delete reservation action, decrease by one each reservations positions for the same copy
      */
-    public void offsetReservationsPositionAfterDelete(int bookId, int libraryId) {
+    public void offsetReservationsPositionAfterDelete(int bookId, int libraryId, int deletedReservationPosition) {
         List<Reservation> reservationList =
                 findAllByBookIdAndLibraryId(bookId, libraryId);
 
         for (Reservation reservation : reservationList) {
-            int currentPosition = reservation.getPosition();
-            reservation.setPosition(currentPosition - 1);
-            reservationDao.save(reservation);
+            if (reservation.getPosition()>deletedReservationPosition){
+                int currentPosition = reservation.getPosition();
+                reservation.setPosition(currentPosition - 1);
+                reservationDao.save(reservation);
+            }
+
         }
     }
 
@@ -66,7 +69,9 @@ public class ReservationManagerImpl implements ReservationManager {
     @Override
     @Transactional
     public Reservation save(Reservation reservation) {
-        int reservationPosition = setReservationPosition(reservation);
+        int bookId = reservation.getAvailableCopie().getId().getBookId();
+        int libraryId = reservation.getAvailableCopie().getId().getLibraryId();
+        int reservationPosition = setReservationPosition(bookId, libraryId, reservation.getPosition());
         reservation.setPosition(reservationPosition);
         Reservation savedReservation = reservationDao.save(reservation);
         availableCopieManager.updateReservationCount(reservation.getAvailableCopie().getId().getBookId(), reservation.getAvailableCopie().getId().getLibraryId());
@@ -76,16 +81,13 @@ public class ReservationManagerImpl implements ReservationManager {
     /**
      *
      */
-    private int setReservationPosition(Reservation reservation) {
-        if (reservation.getPosition() == 0) {
+    public int setReservationPosition(int bookId, int libraryId,int reservationPosition) {
+        if (reservationPosition == 0) {
             List<Reservation> reservationList =
-                    reservationDao.findAllByBookIdAndLibraryId(reservation.getAvailableCopie().getBook().getId(),
-                            reservation.getAvailableCopie().getLibrary().getId());
-
+                    reservationDao.findAllByBookIdAndLibraryId(bookId, libraryId);
             return reservationList.size() + 1;
-
         }
-        return reservation.getPosition();
+        return reservationPosition;
     }
 
     /**

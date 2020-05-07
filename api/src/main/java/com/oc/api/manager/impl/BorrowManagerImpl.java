@@ -1,6 +1,6 @@
 package com.oc.api.manager.impl;
 
-import com.oc.api.integration.dao.BorrowDao;
+import com.oc.api.dao.BorrowDao;
 import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.manager.BorrowManager;
 import com.oc.api.manager.ReservationManager;

@@ -1,155 +1,22 @@
-2020-05-06 09:07:57,191 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 16963 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:07:57,196 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:07:57,196 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:08:01,879 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$1090be93 [main] Set Swagger2 documentation
-2020-05-06 09:08:02,617 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.668 seconds (JVM running for 6.822)
-2020-05-06 09:12:26,646 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 17146 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:12:26,648 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:12:26,648 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:12:30,720 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$bc3b124e [main] Set Swagger2 documentation
-2020-05-06 09:12:31,470 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 4.992 seconds (JVM running for 6.025)
-2020-05-06 09:13:39,719 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 17242 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:13:39,722 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:13:39,722 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:13:45,282 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2f81b2f9 [main] Set Swagger2 documentation
-2020-05-06 09:13:46,211 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 6.76 seconds (JVM running for 8.541)
-2020-05-06 09:14:51,288 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 17340 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:14:51,290 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:14:51,290 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:14:55,219 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
-2020-05-06 09:14:56,000 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 4.889 seconds (JVM running for 5.98)
-2020-05-06 09:16:10,476 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 17455 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:16:10,478 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:16:10,478 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:16:14,470 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$982e5325 [main] Set Swagger2 documentation
-2020-05-06 09:16:15,205 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 4.923 seconds (JVM running for 5.931)
-2020-05-06 09:26:47,017 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 17887 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:26:47,019 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:26:47,019 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:26:51,131 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
-2020-05-06 09:26:51,883 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.016 seconds (JVM running for 6.077)
-2020-05-06 09:27:54,580 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 17972 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:27:54,582 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:27:54,582 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:27:58,421 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
-2020-05-06 09:27:59,266 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 4.892 seconds (JVM running for 5.864)
-2020-05-06 09:31:34,701 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 18189 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:31:34,703 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:31:34,703 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:31:38,855 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
-2020-05-06 09:31:39,615 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.141 seconds (JVM running for 6.158)
-2020-05-06 09:35:05,784 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 18324 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 09:35:05,786 DEBUG com.oc.api.AvailableCopieManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 09:35:05,786 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 09:35:09,853 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
-2020-05-06 09:35:10,684 INFO com.oc.api.AvailableCopieManagerIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.15 seconds (JVM running for 6.415)
-2020-05-06 10:12:09,888 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 20662 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 10:12:09,891 DEBUG com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 10:12:09,891 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 10:12:14,141 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$23e38236 [main] Set Swagger2 documentation
-2020-05-06 10:12:15,002 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.465 seconds (JVM running for 6.463)
-2020-05-06 10:44:18,671 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 21503 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 10:44:18,709 DEBUG com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 10:44:18,709 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 10:44:23,039 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$23e38236 [main] Set Swagger2 documentation
-2020-05-06 10:44:23,815 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.327 seconds (JVM running for 6.391)
-2020-05-06 10:47:55,585 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 21640 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 10:47:55,587 DEBUG com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 10:47:55,587 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 10:48:00,075 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$23e38236 [main] Set Swagger2 documentation
-2020-05-06 10:48:00,928 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.682 seconds (JVM running for 6.688)
-2020-05-06 10:50:47,643 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 21754 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 10:50:47,646 DEBUG com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 10:50:47,646 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 10:50:52,076 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$23e38236 [main] Set Swagger2 documentation
-2020-05-06 10:50:52,961 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.586 seconds (JVM running for 6.652)
-2020-05-06 10:51:45,202 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerIntegrationTest on charles with PID 21828 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 10:51:45,206 DEBUG com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 10:51:45,206 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 10:51:49,310 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$23e38236 [main] Set Swagger2 documentation
-2020-05-06 10:51:50,187 INFO com.oc.api.integration.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerIntegrationTest in 5.254 seconds (JVM running for 6.292)
-2020-05-06 11:01:14,816 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Starting BorrowDaoIntegrationTest on charles with PID 22352 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:01:14,818 DEBUG com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:01:14,818 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] The following profiles are active: integration
-2020-05-06 11:01:18,581 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$db098624 [main] Set Swagger2 documentation
-2020-05-06 11:01:19,347 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Started BorrowDaoIntegrationTest in 4.708 seconds (JVM running for 5.956)
-2020-05-06 11:01:19,986 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 22352 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:01:19,986 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:01:19,986 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
-2020-05-06 11:01:21,115 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$db098624 [main] Set Swagger2 documentation
-2020-05-06 11:01:21,436 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.466 seconds (JVM running for 8.045)
-2020-05-06 11:01:21,513 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 22352 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:01:21,513 DEBUG com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:01:21,513 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 11:01:21,932 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.435 seconds (JVM running for 8.541)
-2020-05-06 11:01:22,050 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
-2020-05-06 11:01:22,050 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
-2020-05-06 11:01:22,064 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
-2020-05-06 11:01:22,076 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
-2020-05-06 11:01:22,088 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
-2020-05-06 11:01:22,095 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
-2020-05-06 11:01:22,128 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
-2020-05-06 11:01:22,128 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
-2020-05-06 11:01:22,136 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
-2020-05-06 11:01:22,146 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
-2020-05-06 11:39:19,408 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 24546 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:39:19,410 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:39:19,411 INFO com.oc.api.unit.ReservationManagerImplTest [main] The following profiles are active: dev
-2020-05-06 11:39:21,820 ERROR com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
-org.postgresql.util.PSQLException: Connection to localhost:9032 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:280)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
-	at org.postgresql.Driver.makeConnection(Driver.java:458)
-	at org.postgresql.Driver.connect(Driver.java:260)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1214)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1245)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+2020-05-07 10:06:59,810 INFO com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerImplIntegrationTest on charles with PID 9004 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:06:59,821 DEBUG com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:06:59,822 INFO com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: business
+2020-05-07 10:07:05,305 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$66d7ec19 [main] Set Swagger2 documentation
+2020-05-07 10:07:06,208 INFO com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerImplIntegrationTest in 6.633 seconds (JVM running for 8.306)
+2020-05-07 10:07:06,745 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 9004 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:07:06,745 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:07:06,745 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: @spring.profiles.active@
+2020-05-07 10:07:07,033 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.312 seconds (JVM running for 9.132)
+2020-05-07 10:07:07,041 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@f2b4303]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
 	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
 	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
@@ -210,38 +77,22 @@ org.postgresql.util.PSQLException: Connection to localhost:9032 refused. Check t
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-Caused by: java.net.ConnectException: Connexion refusée (Connection refused)
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:606)
-	at org.postgresql.core.PGStream.<init>(PGStream.java:75)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:91)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:192)
-	... 112 common frames omitted
-2020-05-06 11:39:21,836 ERROR org.springframework.boot.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,051 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@32153bbe]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
 	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
 	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
@@ -302,40 +153,22 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1214)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1245)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
-	... 78 common frames omitted
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
-	... 95 common frames omitted
-2020-05-06 11:39:21,841 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@337a6d30] to prepare test instance [com.oc.api.unit.ReservationManagerImplTest@2921a36a]
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
-	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
-	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
-	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,057 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@34114276]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
 	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
 	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
 	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
@@ -396,112 +229,485 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:125)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
-	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
-	... 63 common frames omitted
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1214)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1245)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
-	... 78 common frames omitted
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
-	... 95 common frames omitted
-2020-05-06 11:39:57,222 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Starting BorrowDaoIntegrationTest on charles with PID 24658 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:39:57,223 DEBUG com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:39:57,224 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] The following profiles are active: integration
-2020-05-06 11:40:02,882 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$cf13eed [main] Set Swagger2 documentation
-2020-05-06 11:40:03,910 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Started BorrowDaoIntegrationTest in 6.927 seconds (JVM running for 8.412)
-2020-05-06 11:40:04,796 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 24658 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:40:04,797 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:40:04,797 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
-2020-05-06 11:40:06,652 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$cf13eed [main] Set Swagger2 documentation
-2020-05-06 11:40:07,141 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 2.362 seconds (JVM running for 11.643)
-2020-05-06 11:40:07,274 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 24658 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:40:07,274 DEBUG com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:40:07,274 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 11:40:07,768 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.525 seconds (JVM running for 12.27)
-2020-05-06 11:40:07,872 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
-2020-05-06 11:40:07,872 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
-2020-05-06 11:40:07,889 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
-2020-05-06 11:40:07,907 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
-2020-05-06 11:40:07,923 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
-2020-05-06 11:40:07,933 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
-2020-05-06 11:40:07,969 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
-2020-05-06 11:40:07,970 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
-2020-05-06 11:40:07,976 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
-2020-05-06 11:40:07,989 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
-2020-05-06 11:40:56,583 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 24781 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 11:40:56,586 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 11:40:56,586 INFO com.oc.api.unit.ReservationManagerImplTest [main] The following profiles are active: integration
-2020-05-06 11:41:01,350 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$b617d6a8 [main] Set Swagger2 documentation
-2020-05-06 11:41:02,273 INFO com.oc.api.unit.ReservationManagerImplTest [main] Started ReservationManagerImplTest in 5.872 seconds (JVM running for 7.118)
-2020-05-06 12:30:34,115 INFO com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 26167 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 12:30:34,154 DEBUG com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 12:30:34,155 INFO com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 12:30:39,305 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$333e38c [main] Set Swagger2 documentation
-2020-05-06 12:30:40,265 INFO com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 6.428 seconds (JVM running for 7.73)
-2020-05-06 12:35:14,940 INFO com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 26337 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 12:35:14,946 DEBUG com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 12:35:14,947 INFO com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] The following profiles are active: integration
-2020-05-06 12:35:19,431 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$b617d6a8 [main] Set Swagger2 documentation
-2020-05-06 12:35:20,311 INFO com.oc.api.integration.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 5.586 seconds (JVM running for 6.768)
-2020-05-06 12:37:41,050 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Starting BorrowDaoIntegrationTest on charles with PID 26613 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 12:37:41,052 DEBUG com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 12:37:41,052 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] The following profiles are active: integration
-2020-05-06 12:37:44,995 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$18828587 [main] Set Swagger2 documentation
-2020-05-06 12:37:45,824 INFO com.oc.api.integration.dao.BorrowDaoIntegrationTest [main] Started BorrowDaoIntegrationTest in 4.983 seconds (JVM running for 6.122)
-2020-05-06 12:37:46,545 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 26613 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 12:37:46,545 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 12:37:46,546 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
-2020-05-06 12:37:47,832 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$18828587 [main] Set Swagger2 documentation
-2020-05-06 12:37:48,172 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.642 seconds (JVM running for 8.469)
-2020-05-06 12:37:48,249 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 26613 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
-2020-05-06 12:37:48,249 DEBUG com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 12:37:48,249 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
-2020-05-06 12:37:48,688 INFO com.oc.api.integration.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.457 seconds (JVM running for 8.986)
-2020-05-06 12:37:48,821 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
-2020-05-06 12:37:48,822 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
-2020-05-06 12:37:48,837 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
-2020-05-06 12:37:48,850 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
-2020-05-06 12:37:48,868 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
-2020-05-06 12:37:48,876 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
-2020-05-06 12:37:48,908 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
-2020-05-06 12:37:48,909 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
-2020-05-06 12:37:48,915 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
-2020-05-06 12:37:48,925 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,063 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@4ee19768]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,068 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@44f338ec]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,071 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@5a079446]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,080 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@22f7bf36]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,084 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71689ee2] to prepare test instance [com.oc.api.controller.ReservationControllerIntegrationTest@2b5a04b0]
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.oc.api.controller.ReservationControllerIntegrationTest': Unsatisfied dependency expressed through field 'mockMvc'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:393)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$5(ClassBasedTestDescriptor.java:337)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:342)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:337)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:336)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:252)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:251)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:29)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 67 common frames omitted
+2020-05-07 10:07:07,143 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 9004 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:07:07,143 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:07:07,147 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: @spring.profiles.active@
+2020-05-07 10:07:08,518 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$66d7ec19 [main] Set Swagger2 documentation
+2020-05-07 10:07:08,904 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.793 seconds (JVM running for 11.003)
+2020-05-07 10:07:09,351 INFO com.oc.api.dao.BorrowDaoIntegrationTest [main] Starting BorrowDaoIntegrationTest on charles with PID 9004 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:07:09,351 DEBUG com.oc.api.dao.BorrowDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:07:09,351 INFO com.oc.api.dao.BorrowDaoIntegrationTest [main] The following profiles are active: @spring.profiles.active@
+2020-05-07 10:07:10,571 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$66d7ec19 [main] Set Swagger2 documentation
+2020-05-07 10:07:10,948 INFO com.oc.api.dao.BorrowDaoIntegrationTest [main] Started BorrowDaoIntegrationTest in 1.619 seconds (JVM running for 13.047)
+2020-05-07 10:16:07,414 INFO com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] Starting AvailableCopieManagerImplIntegrationTest on charles with PID 9917 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:16:07,416 DEBUG com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:16:07,416 INFO com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-07 10:16:11,752 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$6c188561 [main] Set Swagger2 documentation
+2020-05-07 10:16:12,604 INFO com.oc.api.manager.AvailableCopieManagerImplIntegrationTest [main] Started AvailableCopieManagerImplIntegrationTest in 5.384 seconds (JVM running for 6.675)
+2020-05-07 10:16:13,023 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 9917 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:16:13,023 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:16:13,023 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-05-07 10:16:13,641 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.639 seconds (JVM running for 7.712)
+2020-05-07 10:16:13,814 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-07 10:16:13,817 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-05-07 10:16:13,834 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-07 10:16:13,854 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-07 10:16:13,874 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-05-07 10:16:13,887 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-05-07 10:16:13,939 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-07 10:16:13,940 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-05-07 10:16:13,951 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-07 10:16:13,968 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-07 10:16:13,999 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 9917 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:16:14,000 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:16:14,000 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2020-05-07 10:16:15,360 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$6c188561 [main] Set Swagger2 documentation
+2020-05-07 10:16:15,775 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.792 seconds (JVM running for 9.846)
+2020-05-07 10:16:56,201 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 10059 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:16:56,208 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:16:56,210 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:17:02,142 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$996a0270 [main] Set Swagger2 documentation
+2020-05-07 10:17:03,328 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 7.517 seconds (JVM running for 9.005)
+2020-05-07 10:17:41,493 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 10199 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:17:41,496 DEBUG com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:17:41,497 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:17:47,312 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$accaa4f6 [main] Set Swagger2 documentation
+2020-05-07 10:17:48,319 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 7.127 seconds (JVM running for 8.625)
+2020-05-07 10:17:49,061 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 10199 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:17:49,062 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:17:49,062 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:17:50,434 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$accaa4f6 [main] Set Swagger2 documentation
+2020-05-07 10:17:50,831 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.798 seconds (JVM running for 11.137)
+2020-05-07 10:17:50,920 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 10199 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:17:50,921 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:17:50,922 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:17:51,408 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.511 seconds (JVM running for 11.714)
+2020-05-07 10:18:44,360 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 10370 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:18:44,364 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:18:44,365 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:18:50,105 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$86a3d8fb [main] Set Swagger2 documentation
+2020-05-07 10:18:51,178 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 7.152 seconds (JVM running for 8.592)
+2020-05-07 10:23:36,555 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 12025 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:23:36,558 DEBUG com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:23:36,559 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:23:41,810 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$93bd9147 [main] Set Swagger2 documentation
+2020-05-07 10:23:42,756 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 6.501 seconds (JVM running for 7.886)
+2020-05-07 10:23:43,453 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 12025 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:23:43,453 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:23:43,454 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:23:44,766 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$93bd9147 [main] Set Swagger2 documentation
+2020-05-07 10:23:45,214 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.778 seconds (JVM running for 10.344)
+2020-05-07 10:23:45,300 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 12025 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:23:45,301 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:23:45,301 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] No active profile set, falling back to default profiles: default
+2020-05-07 10:23:45,739 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.457 seconds (JVM running for 10.87)
+2020-05-07 10:30:19,605 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 12350 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:30:19,609 DEBUG com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:30:19,609 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-07 10:30:24,776 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2f851102 [main] Set Swagger2 documentation
+2020-05-07 10:30:25,722 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 6.44 seconds (JVM running for 7.841)
+2020-05-07 10:30:26,596 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 12350 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:30:26,596 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:30:26,597 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2020-05-07 10:30:27,811 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2f851102 [main] Set Swagger2 documentation
+2020-05-07 10:30:28,221 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.642 seconds (JVM running for 10.34)
+2020-05-07 10:30:28,300 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 12350 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-07 10:30:28,301 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-07 10:30:28,301 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-05-07 10:30:28,732 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.449 seconds (JVM running for 10.852)
+2020-05-07 10:30:28,829 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-07 10:30:28,829 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-05-07 10:30:28,845 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-07 10:30:28,861 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-07 10:30:28,877 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-05-07 10:30:28,887 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-05-07 10:30:28,948 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-07 10:30:28,949 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-05-07 10:30:28,958 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-07 10:30:28,969 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
