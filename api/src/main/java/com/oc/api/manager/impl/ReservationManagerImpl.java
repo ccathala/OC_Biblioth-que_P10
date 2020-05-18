@@ -28,6 +28,18 @@ public class ReservationManagerImpl implements ReservationManager {
     @Autowired
     private BorrowManager borrowManager;
 
+    public void setReservationDao(ReservationDao reservationDao) {
+        this.reservationDao = reservationDao;
+    }
+
+    public void setAvailableCopieManager(AvailableCopieManager availableCopieManager) {
+        this.availableCopieManager = availableCopieManager;
+    }
+
+    public void setBorrowManager(BorrowManager borrowManager) {
+        this.borrowManager = borrowManager;
+    }
+
     /**
      *
      */
