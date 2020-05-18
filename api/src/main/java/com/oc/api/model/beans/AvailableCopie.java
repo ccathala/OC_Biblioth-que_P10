@@ -15,7 +15,7 @@ import java.time.LocalDate;
  * AvailableCopie
  */
 @Entity
-@Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"book_id","library_id"})})
+@Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"book_id", "library_id"})})
 public class AvailableCopie {
 
     @EmbeddedId
@@ -23,32 +23,32 @@ public class AvailableCopie {
     @Valid
     private AvailableCopieKey id;
 
-     
-     @ManyToOne
-     @MapsId("book_id")
-     @JoinColumn(name = "book_id")
-     private Book book;
 
-     
-     @ManyToOne
-     @MapsId("library_id")
-     @JoinColumn(name = "library_id")
-     private Library library;
-
-     @NotNull
-     private int ownedQuantity;
-
-     @NotNull
-     private int availableQuantity;
-
-     @NotNull
-     private Boolean bookCanBeReserved;
+    @ManyToOne
+    @MapsId("book_id")
+    @JoinColumn(name = "book_id")
+    private Book book;
 
 
-     private LocalDate nearestReturnDate;
+    @ManyToOne
+    @MapsId("library_id")
+    @JoinColumn(name = "library_id")
+    private Library library;
 
-     @NotNull
-     private int reservationCount;
+    @NotNull
+    private int ownedQuantity;
+
+    @NotNull
+    private int availableQuantity;
+
+    @NotNull
+    private Boolean bookCanBeReserved;
+
+
+    private LocalDate nearestReturnDate;
+
+    @NotNull
+    private int reservationCount;
 
     public AvailableCopie() {
     }

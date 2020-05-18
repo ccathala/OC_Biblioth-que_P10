@@ -16,4 +16,7 @@ public interface ReservationDao extends JpaRepository<Reservation, Integer> {
 
     @Query(value = "SELECT * FROM public.reservation WHERE book_id = ? AND library_id = ? AND registered_user_id = ?", nativeQuery = true )
     Optional<Reservation> findByBookAndLibraryAndRegisteredUser(int book_id, int library_id, int registered_user_id);
+
+    @Query(value = "SELECT * FROM public.reservation WHERE registered_user_id = ?", nativeQuery = true)
+    List<Reservation> findAllByRegisteredUser(int registered_user_id);
 }

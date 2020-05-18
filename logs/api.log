@@ -1,11 +1,101 @@
-2020-05-06 16:39:21,716 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 3543 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
-2020-05-06 16:39:21,742 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 16:39:21,743 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
-2020-05-06 16:39:26,236 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$e89397c9 [main] Set Swagger2 documentation
-2020-05-06 16:39:26,671 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.307 seconds (JVM running for 5.77)
-2020-05-06 16:40:27,527 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 3656 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
-2020-05-06 16:40:27,529 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
-2020-05-06 16:40:27,530 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
-2020-05-06 16:40:34,620 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$7232718a [main] Set Swagger2 documentation
-2020-05-06 16:40:35,067 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 7.893 seconds (JVM running for 8.318)
-2020-05-06 16:42:48,719 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-2] Providing reservation resource from database: reservation id: 1
+2020-05-15 16:03:34,202 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 7438 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-15 16:03:34,208 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-15 16:03:34,209 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-15 16:03:40,468 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a1b3eb18 [main] Set Swagger2 documentation
+2020-05-15 16:03:41,194 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 7.519 seconds (JVM running for 8.653)
+2020-05-15 16:05:00,425 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-15 16:05:00,614 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-15 16:05:00,830 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:05:21,877 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: dvalat.dev@gmail.com
+2020-05-15 16:05:22,103 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-15 16:05:22,106 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-15 16:05:22,179 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:05:22,283 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:05:22,421 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Providing borrow resources from database by user id: 3
+2020-05-15 16:05:23,973 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Providing borrow resources from database by user id: 3
+2020-05-15 16:05:24,049 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-9] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:05:25,616 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Deleting reservation from database: id: 1
+2020-05-15 16:05:25,761 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-1] Providing borrow resources from database by user id: 3
+2020-05-15 16:05:25,839 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-2] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:05:28,152 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Providing book resource from database: all book list
+2020-05-15 16:05:28,155 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Splitting query, query: 
+2020-05-15 16:05:28,228 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-4] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:05:28,308 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-5] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:05:28,382 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-6] Providing borrow resources from database by user id: 3
+2020-05-15 16:06:00,368 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-8] Search user by email: ccathala.dev@gmail.com
+2020-05-15 16:06:00,521 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-9] Providing book resource from database: all book list
+2020-05-15 16:06:00,523 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-9] Splitting query, query: 
+2020-05-15 16:06:00,599 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-10] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:06:00,681 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-1] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:06:00,758 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-2] Providing borrow resources from database by user id: 1
+2020-05-15 16:08:02,295 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-4] Return borrow, id: 1
+2020-05-15 16:08:08,908 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-5] Return borrow, id: 2
+2020-05-15 16:08:47,090 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Providing book resource from database: all book list
+2020-05-15 16:08:47,093 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Splitting query, query: 
+2020-05-15 16:08:47,177 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-7] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:08:47,267 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-8] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:08:47,343 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Providing borrow resources from database by user id: 1
+2020-05-15 16:08:53,098 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-1] Adding new reservation in database
+2020-05-15 16:08:53,227 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Providing book resource from database: all book list
+2020-05-15 16:08:53,229 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Splitting query, query: 
+2020-05-15 16:08:53,302 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-3] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:08:53,382 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-4] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:08:53,473 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-5] Providing borrow resources from database by user id: 1
+2020-05-15 16:08:55,447 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-6] Providing borrow resources from database by user id: 1
+2020-05-15 16:08:55,529 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:13:00,160 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Providing reservation resource from database: all reservation list
+2020-05-15 16:19:17,793 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-2] Providing reservation resource from database: all reservation list
+2020-05-15 16:19:29,353 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-4] Deleting reservation from database: id: 2
+2020-05-15 16:19:58,692 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-6] Providing reservation resource from database: all reservation list
+2020-05-15 16:27:21,343 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Providing borrow resources from database by user id: 1
+2020-05-15 16:27:21,420 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-9] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:27:22,894 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Deleting reservation from database: id: 3
+2020-05-15 16:27:22,980 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-1] Providing borrow resources from database by user id: 1
+2020-05-15 16:27:23,055 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-2] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:27:30,983 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: agetten.dev@gmail.com
+2020-05-15 16:27:31,136 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-15 16:27:31,139 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-15 16:27:31,214 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:27:31,295 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Providing reservation list for registered user from database: user id: 2
+2020-05-15 16:27:31,368 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Providing borrow resources from database by user id: 2
+2020-05-15 16:28:17,049 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 9580 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-15 16:28:17,053 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-15 16:28:17,054 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-15 16:28:23,254 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$235370ae [main] Set Swagger2 documentation
+2020-05-15 16:28:23,933 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 7.276 seconds (JVM running for 7.785)
+2020-05-15 16:28:49,658 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-1] Return borrow, id: 1
+2020-05-15 16:28:53,968 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-2] Return borrow, id: 2
+2020-05-15 16:28:56,520 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-3] Return borrow, id: 2
+2020-05-15 16:29:14,248 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: dvalat.dev@gmail.com
+2020-05-15 16:29:14,670 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-15 16:29:14,687 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-15 16:29:14,787 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:29:14,896 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:29:14,999 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Providing borrow resources from database by user id: 3
+2020-05-15 16:29:19,956 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Providing borrow resources from database by user id: 3
+2020-05-15 16:29:20,034 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:29:22,997 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-1] Deleting reservation from database: id: 1
+2020-05-15 16:29:23,108 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-2] Providing borrow resources from database by user id: 3
+2020-05-15 16:29:23,186 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-3] Providing reservation list for registered user from database: user id: 3
+2020-05-15 16:29:52,473 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-5] Search user by email: ccathala.dev@gmail.com
+2020-05-15 16:29:52,627 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Providing book resource from database: all book list
+2020-05-15 16:29:52,630 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Splitting query, query: 
+2020-05-15 16:29:52,705 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-7] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:29:52,790 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-8] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:29:52,865 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Providing borrow resources from database by user id: 1
+2020-05-15 16:29:57,545 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-1] Adding new reservation in database
+2020-05-15 16:29:57,660 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Providing book resource from database: all book list
+2020-05-15 16:29:57,663 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Splitting query, query: 
+2020-05-15 16:29:57,737 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-3] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:29:57,824 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-4] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:29:57,903 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-5] Providing borrow resources from database by user id: 1
+2020-05-15 16:29:59,970 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Providing book resource from database: all book list
+2020-05-15 16:29:59,973 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Splitting query, query: 
+2020-05-15 16:30:00,049 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-7] Providing availablecopie resource from database: all availablecopie list
+2020-05-15 16:30:00,136 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-8] Providing reservation list for registered user from database: user id: 1
+2020-05-15 16:30:00,214 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Providing borrow resources from database by user id: 1
+2020-05-15 16:32:00,144 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Providing reservation resource from database: all reservation list
+2020-05-15 16:32:00,309 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-1] Deleting reservation from database: id: 2
+2020-05-15 16:32:00,404 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-2] Providing reservation resource from database: all reservation list
+2020-05-15 16:32:02,447 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-3] Updating reservation in database, id: 3
+2020-05-15 17:21:30,095 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-5] Providing borrow resource from database: all borrow list

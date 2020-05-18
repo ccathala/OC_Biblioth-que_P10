@@ -2,8 +2,13 @@ package com.oc.api.manager.impl;
 
 import com.oc.api.dao.ReservationDao;
 import com.oc.api.manager.AvailableCopieManager;
+import com.oc.api.manager.BorrowManager;
 import com.oc.api.manager.ReservationManager;
+import com.oc.api.model.beans.AvailableCopie;
+import com.oc.api.model.beans.AvailableCopieKey;
+import com.oc.api.model.beans.Borrow;
 import com.oc.api.model.beans.Reservation;
+import com.oc.api.web.exceptions.FunctionnalException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -19,6 +24,9 @@ public class ReservationManagerImpl implements ReservationManager {
 
     @Autowired
     private AvailableCopieManager availableCopieManager;
+
+    @Autowired
+    private BorrowManager borrowManager;
 
     /**
      *
@@ -68,15 +76,67 @@ public class ReservationManagerImpl implements ReservationManager {
      */
     @Override
     @Transactional
-    public Reservation save(Reservation reservation) {
+    public Reservation save(Reservation reservation) throws FunctionnalException {
+        if (reservation.getId() == 0){
+            checkReservation(reservation);
+        }
+
         int bookId = reservation.getAvailableCopie().getId().getBookId();
         int libraryId = reservation.getAvailableCopie().getId().getLibraryId();
         int reservationPosition = setReservationPosition(bookId, libraryId, reservation.getPosition());
+
         reservation.setPosition(reservationPosition);
+
         Reservation savedReservation = reservationDao.save(reservation);
+
         availableCopieManager.updateReservationCount(reservation.getAvailableCopie().getId().getBookId(), reservation.getAvailableCopie().getId().getLibraryId());
+
         return savedReservation;
     }
+
+    private void checkReservation(Reservation reservation) throws FunctionnalException {
+
+        int bookId = reservation.getAvailableCopie().getId().getBookId();
+        int libraryId = reservation.getAvailableCopie().getId().getLibraryId();
+        int userId = reservation.getRegistereduser().getId();
+
+        checkIfReservationListIsFull(bookId, libraryId);
+        checkIfBookIsAlreadyBorrowed(bookId, userId);
+        checkIfBookIsAlreadyReserved(bookId, userId);
+
+    }
+
+    /**
+     * Check if the reservation list is full, reservation list size must be equal to owned quantity x 2
+     */
+    public void checkIfReservationListIsFull(int bookId, int libraryId) throws FunctionnalException {
+        AvailableCopie availableCopie = availableCopieManager.findById(new AvailableCopieKey(bookId, libraryId)).get();
+        int reservationCountMax = availableCopie.getOwnedQuantity() * 2;
+        if (availableCopie.getReservationCount() >= reservationCountMax) throw new FunctionnalException("La liste de reservation est pleine");
+    }
+
+    /**
+     * Check if user already has an active borrow for this book
+     */
+    public void checkIfBookIsAlreadyBorrowed(int bookId, int userId) throws FunctionnalException {
+        List<Borrow> borrowList = borrowManager.getAllBorrowsByRegistereduserId(userId);
+        for (Borrow borrow: borrowList) {
+            if (!borrow.getBookReturned() && borrow.getBook().getId() == bookId)
+                throw new FunctionnalException("L'utilisateur a déjà un emprunt en cours concernant ce livre");
+        }
+    }
+
+    /**
+     *Check if user already has a reservation for this book
+     */
+    public void checkIfBookIsAlreadyReserved(int bookId, int userId) throws FunctionnalException {
+        List<Reservation> reservationList = findAllByRegisteredUser(userId);
+        for (Reservation reservationBean: reservationList) {
+            if (reservationBean.getAvailableCopie().getId().getBookId() == bookId)
+                throw new FunctionnalException("L'utilisateur a déjà une reservation en cours concernant ce livre");
+        }
+    }
+
 
     /**
      *
@@ -112,5 +172,10 @@ public class ReservationManagerImpl implements ReservationManager {
     @Override
     public List<Reservation> findAllByBookIdAndLibraryId(int bookId, int libraryId) {
         return reservationDao.findAllByBookIdAndLibraryId(bookId, libraryId);
+    }
+
+    @Override
+    public List<Reservation> findAllByRegisteredUser(int registeredUser) {
+        return reservationDao.findAllByRegisteredUser(registeredUser);
     }
 }

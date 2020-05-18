@@ -3,6 +3,7 @@ package com.oc.api.manager;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.oc.api.manager.impl.ReservationManagerImpl;
 import com.oc.api.model.beans.Reservation;
+import com.oc.api.web.exceptions.FunctionnalException;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -126,7 +127,7 @@ public class ReservationManagerImplIntegrationTest {
     
     @Test
     @Transactional
-    public void Given__When__Then_2() {
+    public void Given__When__Then_2() throws FunctionnalException {
         // GIVEN
         reservation.setId(0);
         int reservationCount = classUnderTest.findAll().size();

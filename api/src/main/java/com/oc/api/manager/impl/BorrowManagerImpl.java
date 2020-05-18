@@ -6,6 +6,7 @@ import com.oc.api.manager.BorrowManager;
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Borrow;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -42,6 +43,14 @@ public class BorrowManagerImpl implements BorrowManager {
         int libraryId = borrow.getLibrary().getId();
         int userId = borrow.getRegistereduser().getId();
 
+        if (operationType.equals("extend")){
+            // Add 4 weeks to return date
+            borrow.setReturnDate(borrow.getReturnDate().plusWeeks(4));
+
+            // Set true extended duration attribute
+            borrow.setExtendedDuration(true);
+        }
+
         // Save or update borrow
         Borrow savedBorrow = borrowDao.save(borrow);
 
@@ -71,7 +80,5 @@ public class BorrowManagerImpl implements BorrowManager {
     public List<Borrow> getAllBorrowsByBookIdAndLibraryId(int book_id, int library_id) {
         return borrowDao.findAllByBookIdAndLibraryId(book_id, library_id);
     }
-
-
 
 }

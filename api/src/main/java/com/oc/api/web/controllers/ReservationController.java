@@ -2,11 +2,13 @@ package com.oc.api.web.controllers;
 
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Reservation;
+import com.oc.api.web.exceptions.FunctionnalException;
 import com.oc.api.web.exceptions.RessourceNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -49,12 +51,25 @@ public class ReservationController {
         return reservation;
     }
 
+    @GetMapping(value = "/reservations/user/{id}")
+    public List<Reservation> getReservationByRegisteredUser(@PathVariable @Min(value = 1) int id) {
+
+        logger.info("Providing reservation list for registered user from database: user id: " + id);
+        List<Reservation> reservationList = reservationManager.findAllByRegisteredUser(id);
+        return reservationList;
+    }
+
     @PostMapping(value = "/reservations")
     public ResponseEntity<Void> addReservation(@Valid @RequestBody Reservation reservation) {
 
         logger.info("Adding new reservation in database");
         Reservation reservationAdded;
-        reservationAdded = reservationManager.save(reservation);
+        try {
+            reservationAdded = reservationManager.save(reservation);
+        } catch (FunctionnalException e) {
+            logger.info(e.getLocalizedMessage());
+            return ResponseEntity.badRequest().build();
+        }
 
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest()
@@ -66,7 +81,7 @@ public class ReservationController {
     }
 
     @PutMapping(value = "/reservations/{id}")
-    public ResponseEntity<Void> updateReservation(@PathVariable @Min(value = 1) int id, @Valid @RequestBody Reservation reservationDetails) {
+    public ResponseEntity<Void> updateReservation(@PathVariable @Min(value = 1) int id, @Valid @RequestBody Reservation reservationDetails) throws FunctionnalException {
 
         logger.info("Updating reservation in database, id: " + id);
 

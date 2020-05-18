@@ -116,6 +116,24 @@ public class BorrowController {
 
     }
 
+    @PutMapping(value="/borrows/extend/{id}")
+    public ResponseEntity<Void> extendBorrow(@PathVariable @Min(value = 1) int id, @Valid @RequestBody Borrow borrowDetails) {
+
+        logger.info("Extend borrow in database, id: " + id);
+
+        try {
+            borrowManager.getById(borrowDetails.getId()).get();
+        } catch (NoSuchElementException e) {
+            logger.debug("L'entité prêt demandée n'existe pas, id: " + borrowDetails.getId());
+            throw new RessourceNotFoundException("L'entité prêt demandée n'existe pas, id: " + borrowDetails.getId());
+        }
+
+        borrowManager.save(borrowDetails , "extend");
+
+        return ResponseEntity.ok().build();
+
+    }
+
     @PutMapping(value = "/borrows/return/{id}")
     @Transactional
     public ResponseEntity<Void> returnBorrow(@PathVariable @Min(value = 1) int id) {

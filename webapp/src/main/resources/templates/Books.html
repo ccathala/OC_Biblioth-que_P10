@@ -1,147 +1,205 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-  <head>
+<head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
     <!-- Bootstrap CSS -->
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
     />
 
     <title>Livres OC-Bibliothèque</title>
-  </head>
+</head>
 
-  <body>
-    <div class="container-fluid px-0">
-      <div th:replace="Header :: header"></div>
+<body>
+<div class="container-fluid px-0">
+    <div th:replace="Header :: header"></div>
 
-      <div
-        th:each="book : ${books}"
-        style="max-width:900px;margin-left: auto;margin-right: auto;margin-top:24px;padding: 24px;"
-      >
-        <div class="card">
-          <div class="card-header">
-            <h2
-              th:text="${book.title + ' - ' + book.authorFirstName + ' ' + book.authorLastName}"
-            >
-              Title and author
-            </h2>
-          </div>
-          <div class="card-body row">
-            <div class="col-12 col-md-4 my-auto text-center">
-              <img
-                src="pictureURL"
-                th:attr="src=${book.pictureURL}"
-                class="card-img rounded mb-2 mb-md-0 "
-                style="max-width: 300px;"
-                alt="..."
-              />
+    <span th:if="${reservationStatus == 'success'}">
+        <div class="row justify-content-center">
+            <div class="col-6 alert alert-success" role="alert">
+                Réservation faite avec succès.
             </div>
-
-            <div class="col-12 col-md-8 my-2">
-              <h6 th:text="${'Publication: ' + book.publicationDate}"></h6>
-              <h6>Synopsis:</h6>
-              <p
-                class="card-text text-justify overflow-auto"
-                th:text="${book.synopsis}"
-              ></p>
-              <button
-                type="button"
-                class="booksAvailabilityButton btn btn-info"
-                id=""
-                th:attr="id=${book.id + '_bookId'}"
-                data-toggle="modal"
-                data-target="#availableCopiesModal"
-              >
-                Disponibilités
-              </button>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </span>
 
-    <!-- Modal -->
     <div
-      class="modal fade"
-      id="availableCopiesModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="availableCopiesModalLabel"
-      aria-hidden="true"
+            th:each="book : ${books}"
+            style="max-width:900px;margin-left: auto;margin-right: auto;margin-top:24px;padding: 24px;"
     >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="availableCopiesModalLabel">
-              Disponibilités
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <table class="table">
-              <caption hidden>
-                Disponibilités
-              </caption>
-              <tr>
-                <th class="text-center" scope="col">Bibliothèque</th>
-                <th class="text-center" scope="col">Copies disponibles</th>
-              </tr>
-              <tr
-                class=""
-                th:attr="class=${'bookId' + availableCopie.getId().getBookId() + ' copy'}"
-                id=""
-                th:each="availableCopie : ${availableCopies}"
-              >
-                <td
-                  class="text-center"
-                  th:text="${availableCopie.getLibrary().getName()}"
-                ></td>
-                <td
-                  class="text-center"
-                  th:text="${availableCopie.getAvailableQuantity()}"
-                ></td>
-              </tr>
-            </table>
-          </div>
+        <div class="card">
+            <div class="card-header">
+                <h2
+                        th:text="${book.title + ' - ' + book.authorFirstName + ' ' + book.authorLastName}"
+                >
+                    Title and author
+                </h2>
+            </div>
+            <div class="card-body row">
+                <div class="col-12 col-md-4 my-auto text-center">
+                    <img
+                            src="pictureURL"
+                            th:attr="src=${book.pictureURL}"
+                            class="card-img rounded mb-2 mb-md-0 "
+                            style="max-width: 300px;"
+                            alt="..."
+                    />
+                </div>
+
+                <div class="col-12 col-md-8 my-2">
+                    <h6 th:text="${'Publication: ' + book.publicationDate}"></h6>
+                    <h6>Synopsis:</h6>
+                    <p
+                            class="card-text text-justify overflow-auto"
+                            th:text="${book.synopsis}"
+                    ></p>
+                    <button
+                            type="button"
+                            class="booksAvailabilityButton btn btn-info"
+                            id=""
+                            th:attr="id=${book.id + '_bookId'}"
+                            data-toggle="modal"
+                            data-target="#availableCopiesModal"
+                    >
+                        Disponibilités
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+</div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+<!-- Modal -->
+<div
+        class="modal fade"
+        id="availableCopiesModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="availableCopiesModalLabel"
+        aria-hidden="true"
+>
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="availableCopiesModalLabel">
+                    Disponibilités
+                </h5>
+                <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <caption hidden>
+                        Disponibilités
+                    </caption>
+                    <tr>
+                        <th class="col-auto text-center text-nowrap" scope="col">Bibliothèque</th>
+                        <th class="col-auto text-center text-nowrap" scope="col">Copies disponibles</th>
+                        <th class="col-auto text-center text-nowrap" scope="col">Date de retour</th>
+                        <th class="col-auto text-center text-nowrap" scope="col">Réservations</th>
+                        <th class="col-auto text-center text-nowrap" scope="col"></th>
+                    </tr>
+                    <tr
+                            class=""
+                            th:attr="class=${'bookId' + availableCopie.getId().getBookId() + ' copy'}"
+                            id=""
+                            th:each="availableCopie : ${availableCopies}"
+                    >
+                        <td
+                                class="text-center"
+                                th:text="${availableCopie.getLibrary().getName()}"
+                        ></td>
+                        <td class="text-center">
+                            <span th:if="${availableCopie.getReservationCount() > 0}">0</span>
+                            <span th:text="${availableCopie.getAvailableQuantity()}"
+                                  th:if="${availableCopie.getReservationCount() == 0}"></span>
+                        </td>
+                        <td class="text-center">
+                            <span th:if="${availableCopie.getAvailableQuantity() == 0 or availableCopie.getReservationCount() > 0}">
+                                <p th:text="${availableCopie.getNearestReturnDate().toString()}"></p>
+                            </span>
+                        </td>
+                        <td class="text-center">
+                            <span th:if="${availableCopie.getAvailableQuantity() == 0 or availableCopie.getReservationCount() > 0}">
+                                <span th:text="${availableCopie.getReservationCount()} + '/' + ${availableCopie.getOwnedQuantity() * 2}"></span>
+                            </span>
+                        </td>
+                        <td class="text-center"
+                        >
 
-    <script>
+                            <span th:if="${availableCopie.getBookCanBeReserved() and (availableCopie.getAvailableQuantity() == 0 or availableCopie.getReservationCount() > 0)}">
+                                <div sec:authorize="isAuthenticated()">
+                                    <span th:if="${userReservationList.contains(availableCopie.getId().getBookId())}">
+                                        Livre réservé
+                                    </span>
+                                    <span th:if="${userActiveBorrowList.contains(availableCopie.getId().getBookId())}">
+                                        Livre en cours d'emprunt
+                                    </span>
+                                    <span th:if="${!userActiveBorrowList.contains(availableCopie.getId().getBookId()) and !userReservationList.contains(availableCopie.getId().getBookId())}">
+                                        <form th:action="@{/reserve}" method="post">
+                                        <input
+                                                hidden
+                                                th:value="${availableCopie.getBook().getId()}"
+                                                type="text"
+                                                name="bookId"
+                                                id="bookId"
+                                        />
+                                        <input
+                                                hidden
+                                                th:value="${availableCopie.getLibrary().getId()}"
+                                                type="text"
+                                                name="libraryId"
+                                                id="libraryId"
+                                        />
+                                          <button class="btn btn-info" type="submit">Réserver</button>
+                                    </form>
+                                    </span>
+                                </div>
+                                <div sec:authorize="isAnonymous()">
+                                    <a class="btn btn-info" th:href="@{/connexion}" role="button">Réserver</a>
+                                </div>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+></script>
+
+<script>
       $(document).ready(function() {
         $(".booksAvailabilityButton").click(function() {
           $(".copy").hide();
@@ -153,6 +211,24 @@
           $("." + bookId).show();
         });
       });
-    </script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
 </html>

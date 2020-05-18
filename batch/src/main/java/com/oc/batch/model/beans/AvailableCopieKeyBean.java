@@ -1,4 +1,4 @@
-package com.oc.webapp.model.beans;
+package com.oc.batch.model.beans;
 
 /**
  * AvailableCopieKeyBean

@@ -1,16 +1,13 @@
 package com.oc.webapp.web.controllers;
 
-import java.util.List;
-
-import javax.validation.Valid;
-
 import com.oc.webapp.model.beans.AvailableCopieBean;
 import com.oc.webapp.model.beans.BookBean;
 import com.oc.webapp.model.beans.BorrowBean;
+import com.oc.webapp.model.beans.ReservationBean;
 import com.oc.webapp.model.dto.RegisteredUserDto;
 import com.oc.webapp.service.WebappService;
 import com.oc.webapp.web.proxies.apiproxies.ApiProxy;
-
+import feign.FeignException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +16,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import feign.FeignException;
-
-import org.springframework.web.bind.annotation.PostMapping;
+import javax.validation.Valid;
+import java.util.List;
 
 /**
  * WebappController
@@ -41,27 +36,33 @@ public class WebappController {
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    /* @GetMapping(value = "/")
-    public String mainPage() {
+    @GetMapping(value = "/")
+    public String getBooksPage(Model model, @RequestParam(required = false) String query, @RequestParam(required = false) String reservationStatus) {
 
         logger.info("Reach url: / - GET");
-
-        return "MainPage";
-    } */
-
-    @GetMapping(value = "/")
-    public String getBooksPage(Model model, @RequestParam(required = false) String query) {
-
-        logger.info("Reach url: /books - GET");
 
         if (query == null)
             query = "";
 
         List<BookBean> books = apiProxy.getBooks(query);
-        List<AvailableCopieBean> availableCopies = apiProxy.getAvailableCopies();
+        List<AvailableCopieBean> availableCopies = webappService.getAvailableCopies();
 
         model.addAttribute("books", books);
         model.addAttribute("availableCopies", availableCopies);
+        model.addAttribute("reservationStatus", reservationStatus);
+
+        Boolean isAuthenticated = webappService.getIsAuthenticated();
+
+        if (isAuthenticated){
+            int authenticatedUserId = webappService.getAuthenticatedRegisteredUserId();
+
+            List<Integer> bookIdReservationList = webappService.getBookIdReservationList(authenticatedUserId);
+            model.addAttribute("userReservationList", bookIdReservationList );
+
+            List<Integer> bookIdActiveBorrowList = webappService.getBookIdActiveBorrowList();
+            model.addAttribute("userActiveBorrowList", bookIdActiveBorrowList);
+
+        }
 
         return "Books";
     }
@@ -120,15 +121,21 @@ public class WebappController {
     }
 
     @GetMapping(value = "/profile")
-    public String getProfilePage(Model model) {
+    public String getProfilePage(Model model, @RequestParam(required = false) Boolean deletedReservation) {
 
         logger.info("Reach url: /profile - GET");
 
         // Get active borrows list for current user
         List<BorrowBean> currentUserActiveBorrows = webappService.getActiveBorrowsByRegisteredUserId();
 
+        // Get reservations list for current user
+        List<ReservationBean> currentUserReservations = webappService.getReservationsByRegisteredUserId();
+
         model.addAttribute("currentUserActiveBorrows", currentUserActiveBorrows);
-        return "MyBorrows";
+        model.addAttribute("currentUserReservations", currentUserReservations);
+        model.addAttribute("deletedReservation", deletedReservation);
+
+        return "Profile";
     }
 
     @PostMapping(value = "/profile")
@@ -136,8 +143,12 @@ public class WebappController {
 
         logger.info("Reach url: /profile - POST");
 
+        // Get Borrow
+        BorrowBean borrowBean = apiProxy.getBorrowById(borrowId);
+
         // Extend borrow duration
-        webappService.extendBorrowDuration(borrowId);
+        /*webappService.extendBorrowDuration(borrowId);*/
+        apiProxy.extendBorrow(borrowId, borrowBean);
 
         return "redirect:/profile";
     }
@@ -145,8 +156,47 @@ public class WebappController {
     @GetMapping(value="/disconnect")
     public String redirectLoginPageAfterLogout() {
 
+        logger.info("Reach url: /disconnect - GET");
+
         return "redirect:/connexion?logout=true";
     }
-    
+
+    @PostMapping(value = "/reserve")
+    public String reserveAvailableCopie(@RequestParam int bookId, @RequestParam int libraryId, RedirectAttributes redirectAttributes){
+
+        logger.info("Reach url: /reserve - POST");
+
+        ReservationBean reservation = webappService.createReservation(bookId, libraryId);
+
+        ResponseEntity<Void> response = null;
+        int status = 0;
+
+        try {
+            response = apiProxy.addReservation(reservation);
+            status = response.getStatusCodeValue();
+        } catch (FeignException e) {
+            logger.debug(e.getMessage());
+            logger.debug(e.getLocalizedMessage());
+            status = e.status();
+            e.printStackTrace();
+        }
+
+        if(status == 201){
+            redirectAttributes.addAttribute("reservationStatus", "success");
+        }
+        return "redirect:/";
+    }
+
+    /**
+     *
+     */
+    @PostMapping(value = "/reservation/delete")
+    public String deleteReservation(@RequestParam int reservationId, RedirectAttributes redirectAttributes) {
+
+        apiProxy.deleteReservation(reservationId);
+        redirectAttributes.addAttribute("deletedReservation", true);
+        return "redirect:/profile";
+
+    }
 
 }
