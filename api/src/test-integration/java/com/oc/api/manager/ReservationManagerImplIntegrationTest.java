@@ -12,8 +12,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.IfProfileValue;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -127,12 +125,18 @@ public class ReservationManagerImplIntegrationTest {
     
     @Test
     @Transactional
-    public void Given__When__Then_2() throws FunctionnalException {
+    public void Given_newReservationBean_When_save_Then_shouldReturnReservationListSizeMoreOne() throws FunctionnalException {
         // GIVEN
-        reservation.setId(0);
+        Reservation reservationToSave = new Reservation();
+        reservationToSave.setPosition(reservation.getPosition());
+        reservationToSave.setAvailabilityDate(reservation.getAvailabilityDate());
+        reservationToSave.setNotificationIsSent(reservation.getNotificationIsSent());
+        reservationToSave.setAvailableCopie(reservation.getAvailableCopie());
+        reservationToSave.setRegistereduser(reservation.getRegistereduser());
+
         int reservationCount = classUnderTest.findAll().size();
         // WHEN
-        final Reservation result = classUnderTest.save(reservation);
+        classUnderTest.save(reservationToSave);
         // THEN
         int reservationCountAfterSave = classUnderTest.findAll().size();
         assertThat(reservationCountAfterSave).isEqualTo(reservationCount + 1);
