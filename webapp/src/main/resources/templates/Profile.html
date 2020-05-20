@@ -50,27 +50,24 @@
                             <th class="text-nowrap" scope="col">Délai de retour</th>
                             <th class="text-nowrap" scope="col">Prêt prolongé</th>
                             <th class="text-nowrap" scope="col"></th>
+
+
                         </tr>
                         </thead>
                         <tbody>
                         <tr th:each=" borrow: ${currentUserActiveBorrows}">
                             <td class="align-middle" th:text="${borrow.getBook().getTitle()}">Mark</td>
                             <td class="align-middle"
-                                th:text="${borrow.getBook().getAuthorFirstName()} + ' ' + ${borrow.getBook().getAuthorLastName()}"
-                            ></td>
+                                th:text="${borrow.getBook().getAuthorFirstName()} + ' ' + ${borrow.getBook().getAuthorLastName()}"></td>
                             <td class="align-middle" th:text="${borrow.getBorrowDate()}"></td>
                             <td class="align-middle" th:text="${borrow.getReturnDate()}"></td>
-                            <td class="align-middle"
-                                th:text="Oui"
-                                th:if="${borrow.getExtendedDuration()}">
+                            <td class="align-middle">
+                                <span th:if="${borrow.getExtendedDuration()}">Oui</span>
+                                <span th:if="${!borrow.getExtendedDuration()}">Non</span>
                             </td>
-                            <td class="align-middle"
-                                th:text="Non"
-                                th:if="${!borrow.getExtendedDuration()}"
-                            ></td>
-                            <td class="align-middle" th:if="${borrow.getExtendedDuration()}"></td>
-                            <td class="align-middle" th:if="${!borrow.getExtendedDuration()}">
-                                <form th:action="@{/profile}" method="post">
+                            <td class="align-middle">
+                                <form th:action="@{/profile}" method="post"
+                                      th:if="${!borrow.getExtendedDuration() and (borrow.getReturnDate().isAfter(today) or borrow.getReturnDate().isEqual(today))}">
                                     <input
                                             hidden
                                             th:value="${borrow.getId()}"
