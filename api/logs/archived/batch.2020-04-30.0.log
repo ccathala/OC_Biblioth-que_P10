@@ -1,0 +1,66 @@
+2020-04-30 10:46:55,161 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 14231 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 10:46:55,172 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 10:46:55,174 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 10:46:58,718 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 3.845 seconds (JVM running for 5.364)
+2020-04-30 10:46:58,997 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 10:48:48,773 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 15083 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 10:48:48,775 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 10:48:48,775 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 10:48:50,411 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.923 seconds (JVM running for 2.926)
+2020-04-30 10:48:50,539 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 10:49:38,155 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 15150 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 10:49:38,157 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 10:49:38,157 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 10:49:39,757 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.819 seconds (JVM running for 2.778)
+2020-04-30 10:49:39,885 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 11:07:51,498 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 15638 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:07:51,500 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:07:51,501 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:07:53,263 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 2.012 seconds (JVM running for 2.985)
+2020-04-30 11:07:53,396 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 11:07:53,425 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-04-30 11:07:53,538 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-04-30 11:07:53,561 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-04-30 11:07:53,572 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-04-30 11:07:53,609 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 11:09:49,714 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 15751 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:09:49,716 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:09:49,716 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:09:51,338 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.822 seconds (JVM running for 2.793)
+2020-04-30 11:09:51,466 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 11:10:54,475 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 15824 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:10:54,478 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:10:54,478 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:10:56,175 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.921 seconds (JVM running for 2.844)
+2020-04-30 11:10:56,396 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-04-30 11:10:56,398 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-04-30 11:27:03,275 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 16449 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:27:03,277 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:27:03,277 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:27:04,936 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.873 seconds (JVM running for 2.856)
+2020-04-30 11:27:05,063 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-04-30 11:28:41,016 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 16549 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:28:41,018 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:28:41,018 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:28:42,600 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.768 seconds (JVM running for 2.788)
+2020-04-30 11:28:42,736 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-04-30 11:29:28,569 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 16614 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:29:28,571 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:29:28,571 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:29:30,173 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.821 seconds (JVM running for 2.995)
+2020-04-30 11:29:30,297 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-04-30 11:29:30,300 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-04-30 11:30:21,109 INFO com.oc.api.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 16692 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-04-30 11:30:21,111 DEBUG com.oc.api.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-04-30 11:30:21,112 INFO com.oc.api.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-04-30 11:30:22,692 INFO com.oc.api.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 1.815 seconds (JVM running for 2.755)
+2020-04-30 11:30:22,913 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-04-30 11:30:22,915 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-04-30 11:30:22,936 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-04-30 11:30:22,950 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-04-30 11:30:22,975 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-04-30 11:30:22,985 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-04-30 11:30:23,022 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-04-30 11:30:23,023 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-04-30 11:30:23,032 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-04-30 11:30:23,045 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1

@@ -25,19 +25,20 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
-            .authenticationProvider(authenticationProvider());
-            }
+                .authenticationProvider(authenticationProvider());
+    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-        .authorizeRequests()
-        .antMatchers("/profile").hasRole("USER")
-        .and()
-        .formLogin()
-        .loginPage("/connexion").permitAll()
-        .and()
-        .logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/disconnect");
+                .authorizeRequests()
+                .antMatchers("/profile").hasRole("USER")
+                .antMatchers("/reserve").hasRole("USER")
+                .and()
+                .formLogin()
+                .loginPage("/connexion").permitAll()
+                .and()
+                .logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout")).logoutSuccessUrl("/disconnect");
     }
 
     @Bean

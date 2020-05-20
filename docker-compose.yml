@@ -1,0 +1,11 @@
+version: '3'
+services:
+  oc_bibliotheque.db:
+    image: postgres:11.7
+    ports:
+      - "127.0.0.1:9032:5432"
+
+    environment:
+      - POSTGRES_DB=db_oc_bibliotheque
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=azerty

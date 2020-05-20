@@ -1,0 +1,25 @@
+language: java
+
+jdk: openjdk8
+
+addons:
+  sonarcloud:
+    organization: "ccathala"
+    token:
+      secure: "VrlybKJkDPn7TFH0Fh93W3qPBWs1TxsuYcvidD55VN87WYfJ+LD69kXiSLrsEEKoAJaLztr7v7ggRh+wyanGPPTDZ1R/4uowWlEy/Lv548K6+NoQOFbKaxQ/FZLV84lhUBu5iCwLfOOKPsldso8dpaHJPlZGDoYClSkwtOQ+Mol7wi+x6kz2/DSa/+EuvriGXs9ZlcVUK9BjquLUTttvePbEbL6Td86jdw74vl2ZFD7l4ikV3L3adbQ1T4DS7+EIBxQKaY/2TXAvN3BbmHPAvyrhGtrGk2wX2f4N2yzMuVJmkXy029eLTu5h/L1TL7QQ1FcuOqlYesO0L+LVGVaBbVD6qqQ1Q0iV5w08ebEB+2vFNtTHOlCdnqd86AcvSHTryStAih2YR5+iVS6l0tZrO9GVq98vxStrP3BNOlMqSNNFTUwqvvsOTvEhUrFvgEB45bm4ZnWzoReyCG8Vky8cqWcCs/63rSwnIj0vwHqdMqVrfoq+3KMBJfz7c8vZrJ3NFN2VPESIvuARR4DUTacoL7sDYVWvpubjZ+rlHr11xQMUB3/U5mJ7RXZW5gdShKGTpTNg6R9qFtpJcqN2PAAOTi0wgGO0W1SZTESXiWqUNZn+uaJwUFTwE5tI6jvkHOPEN1Bl7jEdIqsPCQcw9vrEeOycb3pmWgMJsOocyQDApso="
+
+sudo: required
+
+before_install:
+  - docker-compose up -d
+  - docker ps -a
+
+script:
+  - cd api
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean verify sonar:sonar -Ptest-integration -Dsonar.projectKey=ccathala_OC_Bibliotheque_P10
+  - cd ..
+  - docker-compose stop
+  - docker-compose rm -f
+  - docker-compose up -d
+  - docker ps -a

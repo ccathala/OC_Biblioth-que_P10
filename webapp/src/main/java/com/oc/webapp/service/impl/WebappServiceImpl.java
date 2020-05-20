@@ -1,10 +1,11 @@
 package com.oc.webapp.service.impl;
 
+import java.security.Principal;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
-import com.oc.webapp.model.beans.BorrowBean;
-import com.oc.webapp.model.beans.RegisteredUserBean;
+import com.oc.webapp.model.beans.*;
 import com.oc.webapp.model.dto.RegisteredUserDto;
 import com.oc.webapp.security.UserPrincipal;
 import com.oc.webapp.service.WebappService;
@@ -14,6 +15,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
@@ -68,12 +70,30 @@ public class WebappServiceImpl implements WebappService {
 
         // Get user id
         int authenticatedRegisteredUserId = authenticatedUser.getUserPrincipal().getId();
+
         return authenticatedRegisteredUserId;
     }
 
     /**
-     * Extend duration for the target borrow
+     * Return true if a user is authenticated
+     *
+     * @return
      */
+    @Override
+    public Boolean getIsAuthenticated() {
+
+        // Get authentification context
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+
+        if (authentication instanceof AnonymousAuthenticationToken) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * Extend duration for the target borrow
+     *//*
     @Override
     public ResponseEntity<Void> extendBorrowDuration(int borrowId) {
 
@@ -95,7 +115,7 @@ public class WebappServiceImpl implements WebappService {
         // Update database
         return apiProxy.updateBorrow(updatedBorrow.getId(), updatedBorrow);
 
-    }
+    }*/
 
     /**
      * Get active borrows (bookReturned = false) for current authenticated user
@@ -124,4 +144,94 @@ public class WebappServiceImpl implements WebappService {
         return currentUserActiveBorrows;
     }
 
+    /**
+     * Get reservation list for authenticated user
+     *
+     * @return
+     */
+    @Override
+    public List<ReservationBean> getReservationsByRegisteredUserId() {
+
+        logger.debug("Getting reservations for current authenticated user");
+
+        // Get authenticated user id
+        int authenticatedUserId = getAuthenticatedRegisteredUserId();
+
+        // Init current user reservation list
+        List<ReservationBean> currentUserReservations = new ArrayList<>();
+
+        // Get list of reservation by user id
+        List<ReservationBean> authenticatedUserReservationsList = apiProxy.getReservationByRegisteredUser(authenticatedUserId);
+
+        return authenticatedUserReservationsList;
+    }
+
+    /**
+     * Create reservation bean
+     */
+    @Override
+    public ReservationBean createReservation(int bookId, int libraryId) {
+
+        AvailableCopieBean availableCopie = new AvailableCopieBean();
+        availableCopie.setId(new AvailableCopieKeyBean(bookId, libraryId));
+
+        RegisteredUserBean registeredUser = new RegisteredUserBean();
+        registeredUser.setId(getAuthenticatedRegisteredUserId());
+
+        ReservationBean reservation = new ReservationBean();
+        reservation.setAvailableCopie(availableCopie);
+        reservation.setRegistereduser(registeredUser);
+        reservation.setNotificationIsSent(false);
+        reservation.setAvailabilityDate(null);
+        reservation.setPosition(0);
+
+        return reservation;
+    }
+
+    /**
+     * Get list of book already reserved by authenticated user
+     *
+     * @param authenticatedUserId
+     * @return
+     */
+    @Override
+    public List<Integer> getBookIdReservationList(int authenticatedUserId) {
+
+        List<Integer> bookIdReservationList = new ArrayList<>();
+
+        List<ReservationBean> reservationList = apiProxy.getReservationByRegisteredUser(authenticatedUserId);
+
+        for (ReservationBean reservation : reservationList) {
+            bookIdReservationList.add(reservation.getAvailableCopie().getId().getBookId());
+        }
+
+        return bookIdReservationList;
+    }
+
+    /**
+     * Get list of book already borrowed by authenticated user
+     *
+     * @return
+     */
+    @Override
+    public List<Integer> getBookIdActiveBorrowList() {
+
+        List<Integer> bookIdActiveBorrowList = new ArrayList<>();
+
+        List<BorrowBean> borrowList = getActiveBorrowsByRegisteredUserId();
+
+        for (BorrowBean borrow : borrowList) {
+            bookIdActiveBorrowList.add(borrow.getBook().getId());
+        }
+        return bookIdActiveBorrowList;
+    }
+
+    /**
+     * Get AvailableCopie list and set nearestReturnDateString for each instance
+     */
+    @Override
+    public List<AvailableCopieBean> getAvailableCopies() {
+        List<AvailableCopieBean> copiesList = apiProxy.getAvailableCopies();
+        return copiesList;
+    }
 }

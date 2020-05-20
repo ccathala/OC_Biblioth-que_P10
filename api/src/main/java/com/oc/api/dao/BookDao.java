@@ -17,4 +17,5 @@ public interface BookDao extends JpaRepository<Book, Integer>{
     // Find book by title or by author last name ignoring case
     List<Book> findByTitleIgnoreCaseContainingOrAuthorLastNameIgnoreCaseContaining(String title, String authorLastName);
     boolean existsBookByTitleAndPublicationDate(String title, LocalDate parutionDate);
+
 }
