@@ -1,6 +1,7 @@
 package com.oc.api.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.oc.api.manager.OutDatedReservationManager;
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Reservation;
 import com.oc.api.web.controllers.ReservationController;
@@ -41,6 +42,9 @@ public class ReservationControllerIntegrationTest {
 
     @Autowired
     private MockMvc mockMvc;
+
+    @MockBean
+    private OutDatedReservationManager outDatedReservationManager;
 
     @MockBean
     private ReservationManager reservationManager;
