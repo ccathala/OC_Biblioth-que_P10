@@ -15,6 +15,9 @@ public interface ReservationManager {
 
     Reservation save(Reservation reservation) throws FunctionnalException;
 
+
+    Reservation updateReservationAfterNotification(Reservation reservationBean) throws FunctionnalException;
+
     List<Reservation> findAll();
 
     Optional<Reservation> findById(int id);

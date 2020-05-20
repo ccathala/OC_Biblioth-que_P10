@@ -24,9 +24,9 @@ public interface ApiProxy {
     @GetMapping(value = "/reservations")
     public List<ReservationBean> getReservations();
 
-    @DeleteMapping(value="/reservations/{id}")
-    public void deleteReservation(@PathVariable @Min(value = 1) int id);
+    @GetMapping(value = "reservations/delete/outdated")
+    public void deleteOutdatedReservations();
 
-    @PutMapping(value = "/reservations/{id}")
-    public ResponseEntity<Void> updateReservation(@PathVariable @Min(value = 1) int id, @Valid @RequestBody ReservationBean reservationDetails);
+    @PostMapping(value= "reservations/notifications/update")
+    public void updateReservationAfterNotification(@Valid @RequestBody ReservationBean reservation);
 }

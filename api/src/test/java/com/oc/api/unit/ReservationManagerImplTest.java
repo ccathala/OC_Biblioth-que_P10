@@ -14,10 +14,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.BDDMockito.given;
 
@@ -75,6 +77,8 @@ public class ReservationManagerImplTest {
         availableCopie = null;
         borrow = null;
         borrowList = null;
+        reservationList = null;
+        reservation = null;
     }
 
 
@@ -113,4 +117,27 @@ public class ReservationManagerImplTest {
         // THEN
 
     }
+
+    @Test
+    public void Given_reservationBean_When_updateReservationAfterNotification_Then_getNotificationIsSentShouldBeTrue() throws FunctionnalException {
+        // GIVEN
+
+        // WHEN
+        final Reservation result = classUnderTest.updateReservationAfterNotification(reservation);
+        // THEN
+        assertThat(result.getNotificationIsSent()).isTrue();
+
+    }
+
+    @Test
+    public void Given_reservationBean_When_updateReservationAfterNotification_Then_getAvailabilityDateShouldBeToday() throws FunctionnalException {
+        // GIVEN
+        LocalDate localDate = LocalDate.now();
+        // WHEN
+        final Reservation result = classUnderTest.updateReservationAfterNotification(reservation);
+        // THEN
+        assertThat(result.getAvailabilityDate()).isEqualTo(localDate);
+    }
+
+
 }

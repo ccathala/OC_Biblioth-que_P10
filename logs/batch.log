@@ -1,9 +1,15 @@
-2020-05-15 16:11:31,775 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
-2020-05-15 16:11:36,357 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 5.633 seconds (JVM running for 6.51)
-2020-05-15 16:13:00,000 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Deleting outdated reservations
-2020-05-15 16:13:00,246 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
-java.lang.NullPointerException: null
-	at com.oc.batch.service.impl.EmailServiceImpl.deleteOutDatedReservations(EmailServiceImpl.java:120)
+2020-05-19 15:49:15,763 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:49:19,632 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 5.098 seconds (JVM running for 5.852)
+2020-05-19 15:50:01,436 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+feign.FeignException$InternalServerError: status 500 reading ApiProxy#deleteOutdatedReservations()
+	at feign.FeignException.serverErrorStatus(FeignException.java:195)
+	at feign.FeignException.errorStatus(FeignException.java:144)
+	at feign.FeignException.errorStatus(FeignException.java:133)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:151)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy71.deleteOutdatedReservations(Unknown Source)
 	at com.oc.batch.service.impl.EmailServiceImpl.launchingReservationDailyTask(EmailServiceImpl.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -19,16 +25,141 @@ java.lang.NullPointerException: null
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-05-15 16:17:29,351 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
-2020-05-15 16:17:30,854 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 2.359 seconds (JVM running for 3.884)
-2020-05-15 16:19:16,124 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Deleting outdated reservations
-2020-05-15 16:19:56,352 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
-2020-05-15 16:20:10,638 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for reservation, id:3
-2020-05-15 16:30:39,632 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
-2020-05-15 16:30:41,722 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 3.235 seconds (JVM running for 3.823)
-2020-05-15 16:32:00,001 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Deleting outdated reservations
-2020-05-15 16:32:00,328 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
-2020-05-15 16:32:00,409 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for reservation, id:3
-2020-05-15 17:21:30,001 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending emails for late borrows
-2020-05-15 17:21:30,109 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for late borrow, id:3
-2020-05-15 17:21:31,554 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for late borrow, id:4
+2020-05-19 15:55:51,252 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:55:53,706 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 3.657 seconds (JVM running for 4.507)
+2020-05-19 15:57:14,309 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+feign.FeignException$InternalServerError: status 500 reading ApiProxy#deleteOutdatedReservations()
+	at feign.FeignException.serverErrorStatus(FeignException.java:195)
+	at feign.FeignException.errorStatus(FeignException.java:144)
+	at feign.FeignException.errorStatus(FeignException.java:133)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:151)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy71.deleteOutdatedReservations(Unknown Source)
+	at com.oc.batch.service.impl.EmailServiceImpl.launchingReservationDailyTask(EmailServiceImpl.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-19 16:02:12,282 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:02:15,544 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 4.435 seconds (JVM running for 5.287)
+2020-05-19 16:04:00,102 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+feign.RetryableException: Read timed out executing GET http://localhost:9001/reservations/delete/outdated
+	at feign.FeignException.errorExecuting(FeignException.java:213)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:115)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy71.deleteOutdatedReservations(Unknown Source)
+	at com.oc.batch.service.impl.EmailServiceImpl.launchingReservationDailyTask(EmailServiceImpl.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1593)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at feign.Client$Default.convertResponse(Client.java:82)
+	at feign.Client$Default.execute(Client.java:78)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:110)
+	... 19 common frames omitted
+2020-05-19 16:09:04,177 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:09:06,430 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 3.672 seconds (JVM running for 4.3)
+2020-05-19 16:10:00,197 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
+2020-05-19 16:10:00,336 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for reservation, id:3
+2020-05-19 16:11:39,031 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:11:40,291 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 2.061 seconds (JVM running for 2.584)
+2020-05-19 16:13:00,191 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+feign.FeignException$InternalServerError: status 500 reading ApiProxy#deleteOutdatedReservations()
+	at feign.FeignException.serverErrorStatus(FeignException.java:195)
+	at feign.FeignException.errorStatus(FeignException.java:144)
+	at feign.FeignException.errorStatus(FeignException.java:133)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:151)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy71.deleteOutdatedReservations(Unknown Source)
+	at com.oc.batch.service.impl.EmailServiceImpl.launchingReservationDailyTask(EmailServiceImpl.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-19 16:22:09,963 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:22:11,456 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 2.645 seconds (JVM running for 3.143)
+2020-05-19 16:23:00,209 ERROR org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+feign.FeignException$InternalServerError: status 500 reading ApiProxy#deleteOutdatedReservations()
+	at feign.FeignException.serverErrorStatus(FeignException.java:195)
+	at feign.FeignException.errorStatus(FeignException.java:144)
+	at feign.FeignException.errorStatus(FeignException.java:133)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:151)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:80)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy71.deleteOutdatedReservations(Unknown Source)
+	at com.oc.batch.service.impl.EmailServiceImpl.launchingReservationDailyTask(EmailServiceImpl.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-19 16:38:10,131 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:38:11,416 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 2.161 seconds (JVM running for 2.618)
+2020-05-19 16:40:00,146 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
+2020-05-19 16:40:00,281 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for reservation, id:3
+2020-05-19 16:41:21,374 INFO com.oc.batch.BatchApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:41:22,617 INFO com.oc.batch.BatchApplication [main] Started BatchApplication in 2.066 seconds (JVM running for 2.509)
+2020-05-19 16:43:00,135 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
+2020-05-19 17:21:30,001 INFO com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Sending emails for late borrows
+2020-05-19 17:21:30,120 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for late borrow, id:3
+2020-05-19 17:21:32,101 DEBUG com.oc.batch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for late borrow, id:4

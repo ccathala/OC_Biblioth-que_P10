@@ -66,7 +66,7 @@ public class EmailServiceImpl implements EmailService {
     @Scheduled(cron = "${batch.time.event.reservationsnotifications}")
     public void launchingReservationDailyTask() {
         // Delete outdated reservations
-        deleteOutDatedReservations();
+        apiProxy.deleteOutdatedReservations();
 
         // send reservations notifications
         sendMailReservationNotification();
@@ -98,53 +98,20 @@ public class EmailServiceImpl implements EmailService {
                 sendSimpleMessage(mailData.get("to"), mailData.get("subject"), mailData.get("text"));
 
                 // Update reservation database
-                updateReservation(reservationBean, today);
+                apiProxy.updateReservationAfterNotification(reservationBean);
             }
         }
     }
 
-    /**
-     *
-     */
-    public void updateReservation(ReservationBean reservationBean, LocalDate localDate) {
-        reservationBean.setNotificationIsSent(true);
-        reservationBean.setAvailabilityDate(localDate);
-        apiProxy.updateReservation(reservationBean.getId(), reservationBean);
-    }
-
-    /**
-     * Delete outdated reservation, 2 days old reservations are deleted.
-     */
-    public void deleteOutDatedReservations() {
-
-        logger.debug("Deleting outdated reservations");
-
-        // Get reservation list
-        List<ReservationBean> reservations = apiProxy.getReservations();
-
-        // Init today date
-        LocalDate today = LocalDate.now();
-
-        for (ReservationBean reservationBean: reservations) {
-            if(reservationBean.getAvailabilityDate() != null && reservationBean.getNotificationIsSent()){
-                if (reservationBean.getAvailabilityDate().isBefore(today.minusDays(2)) || reservationBean.getAvailabilityDate().isEqual(today.minusDays(2))){
-                    apiProxy.deleteReservation(reservationBean.getId());
-                }
-            }
-
-        }
 
 
-
-
-    }
 
     /**
      * Generate mail data according to borrow data, return "to", "subject" and
      * "text" parameters
      * @param lateBorrow
      */
-    private HashMap<String, String> generateLateBorrowsEmail(BorrowBean lateBorrow) {
+    public HashMap<String, String> generateLateBorrowsEmail(BorrowBean lateBorrow) {
 
         logger.debug("Generating mail data for late borrow, id:" + lateBorrow.getId());
         // Init new line
@@ -176,7 +143,7 @@ public class EmailServiceImpl implements EmailService {
      * "text" parameters
      * @param reservationBean
      */
-    private HashMap<String, String> generateReservationNotificationEmail(ReservationBean reservationBean) {
+    public HashMap<String, String> generateReservationNotificationEmail(ReservationBean reservationBean) {
 
         logger.debug("Generating mail data for reservation, id:" + reservationBean.getId());
         // Init new line

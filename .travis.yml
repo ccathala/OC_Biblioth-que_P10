@@ -17,10 +17,7 @@ before_install:
 script:
   - cd api
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean verify sonar:sonar -Ptest-integration -Dsonar.projectKey=ccathala_OC_Bibliotheque_P10,sonar.branch.name=Api,sonar.java.binaries=./target
-  - cd ..
-  - cd batch
-  - mvn clean verify sonar:sonar -Dsonar.projectKey=ccathala_OC_Bibliotheque_P10,sonar.branch.name=Batch,sonar.java.binaries=./target
+  - mvn clean verify sonar:sonar -Ptest-integration -Dsonar.projectKey=ccathala_OC_Bibliotheque_P10
   - cd ..
   - docker-compose stop
   - docker-compose rm -f

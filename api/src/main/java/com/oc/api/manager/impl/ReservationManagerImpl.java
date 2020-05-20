@@ -9,10 +9,13 @@ import com.oc.api.model.beans.AvailableCopieKey;
 import com.oc.api.model.beans.Borrow;
 import com.oc.api.model.beans.Reservation;
 import com.oc.api.web.exceptions.FunctionnalException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -39,6 +42,8 @@ public class ReservationManagerImpl implements ReservationManager {
     public void setBorrowManager(BorrowManager borrowManager) {
         this.borrowManager = borrowManager;
     }
+
+    Logger logger = LoggerFactory.getLogger(this.getClass());
 
     /**
      *
@@ -162,6 +167,18 @@ public class ReservationManagerImpl implements ReservationManager {
         return reservationPosition;
     }
 
+
+    /**
+     *Update bean reservation with NotificationIsSent parameter set to true and AvailabilityDate set to today's date
+     * @return
+     */
+    @Override
+    public Reservation updateReservationAfterNotification(Reservation reservation) throws FunctionnalException {
+        reservation.setNotificationIsSent(true);
+        reservation.setAvailabilityDate(LocalDate.now());
+        return reservation;
+    }
+
     /**
      *
      */
@@ -190,4 +207,7 @@ public class ReservationManagerImpl implements ReservationManager {
     public List<Reservation> findAllByRegisteredUser(int registeredUser) {
         return reservationDao.findAllByRegisteredUser(registeredUser);
     }
+
+
+
 }

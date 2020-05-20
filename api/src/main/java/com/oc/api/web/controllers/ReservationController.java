@@ -1,5 +1,6 @@
 package com.oc.api.web.controllers;
 
+import com.oc.api.manager.OutDatedReservationManager;
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Reservation;
 import com.oc.api.web.exceptions.FunctionnalException;
@@ -27,6 +28,9 @@ public class ReservationController {
 
     @Autowired
     private ReservationManager reservationManager;
+
+    @Autowired
+    private OutDatedReservationManager outDatedReservationManager;
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -111,5 +115,20 @@ public class ReservationController {
 
     }
 
+    @GetMapping(value = "reservations/delete/outdated")
+    public ResponseEntity<Void> deleteOutdatedReservations() {
+        logger.info("Deleting outdated reservations from database");
+        outDatedReservationManager.deleteOutDatedReservations();
+        return ResponseEntity.ok().build();
+
+    }
+
+    @PostMapping(value= "reservations/notifications/update")
+    public ResponseEntity<Void> updateReservationAfterNotification(@Valid @RequestBody Reservation reservation) throws FunctionnalException {
+        logger.info("Update reservation after notfications is sent, reservation id: " + reservation.getId());
+        Reservation reservationToUpdate = reservationManager.updateReservationAfterNotification(reservation);
+        reservationManager.save(reservationToUpdate);
+        return ResponseEntity.ok().build();
+    }
 
 }

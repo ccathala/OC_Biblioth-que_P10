@@ -1,0 +1,29 @@
+2020-05-19 15:13:40,009 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:13:41,644 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.264 seconds (JVM running for 3.553)
+2020-05-19 15:13:50,613 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:13:52,240 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.238 seconds (JVM running for 3.532)
+2020-05-19 15:14:01,365 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:14:02,923 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.116 seconds (JVM running for 3.423)
+2020-05-19 15:16:56,756 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:16:58,293 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.108 seconds (JVM running for 3.423)
+2020-05-19 15:18:40,384 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:18:41,890 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.102 seconds (JVM running for 3.355)
+2020-05-19 15:20:34,656 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:20:36,196 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.096 seconds (JVM running for 3.392)
+2020-05-19 15:21:31,675 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:21:33,225 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 2.113 seconds (JVM running for 3.373)
+2020-05-19 15:21:36,512 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
+2020-05-19 15:21:50,875 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:21:52,232 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 1.867 seconds (JVM running for 3.027)
+2020-05-19 15:21:52,366 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
+2020-05-19 15:25:36,929 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:25:38,283 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 1.903 seconds (JVM running for 2.861)
+2020-05-19 15:25:38,426 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
+2020-05-19 15:26:50,598 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:26:51,938 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 1.834 seconds (JVM running for 2.837)
+2020-05-19 15:26:52,066 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
+2020-05-19 15:29:53,844 INFO com.oc.batch.EmailServiceImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:29:55,172 INFO com.oc.batch.EmailServiceImplTest [main] Started EmailServiceImplTest in 1.872 seconds (JVM running for 2.902)
+2020-05-19 15:29:55,295 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
+2020-05-19 15:29:55,338 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
+2020-05-19 15:29:55,342 DEBUG com.oc.batch.service.impl.EmailServiceImpl [main] Generating mail data for reservation, id:0
