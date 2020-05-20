@@ -1043,3 +1043,15 @@ Consider defining a bean of type 'com.oc.api.manager.OutDatedReservationManager'
 2020-05-20 10:42:34,113 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Extend borrow in database, id: 3
 2020-05-20 10:42:34,210 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Providing borrow resources from database by user id: 1
 2020-05-20 10:42:34,294 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Providing reservation list for registered user from database: user id: 1
+2020-05-20 16:20:48,068 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 10354 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-20 16:20:48,075 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-20 16:20:48,075 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 16:20:52,747 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$509cec41 [main] Set Swagger2 documentation
+2020-05-20 16:20:53,263 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.549 seconds (JVM running for 5.985)
+2020-05-20 16:23:31,081 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-2] Providing borrow resource from database: borrow id: 1
+2020-05-20 16:26:36,305 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-7] Extend borrow in database, id: 1
+2020-05-20 16:26:36,321 DEBUG com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-7] Le prêt ne peut pas être prolongé car la date de retour est dépassée
+2020-05-20 16:27:25,554 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Extend borrow in database, id: 1
+2020-05-20 16:27:25,560 DEBUG com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Le prêt ne peut pas être prolongé car la date de retour est dépassée
+2020-05-20 16:28:48,194 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Extend borrow in database, id: 1
+2020-05-20 16:28:48,208 DEBUG com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-9] Le prêt à déjà été prolongé
