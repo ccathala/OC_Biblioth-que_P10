@@ -4,6 +4,7 @@ import com.oc.api.model.beans.AvailableCopie;
 import com.oc.api.model.beans.AvailableCopieKey;
 import com.oc.api.model.beans.Borrow;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface AvailableCopieManager {
@@ -14,5 +15,8 @@ public interface AvailableCopieManager {
     AvailableCopie updateReservationCount(int bookId, int libraryId);
     Optional<AvailableCopie> findById(AvailableCopieKey key);
     AvailableCopie save(AvailableCopie availableCopie);
+    List<AvailableCopie> findAll();
+    Boolean existsById(AvailableCopieKey availableCopieKey);
+    void deleteById(AvailableCopieKey availableCopieKey);
 
 }

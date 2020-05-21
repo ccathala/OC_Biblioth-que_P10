@@ -152,4 +152,19 @@ public class AvailableCopieManagerImpl implements AvailableCopieManager {
     public AvailableCopie save(AvailableCopie availableCopie) {
         return availableCopieDao.save(availableCopie);
     }
+
+    @Override
+    public List<AvailableCopie> findAll() {
+        return availableCopieDao.findAll();
+    }
+
+    @Override
+    public Boolean existsById(AvailableCopieKey availableCopieKey) {
+        return availableCopieDao.existsById(availableCopieKey);
+    }
+
+    @Override
+    public void deleteById(AvailableCopieKey availableCopieKey) {
+        availableCopieDao.deleteById(availableCopieKey);
+    }
 }

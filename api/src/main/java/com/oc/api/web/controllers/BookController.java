@@ -1,5 +1,6 @@
 package com.oc.api.web.controllers;
 
+import com.oc.api.manager.BookManager;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -43,7 +44,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class BookController {
 
     @Autowired
-    private BookDao bookDao;
+    private BookManager bookManager;
 
     @Autowired
     private UtilsManager utilsManager;
@@ -54,7 +55,7 @@ public class BookController {
     public List<Book> getBooks(@RequestParam(required = false) String query) {
 
         logger.info("Providing book resource from database: all book list");
-        List<Book> books = bookDao.findAll();
+        List<Book> books = bookManager.findAll();
          
         if (query == null) return books;   
 
@@ -85,7 +86,7 @@ public class BookController {
 
         logger.info("Providing book resource from database: book id: " + id);
 
-        Optional<Book> book = bookDao.findById(id);
+        Optional<Book> book = bookManager.findById(id);
 
         if(!book.isPresent()) throw new RessourceNotFoundException("L'entité livre n'existe pas, id: " + id);
 
@@ -97,10 +98,10 @@ public class BookController {
      
         logger.info("Adding new book in database");
         
-        if(bookDao.existsBookByTitleAndPublicationDate(book.getTitle(), book.getPublicationDate()))
+        if(bookManager.existsBookByTitleAndPublicationDate(book.getTitle(), book.getPublicationDate()))
             throw new EntityAlreadyExistsException("L'entité livre existe déjà, tilte: " + book.getTitle());
 
-        Book bookAdded = bookDao.save(book);
+        Book bookAdded = bookManager.save(book);
 
         URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(bookAdded.getId())
                 .toUri();
@@ -114,13 +115,13 @@ public class BookController {
         logger.info("Updating book in database, id: " + id);
 
         try {
-            bookDao.findById(bookDetails.getId()).get();
+            bookManager.findById(bookDetails.getId()).get();
         } catch (NoSuchElementException e) {
             logger.debug("L'entité livre demandée n'existe pas, id: " + bookDetails.getId());
             throw new RessourceNotFoundException("L'entité livre demandée n'existe pas, id: " + bookDetails.getId());
         }
         
-        bookDao.save(bookDetails);
+        bookManager.save(bookDetails);
 
         return ResponseEntity.ok().build();
     }
@@ -131,7 +132,7 @@ public class BookController {
         logger.info("Deleting book from database: id: "+ id);
 
         try {
-            bookDao.deleteById(id);
+            bookManager.deleteById(id);
         } catch (EmptyResultDataAccessException e) {
             logger.debug("L'entité livre n'existe pas, id: " + id);
             throw new RessourceNotFoundException("L'entité livre n'existe pas, id: " + id);

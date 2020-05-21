@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
 import com.oc.api.dao.AvailableCopieDao;
+import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.model.beans.AvailableCopie;
 import com.oc.api.model.beans.AvailableCopieKey;
 import com.oc.api.web.exceptions.EntityAlreadyExistsException;
@@ -43,7 +44,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class AvailableCopieController {
 
     @Autowired
-    private AvailableCopieDao availableCopieDao;
+    private AvailableCopieManager availableCopieManager;
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -53,7 +54,7 @@ public class AvailableCopieController {
 
         logger.info("Providing availablecopie resource from database: all availablecopie list");
 
-        List<AvailableCopie> availableCopies = availableCopieDao.findAll();
+        List<AvailableCopie> availableCopies = availableCopieManager.findAll();
 
         return availableCopies;
     }
@@ -68,7 +69,7 @@ public class AvailableCopieController {
         key.setBookId(bookId);
         key.setLibraryId(libraryId);
 
-        Optional<AvailableCopie> availableCopie = availableCopieDao.findById(key);
+        Optional<AvailableCopie> availableCopie = availableCopieManager.findById(key);
 
         if (!availableCopie.isPresent())
             throw new RessourceNotFoundException(
@@ -82,12 +83,12 @@ public class AvailableCopieController {
 
         logger.info("Adding new availableCopie in database");
 
-         if (availableCopieDao.existsById(availableCopie.getId()))
+         if (availableCopieManager.existsById(availableCopie.getId()))
             throw new EntityAlreadyExistsException("L'entité availableCopie existe déjà, book_id: "+ availableCopie.getId().getBookId() + ", library_id: " + availableCopie.getId().getLibraryId());
 
         AvailableCopie copieAdded;  
         try {
-            copieAdded = availableCopieDao.save(availableCopie);
+            copieAdded = availableCopieManager.save(availableCopie);
         } catch (DataIntegrityViolationException e) {
             logger.debug("La clé étrangère de l'entité book ou de l'entité library nexiste pas");
             throw new ForeignKeyNotExistsException("L'entité availableCopie n'existe pas, book_id: "+ availableCopie.getId().getBookId() + ", library_id: " + availableCopie.getId().getLibraryId());
@@ -113,13 +114,13 @@ public class AvailableCopieController {
         logger.info("Updating availableCopie in database, book_id: "  + bookId + ", library_id: " + libraryId);
         
         try {
-            availableCopieDao.findById(updatedAvailableCopie.getId()).get();
+            availableCopieManager.findById(updatedAvailableCopie.getId()).get();
         } catch (NoSuchElementException e) {
             logger.debug("La clé étrangère de l'entité book ou de l'entité library nexiste pas");
             throw new RessourceNotFoundException("L'entité availableCopie demandée n'existe pas, book_id: "+ updatedAvailableCopie.getId().getBookId() + ", library_id: " + updatedAvailableCopie.getId().getLibraryId());
         }
 
-        availableCopieDao.save(updatedAvailableCopie);
+        availableCopieManager.save(updatedAvailableCopie);
 
         return ResponseEntity.ok().build();
     }
@@ -135,7 +136,7 @@ public class AvailableCopieController {
         availableCopieKey.setLibraryId(libraryId);
 
         try {
-            availableCopieDao.deleteById(availableCopieKey);
+            availableCopieManager.deleteById(availableCopieKey);
         } catch (EmptyResultDataAccessException e) {
             logger.debug("La clé étrangère de l'entité book ou de l'entité library nexiste pas");
             throw new RessourceNotFoundException(

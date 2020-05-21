@@ -43,9 +43,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Validated
 public class BorrowController {
 
-    /*@Autowired
-    private BorrowDao borrowDao;*/
-
     @Autowired
     private BorrowManager borrowManager;
 
