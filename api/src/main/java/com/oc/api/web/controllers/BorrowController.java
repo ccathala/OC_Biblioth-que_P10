@@ -11,6 +11,7 @@ import javax.validation.constraints.Min;
 import com.oc.api.manager.BorrowManager;
 import com.oc.api.model.beans.Borrow;
 import com.oc.api.web.exceptions.ForeignKeyNotExistsException;
+import com.oc.api.web.exceptions.FunctionnalException;
 import com.oc.api.web.exceptions.RessourceNotFoundException;
 
 import org.slf4j.Logger;
@@ -99,7 +100,7 @@ public class BorrowController {
     }
 
     @PutMapping(value="/borrows/{id}")
-    public ResponseEntity<Void> updateBorrow(@PathVariable @Min(value = 1) int id, @Valid @RequestBody Borrow borrowDetails) {
+    public ResponseEntity<Void> updateBorrow(@PathVariable @Min(value = 1) int id, @Valid @RequestBody Borrow borrowDetails) throws FunctionnalException {
         
         logger.info("Updating borrow in database, id: " + id);
 
@@ -128,7 +129,12 @@ public class BorrowController {
             throw new RessourceNotFoundException("L'entité prêt demandée n'existe pas, id: " + borrowDetails.getId());
         }
 
-        borrowManager.save(borrowDetails , "extend");
+        try {
+            borrowManager.save(borrowDetails , "extend");
+        } catch (FunctionnalException e) {
+            logger.debug(e.getLocalizedMessage());
+            return ResponseEntity.badRequest().build();
+        }
 
         return ResponseEntity.ok().build();
 
@@ -136,7 +142,7 @@ public class BorrowController {
 
     @PutMapping(value = "/borrows/return/{id}")
     @Transactional
-    public ResponseEntity<Void> returnBorrow(@PathVariable @Min(value = 1) int id) {
+    public ResponseEntity<Void> returnBorrow(@PathVariable @Min(value = 1) int id) throws FunctionnalException {
 
         logger.info("Return borrow, id: " + id);
 

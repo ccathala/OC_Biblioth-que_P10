@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
+import java.time.LocalDate;
 import java.util.List;
 
 /**
@@ -61,7 +62,6 @@ public class WebappController {
 
             List<Integer> bookIdActiveBorrowList = webappService.getBookIdActiveBorrowList();
             model.addAttribute("userActiveBorrowList", bookIdActiveBorrowList);
-
         }
 
         return "Books";
@@ -134,6 +134,9 @@ public class WebappController {
         model.addAttribute("currentUserActiveBorrows", currentUserActiveBorrows);
         model.addAttribute("currentUserReservations", currentUserReservations);
         model.addAttribute("deletedReservation", deletedReservation);
+
+        LocalDate today = LocalDate.now();
+        model.addAttribute("today", today);
 
         return "Profile";
     }

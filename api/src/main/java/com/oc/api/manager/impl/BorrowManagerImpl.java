@@ -5,11 +5,13 @@ import com.oc.api.manager.AvailableCopieManager;
 import com.oc.api.manager.BorrowManager;
 import com.oc.api.manager.ReservationManager;
 import com.oc.api.model.beans.Borrow;
+import com.oc.api.web.exceptions.FunctionnalException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,13 +39,18 @@ public class BorrowManagerImpl implements BorrowManager {
 
     @Override
     @Transactional
-    public Borrow save(Borrow borrow, String operationType) {
+    public Borrow save(Borrow borrow, String operationType) throws FunctionnalException {
 
         int bookId = borrow.getBook().getId();
         int libraryId = borrow.getLibrary().getId();
         int userId = borrow.getRegistereduser().getId();
 
         if (operationType.equals("extend")){
+
+            //check operations
+            checkIfBorrowIsAlreadyExtended(borrow);
+            checkIfReturnDateIsOutDated(borrow);
+
             // Add 4 weeks to return date
             borrow.setReturnDate(borrow.getReturnDate().plusWeeks(4));
 
@@ -79,6 +86,21 @@ public class BorrowManagerImpl implements BorrowManager {
     @Override
     public List<Borrow> getAllBorrowsByBookIdAndLibraryId(int book_id, int library_id) {
         return borrowDao.findAllByBookIdAndLibraryId(book_id, library_id);
+    }
+
+    /**
+     * Check if return date is outdated
+     */
+    public void checkIfReturnDateIsOutDated(Borrow borrow) throws FunctionnalException {
+        LocalDate today = LocalDate.now();
+        if (borrow.getReturnDate().isBefore(today)) throw new FunctionnalException("Le prêt ne peut pas être prolongé car la date de retour est dépassée");
+    }
+
+    /**
+     * Check if borrow has already been extended
+     */
+    public void checkIfBorrowIsAlreadyExtended(Borrow borrow) throws FunctionnalException {
+        if (borrow.getExtendedDuration()) throw new FunctionnalException("Le prêt à déjà été prolongé");
     }
 
 }
