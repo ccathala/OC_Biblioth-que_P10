@@ -47,6 +47,17 @@ public class Borrow {
     public Borrow() {
     }
 
+    public Borrow(Borrow borrow){
+        this.id = borrow.getId();
+        this.book = borrow.getBook();
+        this.registereduser = borrow.getRegistereduser();
+        this.library = borrow.getLibrary();
+        this.borrowDate = borrow.getBorrowDate();
+        this.returnDate = borrow.getReturnDate();
+        this.extendedDuration = borrow.getExtendedDuration();
+        this.bookReturned = borrow.getBookReturned();
+    }
+
     public Borrow(int id, @NotNull Book book, @NotNull RegisteredUser registereduser, @NotNull Library library, @NotNull LocalDate borrowDate, @NotNull LocalDate returnDate, @NotNull Boolean extendedDuration, @NotNull Boolean bookReturned) {
         this.id = id;
         this.book = book;

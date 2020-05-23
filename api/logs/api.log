@@ -7453,3 +7453,153 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2020-05-23 11:30:02,704 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
 2020-05-23 11:30:02,711 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
 2020-05-23 11:30:02,723 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-23 11:47:19,765 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 14443 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 11:47:19,770 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 11:47:19,770 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 11:47:23,828 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$28e91ec6 [main] Set Swagger2 documentation
+2020-05-23 11:47:24,688 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.158 seconds (JVM running for 6.142)
+2020-05-23 11:50:15,450 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 14592 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 11:50:15,453 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 11:50:15,453 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 11:50:19,507 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$255c9599 [main] Set Swagger2 documentation
+2020-05-23 11:50:20,316 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.037 seconds (JVM running for 6.065)
+2020-05-23 12:11:53,114 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 15512 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:11:53,118 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:11:53,118 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:11:57,089 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 12:11:57,903 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.079 seconds (JVM running for 6.154)
+2020-05-23 12:22:01,825 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 15770 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:22:01,827 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:22:01,827 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:22:05,929 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 12:22:06,720 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.151 seconds (JVM running for 6.164)
+2020-05-23 12:24:34,005 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 15878 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:24:34,007 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:24:34,007 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:24:37,982 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
+2020-05-23 12:24:38,773 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 4.942 seconds (JVM running for 5.925)
+2020-05-23 12:25:05,156 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 15957 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:25:05,159 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:25:05,159 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:25:10,213 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$c5752a69 [main] Set Swagger2 documentation
+2020-05-23 12:25:11,133 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 6.237 seconds (JVM running for 7.906)
+2020-05-23 12:29:23,640 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 16090 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:29:23,642 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:29:23,642 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:29:27,844 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 12:29:28,706 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.25 seconds (JVM running for 6.273)
+2020-05-23 12:29:35,202 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 16160 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:29:35,205 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:29:35,205 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:29:39,904 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$4e2dfc4 [main] Set Swagger2 documentation
+2020-05-23 12:29:40,818 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.85 seconds (JVM running for 7.319)
+2020-05-23 12:36:18,506 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 16429 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:36:18,509 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:36:18,509 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:36:22,785 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 12:36:23,580 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.275 seconds (JVM running for 6.287)
+2020-05-23 12:36:44,702 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 16492 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:36:44,704 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:36:44,705 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:36:49,599 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$55abc7ff [main] Set Swagger2 documentation
+2020-05-23 12:36:50,616 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 6.117 seconds (JVM running for 7.439)
+2020-05-23 12:43:03,269 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 16701 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:43:03,272 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:43:03,273 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:43:08,577 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$dec0c54a [main] Set Swagger2 documentation
+2020-05-23 12:43:09,798 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 6.778 seconds (JVM running for 8.101)
+2020-05-23 12:51:26,357 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 17147 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:51:26,387 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:51:26,387 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:51:31,361 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$4e2dfc4 [main] Set Swagger2 documentation
+2020-05-23 12:51:32,474 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 6.315 seconds (JVM running for 7.641)
+2020-05-23 12:52:17,591 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 17228 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:52:17,594 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:52:17,594 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:52:22,011 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
+2020-05-23 12:52:22,922 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.577 seconds (JVM running for 6.55)
+2020-05-23 12:56:03,082 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 17364 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:56:03,084 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:56:03,084 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:56:07,134 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 12:56:07,912 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.094 seconds (JVM running for 6.077)
+2020-05-23 12:57:03,569 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 17446 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 12:57:03,572 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 12:57:03,572 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 12:57:07,661 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$528d138 [main] Set Swagger2 documentation
+2020-05-23 12:57:08,496 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.151 seconds (JVM running for 6.101)
+2020-05-23 13:01:23,173 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] Starting BookManagerImplIntegrationTest on charles with PID 17636 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:01:23,176 DEBUG com.oc.api.manager.BookManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:01:23,178 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:01:27,178 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$528d138 [main] Set Swagger2 documentation
+2020-05-23 13:01:28,005 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] Started BookManagerImplIntegrationTest in 5.131 seconds (JVM running for 6.103)
+2020-05-23 13:02:27,439 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 17721 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:02:27,441 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:02:27,441 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:02:31,566 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 13:02:32,382 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.149 seconds (JVM running for 6.182)
+2020-05-23 13:03:02,032 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] Starting BookManagerImplIntegrationTest on charles with PID 17795 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:03:02,035 DEBUG com.oc.api.manager.BookManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:03:02,035 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:03:07,008 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$466923a4 [main] Set Swagger2 documentation
+2020-05-23 13:03:07,917 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] Started BookManagerImplIntegrationTest in 6.108 seconds (JVM running for 7.554)
+2020-05-23 13:04:22,233 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] Starting BookManagerImplIntegrationTest on charles with PID 17892 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:04:22,235 DEBUG com.oc.api.manager.BookManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:04:22,236 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:04:26,945 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$9273022e [main] Set Swagger2 documentation
+2020-05-23 13:04:27,919 INFO com.oc.api.manager.BookManagerImplIntegrationTest [main] Started BookManagerImplIntegrationTest in 5.882 seconds (JVM running for 7.107)
+2020-05-23 13:07:10,958 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 18022 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:07:10,960 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:07:10,960 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:07:14,950 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 13:07:15,708 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.017 seconds (JVM running for 5.949)
+2020-05-23 13:10:57,401 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 18164 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:10:57,403 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:10:57,403 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:11:01,527 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-23 13:11:02,429 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.236 seconds (JVM running for 6.269)
+2020-05-23 13:11:20,008 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 18236 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 13:11:20,011 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 13:11:20,011 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 13:11:24,121 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$528d138 [main] Set Swagger2 documentation
+2020-05-23 13:11:24,917 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.171 seconds (JVM running for 6.104)
+2020-05-23 15:54:03,164 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Starting BorrowManagerIntegrationTest on charles with PID 21291 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 15:54:03,166 DEBUG com.oc.api.manager.BorrowManagerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 15:54:03,166 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 15:54:07,340 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
+2020-05-23 15:54:08,168 INFO com.oc.api.manager.BorrowManagerIntegrationTest [main] Started BorrowManagerIntegrationTest in 5.211 seconds (JVM running for 6.315)
+2020-05-23 15:55:19,180 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 21419 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 15:55:19,186 DEBUG com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 15:55:19,189 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-23 15:55:25,738 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$15c2db [main] Set Swagger2 documentation
+2020-05-23 15:55:26,855 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 8.015 seconds (JVM running for 9.565)
+2020-05-23 15:55:28,280 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Starting OutDatedReservationManagerImplTest on charles with PID 21419 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 15:55:28,281 DEBUG com.oc.api.unit.OutDatedReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 15:55:28,281 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-23 15:55:29,686 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$15c2db [main] Set Swagger2 documentation
+2020-05-23 15:55:30,247 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Started OutDatedReservationManagerImplTest in 1.993 seconds (JVM running for 12.957)
+2020-05-23 15:55:30,282 DEBUG com.oc.api.manager.impl.OutDatedReservationManagerImpl [main] Deleting outdated reservations
+2020-05-23 15:55:30,312 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 21419 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 15:55:30,313 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 15:55:30,313 INFO com.oc.api.unit.ReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-23 15:55:31,423 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$15c2db [main] Set Swagger2 documentation
+2020-05-23 15:55:31,806 INFO com.oc.api.unit.ReservationManagerImplTest [main] Started ReservationManagerImplTest in 1.512 seconds (JVM running for 14.517)
+2020-05-23 15:55:31,872 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 21419 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 15:55:31,872 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 15:55:31,872 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2020-05-23 15:55:34,113 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$15c2db [main] Set Swagger2 documentation
+2020-05-23 15:55:34,458 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 2.603 seconds (JVM running for 17.168)
+2020-05-23 15:55:34,545 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 21419 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-23 15:55:34,545 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-23 15:55:34,545 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-05-23 15:55:35,017 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.491 seconds (JVM running for 17.728)
+2020-05-23 15:55:35,112 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-23 15:55:35,113 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-05-23 15:55:35,130 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-23 15:55:35,144 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-23 15:55:35,160 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-05-23 15:55:35,170 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-05-23 15:55:35,223 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-23 15:55:35,223 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-05-23 15:55:35,229 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-23 15:55:35,240 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
