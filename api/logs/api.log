@@ -73,3 +73,23 @@
 2020-05-24 10:18:32,643 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
 2020-05-24 10:18:32,650 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
 2020-05-24 10:18:32,662 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-24 10:25:40,308 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 10199 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:25:40,310 DEBUG com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:25:40,311 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:25:45,738 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$d9523614 [main] Set Swagger2 documentation
+2020-05-24 10:25:46,886 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 6.902 seconds (JVM running for 8.145)
+2020-05-24 10:39:41,038 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 10744 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:39:41,040 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:39:41,040 INFO com.oc.api.unit.UtilsManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:39:46,578 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$982e5325 [main] Set Swagger2 documentation
+2020-05-24 10:39:47,713 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 6.874 seconds (JVM running for 8.417)
+2020-05-24 10:40:17,471 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 10841 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:40:17,475 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:40:17,478 INFO com.oc.api.unit.UtilsManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:40:23,202 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$f5feb1cc [main] Set Swagger2 documentation
+2020-05-24 10:40:24,381 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 7.22 seconds (JVM running for 8.522)
+2020-05-24 10:41:28,295 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 10928 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:41:28,309 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:41:28,309 INFO com.oc.api.unit.UtilsManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:41:35,080 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$28e91ec6 [main] Set Swagger2 documentation
+2020-05-24 10:41:36,716 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 8.897 seconds (JVM running for 10.264)
