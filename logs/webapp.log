@@ -1,148 +1,620 @@
-2020-02-10 11:55:14,410 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
-2020-02-10 11:55:15,749 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: C:\env\maven\repository\org\springframework\boot\spring-boot\2.2.2.RELEASE\spring-boot-2.2.2.RELEASE.jar
-2020-02-10 11:55:15,749 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: C:\env\maven\repository\org\springframework\boot\spring-boot\2.2.2.RELEASE\spring-boot-2.2.2.RELEASE.jar
-2020-02-10 11:55:15,749 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2020-02-10 11:55:18,276 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 5.138 seconds (JVM running for 5.711)
-2020-02-10 11:55:34,015 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /books - GET
-2020-02-10 11:55:58,742 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /connexion - GET
-2020-02-10 11:55:59,891 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /books - GET
-2020-02-10 11:56:01,532 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /books - GET
-2020-02-10 11:56:02,427 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /books - GET
-2020-02-10 11:56:11,104 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /books - GET
-2020-02-10 11:56:22,479 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /books - GET
-2020-02-10 11:56:30,535 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /connexion - GET
-2020-02-10 11:56:44,826 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
-2020-02-10 11:56:44,826 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
-2020-02-10 11:56:44,826 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
-2020-02-10 11:56:48,574 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /connexion - GET
-2020-02-10 11:56:53,328 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /books - GET
-2020-02-10 12:00:27,632 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /books - GET
-2020-02-10 12:06:12,722 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-02-10 12:10:27,613 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
-2020-02-10 14:30:12,463 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /books - GET
-2020-02-10 14:30:24,126 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /connexion - GET
-2020-02-10 14:30:36,289 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /books - GET
-2020-02-10 14:30:38,156 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
-2020-02-10 14:30:38,156 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
-2020-02-10 14:30:38,156 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
-2020-02-10 14:30:46,272 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - POST
-2020-02-10 14:30:46,273 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Extending Borrow bean duration
-2020-02-10 14:30:46,783 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - GET
-2020-02-10 14:30:46,783 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
-2020-02-10 14:30:46,783 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
-2020-02-10 14:33:40,732 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
-2020-02-10 14:33:40,732 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
-2020-02-10 14:33:40,732 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
-2020-02-10 14:33:45,954 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /connexion - GET
-2020-02-10 14:33:46,599 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /connexion - GET
-2020-02-10 14:33:48,886 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /connexion - GET
-2020-02-10 14:33:49,717 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /books - GET
-2020-02-10 14:35:29,860 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /books - GET
-2020-02-10 14:35:40,746 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /connexion - GET
-2020-02-10 14:35:45,812 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
-2020-02-10 14:35:45,813 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
-2020-02-10 14:35:45,813 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
-2020-02-10 14:35:52,198 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /profile - POST
-2020-02-10 14:35:52,198 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Extending Borrow bean duration
-2020-02-10 14:35:52,434 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /profile - GET
-2020-02-10 14:35:52,435 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
-2020-02-10 14:35:52,435 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
-2020-02-10 14:37:02,802 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - GET
-2020-02-10 14:37:02,802 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
-2020-02-10 14:37:02,802 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
-2020-02-10 14:37:23,038 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /profile - GET
-2020-02-10 14:37:23,038 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
-2020-02-10 14:37:23,038 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
-2020-02-10 16:41:11,817 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
-2020-02-10 16:41:12,992 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: C:\env\maven\repository\org\springframework\boot\spring-boot\2.2.2.RELEASE\spring-boot-2.2.2.RELEASE.jar
-2020-02-10 16:41:12,993 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: C:\env\maven\repository\org\springframework\boot\spring-boot\2.2.2.RELEASE\spring-boot-2.2.2.RELEASE.jar
-2020-02-10 16:41:12,993 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2020-02-10 16:41:15,127 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 4.45 seconds (JVM running for 5.006)
-2020-02-10 16:41:28,363 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /books - GET
-2020-02-10 16:45:28,116 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-02-10 16:45:39,431 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /connexion - GET
-2020-02-10 16:45:52,905 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-02-10 16:45:54,466 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
-2020-02-10 16:45:54,466 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
-2020-02-10 16:45:54,466 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
-2020-02-10 16:46:02,741 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - POST
-2020-02-10 16:46:02,742 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Extending Borrow bean duration
-2020-02-10 16:46:03,001 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
-2020-02-10 16:46:03,001 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
-2020-02-10 16:46:03,001 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
-2020-02-10 16:48:10,071 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
-2020-02-10 16:48:10,072 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
-2020-02-10 16:48:10,072 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
-2020-02-10 16:48:26,092 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
-2020-02-10 16:48:26,092 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
-2020-02-10 16:48:26,092 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
-2020-02-10 17:05:03,343 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /connexion - GET
-2020-02-10 17:05:05,113 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /books - GET
-2020-02-10 17:06:12,423 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /books - GET
-2020-02-10 17:06:14,478 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-02-10 17:06:17,159 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
-2020-02-10 17:06:22,951 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /connexion - GET
-2020-02-10 17:06:23,014 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /books - GET
-2020-02-10 17:06:24,764 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /profile - GET
-2020-02-10 17:06:24,764 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting active borrows for current authenticated user
-2020-02-10 17:06:24,764 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
-2020-02-10 17:06:35,046 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /connexion - GET
-2020-02-10 17:06:37,980 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /books - GET
-2020-02-10 17:11:22,898 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /books - GET
-2020-02-10 17:19:56,129 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /books - GET
-2020-02-10 17:20:09,776 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /connexion - GET
-2020-02-10 17:20:18,092 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /books - GET
-2020-02-10 17:20:21,157 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
-2020-02-10 17:20:21,158 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
-2020-02-10 17:20:21,158 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
-2020-02-10 17:20:37,193 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - POST
-2020-02-10 17:20:37,193 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Extending Borrow bean duration
-2020-02-10 17:20:37,466 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
-2020-02-10 17:20:37,467 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
-2020-02-10 17:20:37,467 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
-2020-02-10 17:22:18,106 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - GET
-2020-02-10 17:22:18,106 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
-2020-02-10 17:22:18,106 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
-2020-02-10 17:22:40,580 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - GET
-2020-02-10 17:22:40,580 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
-2020-02-10 17:22:40,580 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
-2020-02-10 17:42:28,398 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /books - GET
-2020-02-10 17:42:46,774 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-02-10 17:43:17,712 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: /books - GET
-2020-02-10 17:43:57,199 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - GET
-2020-02-10 17:43:57,200 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
-2020-02-10 17:43:57,200 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
-2020-02-10 17:44:06,227 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - POST
-2020-02-10 17:44:06,227 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Extending Borrow bean duration
-2020-02-10 17:44:06,387 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
-2020-02-10 17:44:06,388 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
-2020-02-10 17:44:06,388 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
-2020-02-10 18:11:35,629 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - GET
-2020-02-10 18:11:35,629 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
-2020-02-10 18:11:35,629 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
-2020-02-10 18:11:41,653 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /connexion - GET
-2020-02-10 18:11:45,295 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /connexion - GET
-2020-02-10 18:11:45,495 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /books - GET
-2020-02-10 18:11:49,914 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /connexion - GET
-2020-02-10 18:11:55,403 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /profile - GET
-2020-02-10 18:11:55,404 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting active borrows for current authenticated user
-2020-02-10 18:11:55,404 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
-2020-02-10 18:12:11,779 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - POST
-2020-02-10 18:12:11,780 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Extending Borrow bean duration
-2020-02-10 18:12:12,040 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
-2020-02-10 18:12:12,040 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
-2020-02-10 18:12:12,040 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
-2020-02-10 18:12:15,610 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /connexion - GET
-2020-04-29 16:36:50,589 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
-2020-04-29 16:36:51,352 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
-2020-04-29 16:36:51,352 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
-2020-04-29 16:36:51,352 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2020-04-29 16:36:52,669 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 2.983 seconds (JVM running for 3.734)
-2020-04-29 16:38:25,784 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-04-29 16:48:30,418 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
-2020-04-29 16:48:31,666 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
-2020-04-29 16:48:31,666 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
-2020-04-29 16:48:31,666 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2020-04-29 16:48:33,223 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.999 seconds (JVM running for 4.697)
-2020-04-29 16:48:58,729 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /books - GET
-2020-04-29 16:54:12,150 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /books - GET
+2020-05-19 15:41:02,537 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:41:03,740 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-19 15:41:03,740 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-19 15:41:03,741 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-19 15:41:05,628 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 4.186 seconds (JVM running for 4.884)
+2020-05-19 15:43:10,829 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: / - GET
+2020-05-19 15:43:53,760 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /connexion - GET
+2020-05-19 15:43:59,795 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: / - GET
+2020-05-19 15:43:59,981 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 15:44:00,126 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-19 15:44:00,126 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 15:47:05,182 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: / - GET
+2020-05-19 15:47:05,389 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 15:47:05,469 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-19 15:47:05,469 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 15:47:22,371 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: /reserve - POST
+2020-05-19 15:47:22,371 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 15:47:22,619 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: / - GET
+2020-05-19 15:47:22,779 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:47:22,863 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
+2020-05-19 15:47:22,863 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:47:25,079 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
+2020-05-19 15:47:25,079 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2020-05-19 15:47:25,080 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 15:47:25,240 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting reservations for current authenticated user
+2020-05-19 15:47:25,241 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 15:47:32,838 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
+2020-05-19 15:47:32,838 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
+2020-05-19 15:47:32,838 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 15:47:32,917 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting reservations for current authenticated user
+2020-05-19 15:47:32,917 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 15:47:37,733 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: / - GET
+2020-05-19 15:47:37,973 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:47:38,049 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
+2020-05-19 15:47:38,049 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:47:42,524 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /reserve - POST
+2020-05-19 15:47:42,526 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 15:47:42,696 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 15:47:42,853 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:47:42,933 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 15:47:42,933 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:47:49,924 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /disconnect - GET
+2020-05-19 15:47:49,949 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /connexion - GET
+2020-05-19 15:48:06,736 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 15:48:06,894 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:48:06,979 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 15:48:06,980 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:48:10,369 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
+2020-05-19 15:48:10,369 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 15:48:10,370 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 15:48:10,494 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting reservations for current authenticated user
+2020-05-19 15:48:10,494 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 15:48:13,276 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /profile - GET
+2020-05-19 15:48:13,276 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
+2020-05-19 15:48:13,276 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:48:13,351 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting reservations for current authenticated user
+2020-05-19 15:48:13,351 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:48:19,924 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /disconnect - GET
+2020-05-19 15:48:19,939 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /connexion - GET
+2020-05-19 15:48:25,674 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: / - GET
+2020-05-19 15:48:25,829 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 15:48:25,905 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 15:48:25,905 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 15:48:27,130 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: /profile - GET
+2020-05-19 15:48:27,130 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-19 15:48:27,130 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 15:48:27,208 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting reservations for current authenticated user
+2020-05-19 15:48:27,208 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 15:52:33,037 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: / - GET
+2020-05-19 15:52:33,685 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 15:52:33,823 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
+2020-05-19 15:52:33,823 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 15:53:20,975 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: / - GET
+2020-05-19 15:53:21,208 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 15:53:21,287 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2020-05-19 15:53:21,287 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 15:53:24,365 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
+2020-05-19 15:53:24,365 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-19 15:53:24,365 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 15:53:24,462 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting reservations for current authenticated user
+2020-05-19 15:53:24,462 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 15:53:27,726 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: / - GET
+2020-05-19 15:53:27,929 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 15:53:28,009 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 15:53:28,009 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 15:53:32,266 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /reserve - POST
+2020-05-19 15:53:32,269 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 15:53:32,528 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: / - GET
+2020-05-19 15:53:32,762 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 15:53:32,855 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-19 15:53:32,855 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 15:53:34,595 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /disconnect - GET
+2020-05-19 15:53:34,602 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-19 15:53:41,297 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 15:53:41,463 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:53:41,540 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 15:53:41,540 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:53:43,314 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
+2020-05-19 15:53:43,314 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
+2020-05-19 15:53:43,314 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 15:53:43,429 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting reservations for current authenticated user
+2020-05-19 15:53:43,429 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 15:53:44,743 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /profile - GET
+2020-05-19 15:53:44,744 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting active borrows for current authenticated user
+2020-05-19 15:53:44,744 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-19 15:53:44,819 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting reservations for current authenticated user
+2020-05-19 15:53:44,820 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-19 15:53:47,648 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 15:53:47,891 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:53:47,968 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 15:53:47,968 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 15:59:29,084 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 15:59:30,140 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-19 15:59:30,140 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-19 15:59:30,140 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-19 15:59:31,629 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.45 seconds (JVM running for 4.234)
+2020-05-19 16:01:06,049 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-19 16:01:14,114 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
+2020-05-19 16:01:14,114 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 16:01:14,114 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:01:14,234 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting reservations for current authenticated user
+2020-05-19 16:01:14,235 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:01:16,221 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /profile - GET
+2020-05-19 16:01:16,221 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting active borrows for current authenticated user
+2020-05-19 16:01:16,221 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting authenticated current user id
+2020-05-19 16:01:16,304 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting reservations for current authenticated user
+2020-05-19 16:01:16,304 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting authenticated current user id
+2020-05-19 16:01:18,293 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /disconnect - GET
+2020-05-19 16:01:18,306 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-19 16:01:23,213 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: / - GET
+2020-05-19 16:01:23,406 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:01:23,489 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 16:01:23,489 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:01:26,230 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /reserve - POST
+2020-05-19 16:01:26,230 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 16:01:26,478 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: / - GET
+2020-05-19 16:01:26,642 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting authenticated current user id
+2020-05-19 16:01:26,731 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting active borrows for current authenticated user
+2020-05-19 16:01:26,731 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting authenticated current user id
+2020-05-19 16:01:28,924 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /disconnect - GET
+2020-05-19 16:01:28,936 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /connexion - GET
+2020-05-19 16:08:08,893 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: / - GET
+2020-05-19 16:08:10,500 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /connexion - GET
+2020-05-19 16:08:15,996 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: / - GET
+2020-05-19 16:08:16,161 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:08:16,271 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-19 16:08:16,271 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:08:20,044 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /reserve - POST
+2020-05-19 16:08:20,044 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-19 16:08:20,258 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: / - GET
+2020-05-19 16:08:20,423 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 16:08:20,506 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
+2020-05-19 16:08:20,506 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 16:08:21,740 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - GET
+2020-05-19 16:08:21,740 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 16:08:21,740 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:08:21,835 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting reservations for current authenticated user
+2020-05-19 16:08:21,835 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:08:23,251 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /disconnect - GET
+2020-05-19 16:08:23,264 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /connexion - GET
+2020-05-19 16:08:28,041 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: / - GET
+2020-05-19 16:08:28,201 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 16:08:28,279 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-19 16:08:28,279 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 16:08:34,812 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - GET
+2020-05-19 16:08:34,812 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
+2020-05-19 16:08:34,812 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 16:08:34,897 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting reservations for current authenticated user
+2020-05-19 16:08:34,898 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 16:08:36,034 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /profile - GET
+2020-05-19 16:08:36,034 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting active borrows for current authenticated user
+2020-05-19 16:08:36,034 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting authenticated current user id
+2020-05-19 16:08:36,115 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting reservations for current authenticated user
+2020-05-19 16:08:36,115 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-4] Getting authenticated current user id
+2020-05-19 16:08:38,730 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /disconnect - GET
+2020-05-19 16:08:38,750 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /connexion - GET
+2020-05-19 16:13:38,662 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: / - GET
+2020-05-19 16:13:55,377 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 16:14:13,214 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /connexion - GET
+2020-05-19 16:14:18,316 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: / - GET
+2020-05-19 16:14:18,476 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 16:14:18,552 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2020-05-19 16:14:18,553 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 16:20:36,795 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: / - GET
+2020-05-19 16:20:37,597 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 16:20:37,782 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
+2020-05-19 16:20:37,782 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-19 16:21:14,521 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 16:21:14,727 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:21:14,803 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 16:21:14,803 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:21:20,800 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /reserve - POST
+2020-05-19 16:21:20,801 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:21:21,052 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: / - GET
+2020-05-19 16:21:21,264 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:21:21,401 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 16:21:21,401 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:21:23,177 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /disconnect - GET
+2020-05-19 16:21:23,190 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /connexion - GET
+2020-05-19 16:21:28,564 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: / - GET
+2020-05-19 16:21:28,730 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:21:28,807 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-19 16:21:28,807 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:21:30,018 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
+2020-05-19 16:21:30,019 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2020-05-19 16:21:30,019 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 16:21:30,149 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting reservations for current authenticated user
+2020-05-19 16:21:30,149 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 16:21:32,148 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
+2020-05-19 16:21:32,148 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-19 16:21:32,148 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:21:32,222 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting reservations for current authenticated user
+2020-05-19 16:21:32,222 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-19 16:34:26,286 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-19 16:34:27,130 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-19 16:34:27,130 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-19 16:34:27,130 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-19 16:34:28,249 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 2.784 seconds (JVM running for 3.262)
+2020-05-19 16:36:12,961 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-19 16:36:14,832 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: / - GET
+2020-05-19 16:36:16,640 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-19 16:36:24,774 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - GET
+2020-05-19 16:36:24,774 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 16:36:24,774 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:36:24,881 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting reservations for current authenticated user
+2020-05-19 16:36:24,881 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:36:27,546 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: / - GET
+2020-05-19 16:36:27,763 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 16:36:27,839 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting active borrows for current authenticated user
+2020-05-19 16:36:27,839 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-8] Getting authenticated current user id
+2020-05-19 16:36:30,783 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /reserve - POST
+2020-05-19 16:36:30,786 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-19 16:36:30,970 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: / - GET
+2020-05-19 16:36:31,125 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:36:31,203 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-19 16:36:31,204 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:36:33,647 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /disconnect - GET
+2020-05-19 16:36:33,668 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /connexion - GET
+2020-05-19 16:36:39,282 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: / - GET
+2020-05-19 16:36:39,437 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:36:39,517 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-19 16:36:39,517 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:36:45,114 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: /profile - GET
+2020-05-19 16:36:45,115 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-19 16:36:45,115 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 16:36:45,235 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting reservations for current authenticated user
+2020-05-19 16:36:45,235 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-19 16:36:46,720 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - GET
+2020-05-19 16:36:46,720 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-19 16:36:46,720 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:36:46,795 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting reservations for current authenticated user
+2020-05-19 16:36:46,796 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-19 16:43:31,629 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: / - GET
+2020-05-19 16:43:31,838 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:43:31,913 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-19 16:43:31,913 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:43:36,236 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
+2020-05-19 16:43:36,237 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-19 16:43:36,237 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:43:36,424 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting reservations for current authenticated user
+2020-05-19 16:43:36,425 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-19 16:43:40,445 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: / - GET
+2020-05-19 16:43:40,656 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-19 16:43:40,732 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-19 16:43:40,733 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-20 10:19:03,080 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 10:19:04,228 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:19:04,228 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:19:04,228 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-20 10:19:06,071 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 4.317 seconds (JVM running for 5.08)
+2020-05-20 10:20:00,971 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: / - GET
+2020-05-20 10:20:12,473 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /connexion - GET
+2020-05-20 10:20:19,390 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: / - GET
+2020-05-20 10:20:19,560 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-20 10:20:19,706 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
+2020-05-20 10:20:19,706 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-20 10:20:21,058 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
+2020-05-20 10:20:21,059 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-20 10:20:21,059 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-20 10:20:21,175 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting reservations for current authenticated user
+2020-05-20 10:20:21,176 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-20 10:24:02,892 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 10:24:04,000 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:24:04,000 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:24:04,000 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-20 10:24:05,603 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.648 seconds (JVM running for 4.376)
+2020-05-20 10:24:23,080 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-20 10:24:25,773 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /connexion - GET
+2020-05-20 10:24:31,245 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /profile - GET
+2020-05-20 10:24:31,245 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting active borrows for current authenticated user
+2020-05-20 10:24:31,245 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-20 10:24:31,352 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting reservations for current authenticated user
+2020-05-20 10:24:31,357 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-3] Getting authenticated current user id
+2020-05-20 10:24:31,483 ERROR org.thymeleaf.TemplateEngine [https-jsse-nio-9002-exec-3] [THYMELEAF][https-jsse-nio-9002-exec-3] Exception processing template "Profile": Exception evaluating SpringEL expression: "!borrow.getExtendedDuration() and (borrow.getReturnDate().isAfter(today) or borrow.getReturnDate().isEqual(today))" (template: "Profile" - line 52, col 35)
+org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "!borrow.getExtendedDuration() and (borrow.getReturnDate().isAfter(today) or borrow.getReturnDate().isEqual(today))" (template: "Profile" - line 52, col 35)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:643)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1011E: Method call: Attempted to call method getExtendedDuration() on null context object
+	at org.springframework.expression.spel.ast.MethodReference.throwIfNotNullSafe(MethodReference.java:154)
+	at org.springframework.expression.spel.ast.MethodReference.getValueRef(MethodReference.java:83)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:70)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:188)
+	at org.springframework.expression.spel.ast.OperatorNot.getValueInternal(OperatorNot.java:47)
+	at org.springframework.expression.spel.ast.OperatorNot.getValueInternal(OperatorNot.java:36)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:188)
+	at org.springframework.expression.spel.ast.OpAnd.getBooleanValue(OpAnd.java:57)
+	at org.springframework.expression.spel.ast.OpAnd.getValueInternal(OpAnd.java:48)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 96 common frames omitted
+2020-05-20 10:24:31,488 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [https-jsse-nio-9002-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "!borrow.getExtendedDuration() and (borrow.getReturnDate().isAfter(today) or borrow.getReturnDate().isEqual(today))" (template: "Profile" - line 52, col 35)] with root cause
+org.springframework.expression.spel.SpelEvaluationException: EL1011E: Method call: Attempted to call method getExtendedDuration() on null context object
+	at org.springframework.expression.spel.ast.MethodReference.throwIfNotNullSafe(MethodReference.java:154)
+	at org.springframework.expression.spel.ast.MethodReference.getValueRef(MethodReference.java:83)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:70)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:188)
+	at org.springframework.expression.spel.ast.OperatorNot.getValueInternal(OperatorNot.java:47)
+	at org.springframework.expression.spel.ast.OperatorNot.getValueInternal(OperatorNot.java:36)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:188)
+	at org.springframework.expression.spel.ast.OpAnd.getBooleanValue(OpAnd.java:57)
+	at org.springframework.expression.spel.ast.OpAnd.getValueInternal(OpAnd.java:48)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:643)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-20 10:26:05,961 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 10:26:07,032 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:26:07,032 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:26:07,033 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-20 10:26:08,826 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.951 seconds (JVM running for 4.571)
+2020-05-20 10:26:49,361 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: / - GET
+2020-05-20 10:26:51,154 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /connexion - GET
+2020-05-20 10:26:56,297 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: / - GET
+2020-05-20 10:26:56,466 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-20 10:26:56,542 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-20 10:26:56,542 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-20 10:26:57,321 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - GET
+2020-05-20 10:26:57,322 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-20 10:26:57,322 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-20 10:26:57,480 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting reservations for current authenticated user
+2020-05-20 10:26:57,480 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-20 10:28:43,674 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 10:28:44,609 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:28:44,610 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:28:44,610 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-20 10:28:45,956 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.341 seconds (JVM running for 4.035)
+2020-05-20 10:29:24,993 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: / - GET
+2020-05-20 10:29:26,386 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /connexion - GET
+2020-05-20 10:29:31,733 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /connexion - GET
+2020-05-20 10:29:37,136 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: / - GET
+2020-05-20 10:29:37,313 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-20 10:29:37,391 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-20 10:29:37,391 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-20 10:29:39,412 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
+2020-05-20 10:29:39,413 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2020-05-20 10:29:39,414 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-20 10:29:39,576 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting reservations for current authenticated user
+2020-05-20 10:29:39,576 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-20 10:30:35,312 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /profile - GET
+2020-05-20 10:30:35,312 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting active borrows for current authenticated user
+2020-05-20 10:30:35,313 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-20 10:30:35,470 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting reservations for current authenticated user
+2020-05-20 10:30:35,470 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-20 10:30:49,047 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - POST
+2020-05-20 10:30:49,485 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
+2020-05-20 10:30:49,485 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-20 10:30:49,485 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-20 10:30:49,564 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting reservations for current authenticated user
+2020-05-20 10:30:49,564 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-20 10:31:22,269 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /profile - GET
+2020-05-20 10:31:22,269 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2020-05-20 10:31:22,269 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-20 10:31:22,350 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting reservations for current authenticated user
+2020-05-20 10:31:22,350 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2020-05-20 10:31:44,549 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: / - GET
+2020-05-20 10:31:44,740 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-20 10:31:44,824 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-20 10:31:44,824 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-20 10:31:45,589 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-6] Reach url: /profile - GET
+2020-05-20 10:31:45,589 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting active borrows for current authenticated user
+2020-05-20 10:31:45,589 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-20 10:31:45,675 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting reservations for current authenticated user
+2020-05-20 10:31:45,675 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-6] Getting authenticated current user id
+2020-05-20 10:39:44,323 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 10:39:45,549 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:39:45,550 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:39:45,550 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-20 10:39:46,968 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.695 seconds (JVM running for 4.464)
+2020-05-20 10:39:57,438 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: /connexion - GET
+2020-05-20 10:40:03,816 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-10] Reach url: /profile - GET
+2020-05-20 10:40:03,816 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting active borrows for current authenticated user
+2020-05-20 10:40:03,816 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-20 10:40:03,911 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting reservations for current authenticated user
+2020-05-20 10:40:03,911 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-10] Getting authenticated current user id
+2020-05-20 10:40:26,985 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2020-05-20 10:40:27,923 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:40:27,923 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: /home/charles/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar
+2020-05-20 10:40:27,923 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2020-05-20 10:40:29,300 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 3.186 seconds (JVM running for 3.915)
+2020-05-20 10:40:45,767 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /connexion - GET
+2020-05-20 10:40:51,910 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
+2020-05-20 10:40:51,910 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-20 10:40:51,910 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-20 10:40:51,997 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting reservations for current authenticated user
+2020-05-20 10:40:51,997 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-20 10:41:26,771 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-2] Reach url: /profile - GET
+2020-05-20 10:41:26,775 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting active borrows for current authenticated user
+2020-05-20 10:41:26,775 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-20 10:41:26,943 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting reservations for current authenticated user
+2020-05-20 10:41:26,943 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-2] Getting authenticated current user id
+2020-05-20 10:41:48,046 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-4] Reach url: /profile - POST
+2020-05-20 10:41:48,274 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-1] Reach url: /profile - GET
+2020-05-20 10:41:48,274 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting active borrows for current authenticated user
+2020-05-20 10:41:48,274 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-20 10:41:48,364 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting reservations for current authenticated user
+2020-05-20 10:41:48,364 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-1] Getting authenticated current user id
+2020-05-20 10:42:22,767 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: /profile - GET
+2020-05-20 10:42:22,767 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting active borrows for current authenticated user
+2020-05-20 10:42:22,768 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-20 10:42:22,910 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting reservations for current authenticated user
+2020-05-20 10:42:22,910 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-5] Getting authenticated current user id
+2020-05-20 10:42:33,897 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-8] Reach url: /profile - POST
+2020-05-20 10:42:34,132 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-9] Reach url: /profile - GET
+2020-05-20 10:42:34,132 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting active borrows for current authenticated user
+2020-05-20 10:42:34,132 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id
+2020-05-20 10:42:34,215 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting reservations for current authenticated user
+2020-05-20 10:42:34,215 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-9] Getting authenticated current user id

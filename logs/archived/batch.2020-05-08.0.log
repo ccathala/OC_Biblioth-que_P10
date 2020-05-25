@@ -1,0 +1,254 @@
+2020-05-08 10:02:11,734 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 9198 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 10:02:11,760 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 10:02:11,761 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 10:02:18,755 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$d8cf5944 [main] Set Swagger2 documentation
+2020-05-08 10:02:19,207 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 8.159 seconds (JVM running for 9.281)
+2020-05-08 10:05:49,858 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 10:05:49,994 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 10:05:50,172 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 10:52:23,747 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 10:52:23,775 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 10:52:23,907 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 10:52:42,648 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Providing book resource from database: all book list
+2020-05-08 10:52:42,651 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Splitting query, query: 
+2020-05-08 10:52:42,723 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-8] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 10:52:57,554 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-9] Search user by email: ccathala.dev@gmail.com
+2020-05-08 10:52:57,739 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 10:52:57,742 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 10:52:57,818 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 10:53:01,900 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Providing book resource from database: all book list
+2020-05-08 10:53:01,903 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Splitting query, query: 
+2020-05-08 10:53:01,974 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-4] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 10:54:16,212 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Providing book resource from database: all book list
+2020-05-08 10:54:16,214 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Splitting query, query: 
+2020-05-08 10:54:16,289 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-7] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:03:07,218 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-10] Providing book resource from database: all book list
+2020-05-08 11:03:07,225 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-10] Splitting query, query: 
+2020-05-08 11:03:07,355 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-9] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:03:29,196 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-2] Search user by email: ccathala.dev@gmail.com
+2020-05-08 11:03:29,366 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Providing book resource from database: all book list
+2020-05-08 11:03:29,369 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Splitting query, query: 
+2020-05-08 11:03:29,450 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-4] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:05:34,139 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Providing book resource from database: all book list
+2020-05-08 11:05:34,142 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-6] Splitting query, query: 
+2020-05-08 11:05:34,289 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-7] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:05:54,933 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-10] Search user by email: ccathala.dev@gmail.com
+2020-05-08 11:05:55,090 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-9] Providing book resource from database: all book list
+2020-05-08 11:05:55,092 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-9] Splitting query, query: 
+2020-05-08 11:05:55,165 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-1] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:06:07,781 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-3] Adding new reservation in database
+2020-05-08 11:12:27,506 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 12356 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 11:12:27,512 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 11:12:27,513 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 11:12:31,571 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$961dfa1c [main] Set Swagger2 documentation
+2020-05-08 11:12:32,004 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 4.924 seconds (JVM running for 5.39)
+2020-05-08 11:13:51,391 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 12507 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 11:13:51,393 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 11:13:51,393 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 11:13:55,365 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$517016f1 [main] Set Swagger2 documentation
+2020-05-08 11:13:55,826 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 4.86 seconds (JVM running for 5.513)
+2020-05-08 11:15:44,701 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 11:15:44,829 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 11:15:45,071 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:15:54,186 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-3] Search user by email: ccathala.dev@gmail.com
+2020-05-08 11:15:54,357 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 11:15:54,361 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 11:15:54,435 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:16:20,859 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Adding new reservation in database
+2020-05-08 11:19:06,408 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 12960 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 11:19:06,413 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 11:19:06,413 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 11:19:10,204 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$43aa7cb3 [main] Set Swagger2 documentation
+2020-05-08 11:19:10,636 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 4.721 seconds (JVM running for 5.173)
+2020-05-08 11:19:44,129 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 11:19:44,246 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 11:19:44,445 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:19:53,586 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: ccathala.dev@gmail.com
+2020-05-08 11:19:53,754 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-08 11:19:53,756 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-08 11:19:53,828 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:20:14,526 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-8] Adding new reservation in database
+2020-05-08 11:20:14,700 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-9] Providing book resource from database: all book list
+2020-05-08 11:20:14,707 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-9] Splitting query, query: 
+2020-05-08 11:20:14,792 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-10] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:55:52,028 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 13610 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 11:55:52,031 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 11:55:52,031 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 11:55:56,615 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$64707dd [main] Set Swagger2 documentation
+2020-05-08 11:55:57,062 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.324 seconds (JVM running for 5.788)
+2020-05-08 11:56:04,756 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 11:56:04,891 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 11:56:05,053 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-3] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:56:13,490 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-2] Search user by email: ccathala.dev@gmail.com
+2020-05-08 11:56:13,656 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 11:56:13,660 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 11:56:13,734 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:56:18,925 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Adding new reservation in database
+2020-05-08 11:56:19,104 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Providing book resource from database: all book list
+2020-05-08 11:56:19,108 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Splitting query, query: 
+2020-05-08 11:56:19,180 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-9] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:56:35,285 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 13718 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 11:56:35,292 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 11:56:35,294 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 11:56:39,127 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$1ba27066 [main] Set Swagger2 documentation
+2020-05-08 11:56:39,552 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 4.59 seconds (JVM running for 5.008)
+2020-05-08 11:57:41,439 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 11:57:41,567 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 11:57:41,782 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:57:51,639 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: ccathala.dev@gmail.com
+2020-05-08 11:57:51,812 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-08 11:57:51,815 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-08 11:57:51,887 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 11:57:56,221 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Adding new reservation in database
+2020-05-08 11:57:56,386 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Providing book resource from database: all book list
+2020-05-08 11:57:56,389 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Splitting query, query: 
+2020-05-08 11:57:56,462 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-9] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 12:03:16,251 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 14063 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 12:03:16,254 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 12:03:16,255 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 12:03:20,160 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$67b0a73c [main] Set Swagger2 documentation
+2020-05-08 12:03:20,580 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 4.66 seconds (JVM running for 5.067)
+2020-05-08 12:03:56,805 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 12:03:56,967 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 12:03:57,151 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 12:04:06,196 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-3] Search user by email: ccathala.dev@gmail.com
+2020-05-08 12:04:06,375 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 12:04:06,378 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 12:04:06,451 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 12:04:11,981 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Adding new reservation in database
+2020-05-08 12:04:12,141 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Providing book resource from database: all book list
+2020-05-08 12:04:12,144 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Splitting query, query: 
+2020-05-08 12:04:12,216 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-9] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:18:29,671 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 15:18:29,687 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 15:18:29,813 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:19:44,700 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 18574 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 15:19:44,702 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 15:19:44,702 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 15:19:49,000 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$5661cc44 [main] Set Swagger2 documentation
+2020-05-08 15:19:49,467 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.166 seconds (JVM running for 5.679)
+2020-05-08 15:20:04,166 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 15:20:04,295 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 15:20:04,486 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:23:02,759 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 15:23:02,762 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 15:23:02,908 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:26:54,564 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 18922 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 15:26:54,566 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 15:26:54,567 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 15:26:58,865 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$5d9bd22c [main] Set Swagger2 documentation
+2020-05-08 15:26:59,540 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.406 seconds (JVM running for 6.152)
+2020-05-08 15:27:25,407 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 15:27:25,549 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 15:27:27,070 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:30:10,331 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 15:30:10,333 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-08 15:30:10,339 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 15:30:10,342 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-08 15:30:11,204 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:30:11,207 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-7] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:30:48,317 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-10] Providing book resource from database: all book list
+2020-05-08 15:30:48,321 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-10] Splitting query, query: 
+2020-05-08 15:30:49,047 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-1] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:40:05,457 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 20209 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 15:40:05,460 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 15:40:05,460 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 15:40:10,435 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$d0b956a5 [main] Set Swagger2 documentation
+2020-05-08 15:40:10,981 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.985 seconds (JVM running for 6.65)
+2020-05-08 15:40:56,825 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Providing book resource from database: all book list
+2020-05-08 15:40:57,016 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Splitting query, query: 
+2020-05-08 15:40:57,286 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-1] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:41:07,914 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 15:41:07,926 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 15:41:08,003 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:41:47,059 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Providing book resource from database: all book list
+2020-05-08 15:41:47,062 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Splitting query, query: 
+2020-05-08 15:41:47,845 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:43:08,094 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-10] Providing book resource from database: all book list
+2020-05-08 15:43:08,098 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-10] Splitting query, query: 
+2020-05-08 15:43:08,307 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:43:20,757 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Providing book resource from database: all book list
+2020-05-08 15:43:20,760 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-3] Splitting query, query: 
+2020-05-08 15:43:21,498 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-4] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 15:44:03,566 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Providing book resource from database: all book list
+2020-05-08 15:44:03,569 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Splitting query, query: 
+2020-05-08 15:44:04,270 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-8] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:04:47,670 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 21304 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 16:04:47,674 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 16:04:47,674 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 16:04:54,023 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$199fa07d [main] Set Swagger2 documentation
+2020-05-08 16:04:54,729 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 7.557 seconds (JVM running for 8.251)
+2020-05-08 16:05:03,277 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 16:05:03,449 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 16:05:04,325 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:05:49,352 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 16:05:49,355 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 16:05:49,586 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:29:03,576 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Providing book resource from database: all book list
+2020-05-08 16:29:03,594 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Splitting query, query: 
+2020-05-08 16:29:03,919 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-8] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:30:18,207 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 22484 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 16:30:18,209 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 16:30:18,210 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 16:30:22,372 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$b5aa1718 [main] Set Swagger2 documentation
+2020-05-08 16:30:22,807 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 5.015 seconds (JVM running for 5.446)
+2020-05-08 16:30:28,917 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 16:30:29,049 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 16:30:29,234 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:30:59,027 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 16:30:59,030 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 16:30:59,212 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:31:22,292 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-6] Search user by email: ccathala.dev@gmail.com
+2020-05-08 16:31:22,474 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Providing book resource from database: all book list
+2020-05-08 16:31:22,478 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Splitting query, query: 
+2020-05-08 16:31:22,550 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-8] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:35:53,547 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-10] Providing reservation list for registered user from database: user id: 1
+2020-05-08 16:39:35,487 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Providing book resource from database: all book list
+2020-05-08 16:39:35,492 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Splitting query, query: 
+2020-05-08 16:39:35,567 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-3] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:40:09,239 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-5] Providing reservation list for registered user from database: user id: 1
+2020-05-08 16:40:15,423 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-6] Adding new reservation in database
+2020-05-08 16:40:15,577 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Providing book resource from database: all book list
+2020-05-08 16:40:15,580 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-7] Splitting query, query: 
+2020-05-08 16:40:15,653 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-8] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:40:15,735 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-9] Providing reservation list for registered user from database: user id: 1
+2020-05-08 16:53:35,686 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 23064 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 16:53:35,689 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 16:53:35,689 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 16:53:38,153 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 23117 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 16:53:38,155 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 16:53:38,156 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 16:53:42,183 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$dd0665ea [main] Set Swagger2 documentation
+2020-05-08 16:53:42,694 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 4.936 seconds (JVM running for 5.421)
+2020-05-08 16:55:15,179 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 16:55:15,346 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 16:55:15,577 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:55:24,847 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-3] Search user by email: ccathala.dev@gmail.com
+2020-05-08 16:55:25,021 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Providing book resource from database: all book list
+2020-05-08 16:55:25,024 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-4] Splitting query, query: 
+2020-05-08 16:55:25,096 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-5] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:55:25,198 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-6] Providing reservation list for registered user from database: user id: 1
+2020-05-08 16:55:25,319 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-6] Providing borrow resources from database by user id: 1
+2020-05-08 16:58:15,164 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on charles with PID 23621 (/home/charles/Dev/OC_Bibliotheque_P10/api/target/classes started by charles in /home/charles/Dev/OC_Bibliotheque_P10)
+2020-05-08 16:58:15,185 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-08 16:58:15,190 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2020-05-08 16:58:20,271 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$574a5d87 [main] Set Swagger2 documentation
+2020-05-08 16:58:21,547 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 6.761 seconds (JVM running for 7.185)
+2020-05-08 16:58:55,202 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2020-05-08 16:58:55,351 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2020-05-08 16:58:55,548 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:59:23,413 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: ccathala.dev@gmail.com
+2020-05-08 16:59:23,577 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2020-05-08 16:59:23,580 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2020-05-08 16:59:23,651 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 16:59:23,754 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Providing reservation list for registered user from database: user id: 1
+2020-05-08 16:59:23,873 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-7] Providing borrow resources from database by user id: 1
+2020-05-08 17:00:17,142 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Providing book resource from database: all book list
+2020-05-08 17:00:17,146 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-8] Splitting query, query: 
+2020-05-08 17:00:17,280 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-9] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 17:00:29,614 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-1] Search user by email: ccathala.dev@gmail.com
+2020-05-08 17:00:29,770 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Providing book resource from database: all book list
+2020-05-08 17:00:29,773 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-2] Splitting query, query: 
+2020-05-08 17:00:29,845 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-3] Providing availablecopie resource from database: all availablecopie list
+2020-05-08 17:00:29,929 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-4] Providing reservation list for registered user from database: user id: 1
+2020-05-08 17:00:30,014 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-5] Providing borrow resources from database by user id: 1

@@ -9,6 +9,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
 import com.oc.api.dao.RegisteredUserDao;
+import com.oc.api.manager.RegisteredUserManager;
 import com.oc.api.model.beans.RegisteredUser;
 import com.oc.api.web.exceptions.EntityAlreadyExistsException;
 import com.oc.api.web.exceptions.RessourceNotFoundException;
@@ -38,7 +39,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 public class RegisteredUserController {
 
     @Autowired
-    private RegisteredUserDao registeredUserDao;
+    private RegisteredUserManager registeredUserManager;
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -47,7 +48,7 @@ public class RegisteredUserController {
 
         logger.info("Providing registeredUser resource from database: all registeredUser list");
 
-        List<RegisteredUser> users = registeredUserDao.findAll();
+        List<RegisteredUser> users = registeredUserManager.findAll();
 
         return users;
     }
@@ -57,7 +58,7 @@ public class RegisteredUserController {
 
         logger.info("Providing registeredUser resource from database: registeredUser id: " + id);
 
-        Optional<RegisteredUser> user = registeredUserDao.findById(id);
+        Optional<RegisteredUser> user = registeredUserManager.findById(id);
 
         if (!user.isPresent())
             throw new RessourceNotFoundException("L'entité utilisateur n'existe pas, id: " + id);
@@ -77,7 +78,7 @@ public class RegisteredUserController {
 
         RegisteredUser registeredUserAdded = null;
         try {
-            registeredUserAdded = registeredUserDao.save(newUser);
+            registeredUserAdded = registeredUserManager.save(newUser);
         } catch (Exception e) {
             logger.debug("Cette adresse email est déjà liée à un compte utilisateur: " + registeredUser.getEmail());
             throw new EntityAlreadyExistsException(
@@ -97,14 +98,14 @@ public class RegisteredUserController {
         logger.info("Updating registeredUser in database, id: " + id);
 
         try {
-            registeredUserDao.findById(registeredUserDetails.getId()).get();
+            registeredUserManager.findById(registeredUserDetails.getId()).get();
         } catch (NoSuchElementException e) {
             logger.debug("L'entité utilisateur demandée n'existe pas, id " + registeredUserDetails.getId());
             throw new RessourceNotFoundException(
                     "L'entité utilisateur demandée n'existe pas, id " + registeredUserDetails.getId());
         }
 
-        registeredUserDao.save(registeredUserDetails);
+        registeredUserManager.save(registeredUserDetails);
 
         return ResponseEntity.ok().build();
 
@@ -116,7 +117,7 @@ public class RegisteredUserController {
         logger.info("Deleting registeredUser from database: id: " + id);
 
         try {
-            registeredUserDao.deleteById(id);
+            registeredUserManager.deleteById(id);
         } catch (EmptyResultDataAccessException e) {
             logger.debug("L'entité utilisateur n'existe pas, id: " + id);
             throw new RessourceNotFoundException("L'entité utilisateur n'existe pas, id: " + id);
@@ -131,7 +132,7 @@ public class RegisteredUserController {
 
         RegisteredUser user = new RegisteredUser();
 
-        user = registeredUserDao.findByEmail(email);
+        user = registeredUserManager.findByEmail(email);
 
         return user;
     }

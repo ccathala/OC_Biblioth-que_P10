@@ -1,5 +1,6 @@
 package com.oc.api.web.controllers;
 
+import com.oc.api.manager.LibraryManager;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -40,7 +41,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class LibraryController {
 
     @Autowired
-    private LibraryDao libraryDao;
+    private LibraryManager libraryManager;
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -49,7 +50,7 @@ public class LibraryController {
 
         logger.info("Providing library resource from database: all library list");
 
-        List<Library> libraries = libraryDao.findAll();
+        List<Library> libraries = libraryManager.findAll();
 
         return libraries;
     }
@@ -59,7 +60,7 @@ public class LibraryController {
 
         logger.info("Providing library resource from database: library id: " + id);
 
-        Optional<Library> library = libraryDao.findById(id);
+        Optional<Library> library = libraryManager.findById(id);
 
         if(!library.isPresent()) throw new RessourceNotFoundException("L'entité bibliothèque n'existe pas, id: " + id);
 
@@ -73,7 +74,7 @@ public class LibraryController {
 
         Library libraryAdded;
         try {
-            libraryAdded = libraryDao.save(library);
+            libraryAdded = libraryManager.save(library);
         } catch (Exception e) {
             logger.debug("L'entité bibliothèque existe déjà, nom :" + library.getName());
             throw new EntityAlreadyExistsException("L'entité bibliothèque existe déjà, nom :" + library.getName());
@@ -94,13 +95,13 @@ public class LibraryController {
         logger.info("Updating library in database, id: " + id);
 
         try {
-            libraryDao.findById(libraryDetails.getId()).get();
+            libraryManager.findById(libraryDetails.getId()).get();
         } catch (NoSuchElementException e) {
             logger.debug("L'entité bibliothèque demandé n'existe pas, id: " + libraryDetails.getId());
             throw new RessourceNotFoundException("L'entité bibliothèque demandé n'existe pas, id: " + libraryDetails.getId());
         }
         
-        libraryDao.save(libraryDetails);
+        libraryManager.save(libraryDetails);
 
         return ResponseEntity.ok().build();        
 
@@ -112,7 +113,7 @@ public class LibraryController {
         logger.info("Deleting library from database: id: "+ id);
         
         try {
-            libraryDao.deleteById(id);
+            libraryManager.deleteById(id);
         } catch (EmptyResultDataAccessException e) {
             logger.debug("L'entité bibliothèque n'existe pas, id: " + id);
             throw new RessourceNotFoundException("L'entité bibliothèque n'existe pas, id: " + id);

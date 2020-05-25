@@ -1,5 +1,5 @@
 -- Create user
-INSERT INTO public.registered_user (email, first_name, last_name, "password",roles)
+insert into public.registered_user (email, first_name, last_name, "password",roles)
 VALUES
   (
     'ccathala.dev@gmail.com',
@@ -7,10 +7,24 @@ VALUES
     'userLastName',
     '$2a$10$1nAVWVhiESnNhYSTMr03N.w2tR0zeqS5YYq9rK7Atb503qa7ksc8K',
     'USER'
+  ),
+  (
+  	'agetten.dev@gmail.com',
+    'user',
+    'userLastName',
+    '$2a$10$1nAVWVhiESnNhYSTMr03N.w2tR0zeqS5YYq9rK7Atb503qa7ksc8K',
+    'USER'
+  ),
+  (
+  	'dvalat.dev@gmail.com',
+    'user',
+    'userLastName',
+    '$2a$10$1nAVWVhiESnNhYSTMr03N.w2tR0zeqS5YYq9rK7Atb503qa7ksc8K',
+    'USER'
   );
- 
+
 -- Create book
-INSERT INTO public.book (
+insert into public.book (
     author_first_name,
     author_last_name,
     pictureurl,
@@ -45,10 +59,10 @@ Le Messie des Fremen est-il déjà né dans l''Empire?',
     'Le temps que vous lisiez ces lignes, sept cents millions de fourmis seront nées sur la planète. Sept cents millions d''individus dans une communauté estimée à un milliard de milliards, et qui a ses villes, sa hiérarchie, ses colonies, son langage, sa production industrielle, ses esclaves, ses mercenaires... Ses armes aussi. Terriblement destructrices. Lorsqu''il entre dans la cave de la maison léguée par un vieil oncle entomologiste, Jonathan Wells est loin de se douter qu''il va à leur rencontre. A sa suite, nous allons découvrir le monde fabuleusement riche, monstrueux et fascinant de ces "infra terrestres", au fil d''un thriller unique en son genre, où le suspense et l''horreur reposent à chaque page sur les données scientifiques les plus rigoureuses. Voici pour la première fois un roman dont les héros sont des... fourmis.',
     'Les fourmis'
   );
- 
- 
+
+
 -- Create Library
-INSERT INTO public. "library" ("name")
+insert into public. "library" ("name")
 VALUES
   ('Bayonne'),
   ('Anglet'),
@@ -57,20 +71,20 @@ VALUES
 -- Create Available copie
 
 INSERT INTO public.available_copie
-(book_id, library_id, owned_quantity, available_quantity)
+(book_id, library_id, owned_quantity, available_quantity, book_can_be_reserved, nearest_return_date, reservation_count)
 VALUES
-(1, 1, 2, 1),
-(1, 2, 2, 2),
-(1, 3, 2, 2),
-(2, 1, 2, 1),
-(2, 2, 2, 2),
-(2, 3, 2, 2),
-(3, 1, 2, 1),
-(3, 2, 2, 2),
-(3, 3, 2, 2);
+(1, 1, 2, 0, true, '2019-12-01', 2),
+(1, 2, 2, 2, true, null, 0),
+(1, 3, 2, 2, true, null, 0),
+(2, 1, 2, 1, true, '2020-02-14', 0),
+(2, 2, 2, 2, true, null, 0),
+(2, 3, 2, 2, true, null, 0),
+(3, 1, 2, 1, true, '2020-02-14', 0),
+(3, 2, 2, 2, true, null, 0),
+(3, 3, 2, 2, true, null, 0);
 
 -- Create Borrow
-INSERT INTO public.borrow (
+insert into public.borrow (
     book_returned,
     borrow_date,
     extended_duration,
@@ -85,6 +99,15 @@ VALUES
     '2019-11-01',
     false,
     '2019-12-01',
+    1,
+    1,
+    1
+  ),
+  (
+    false,
+    '2020-01-01',
+    false,
+    '2020-02-01',
     1,
     1,
     1
@@ -106,6 +129,13 @@ VALUES
     3,
     1,
     1
-  )
-  ;
+  );
+
+-- Create Reservation
+
+ insert into public.reservation
+(avalaibility_date, notification_is_sent, book_id, library_id, registered_user_id, position)
+VALUES
+(null, false, 1, 1, 3, 1),
+(null, false, 1, 1, 2, 2);
 

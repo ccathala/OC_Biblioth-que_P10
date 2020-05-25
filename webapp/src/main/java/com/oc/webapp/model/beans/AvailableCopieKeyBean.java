@@ -11,6 +11,11 @@ public class AvailableCopieKeyBean {
     public AvailableCopieKeyBean() {
     }
 
+    public AvailableCopieKeyBean(int bookId, int libraryId) {
+        this.bookId = bookId;
+        this.libraryId = libraryId;
+    }
+
     public int getBookId() {
         return bookId;
     }

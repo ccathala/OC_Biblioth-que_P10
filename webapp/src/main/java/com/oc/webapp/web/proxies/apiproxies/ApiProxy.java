@@ -6,11 +6,7 @@ import java.util.Optional;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
-import com.oc.webapp.model.beans.AvailableCopieBean;
-import com.oc.webapp.model.beans.BookBean;
-import com.oc.webapp.model.beans.BorrowBean;
-import com.oc.webapp.model.beans.LibraryBean;
-import com.oc.webapp.model.beans.RegisteredUserBean;
+import com.oc.webapp.model.beans.*;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -118,4 +114,27 @@ public interface ApiProxy {
         ResponseEntity<Void> updateBorrow(@PathVariable @Min(value = 1) int id,
                         @Valid @RequestBody BorrowBean borrowDetails);
 
+        @PutMapping(value="/borrows/extend/{id}")
+        ResponseEntity<Void> extendBorrow(@PathVariable @Min(value = 1) int id, @Valid @RequestBody BorrowBean borrowDetails);
+
+
+        // Reservation methods
+
+        @GetMapping(value = "/reservations")
+        List<ReservationBean> getReservations();
+
+        @GetMapping(value = "/reservations/{id}")
+        Optional<ReservationBean> getReservationById(@PathVariable @Min(value = 1) int id);
+
+        @PostMapping(value = "/reservations")
+        ResponseEntity<Void> addReservation(@Valid @RequestBody ReservationBean reservation);
+
+        @PutMapping(value = "/reservations/{id}")
+        ResponseEntity<Void> updateReservation(@PathVariable @Min(value = 1) int id, @Valid @RequestBody ReservationBean reservationDetails);
+
+        @DeleteMapping(value="/reservations/{id}")
+        void deleteReservation(@PathVariable @Min(value = 1) int id);
+
+        @GetMapping(value = "/reservations/user/{id}")
+        List<ReservationBean> getReservationByRegisteredUser(@PathVariable @Min(value = 1) int id);
 }
