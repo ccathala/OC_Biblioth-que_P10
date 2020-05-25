@@ -15,6 +15,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -37,7 +38,7 @@ public class AvailableCopieManagerImplIntegrationTest {
 
 
     @Test
-    public void Given_2BorrowsInDatabase_When_getNearestReturnDate_Then_shouldReturnTrue() {
+    public void Given_availableCopie_When_getNearestReturnDate_Then_shouldReturn20200201() {
         // GIVEN
 
         // WHEN
@@ -47,13 +48,23 @@ public class AvailableCopieManagerImplIntegrationTest {
     }
 
     @Test
-    public void Given_1BorrowInDatabase_When_getNearestReturnDate_Then_shouldReturnTrue() {
+    public void Given_availableCopie_When_getNearestReturnDate_Then_shouldReturn20200214() {
         // GIVEN
 
         // WHEN
         final LocalDate result = classUnderTest.getNearestReturnDate(2, 1);
         // THEN
         assertThat(result.toString()).isEqualTo("2020-02-14");
+    }
+
+    @Test
+    public void Given_availableCopie_When_getNearestReturnDate_Then_shouldReturn202005() {
+        // GIVEN
+
+        // WHEN
+        final LocalDate result = classUnderTest.getNearestReturnDate(3, 1);
+        // THEN
+        assertThat(result.toString()).isEqualTo("2020-05-14");
     }
 
     @Test
@@ -125,5 +136,47 @@ public class AvailableCopieManagerImplIntegrationTest {
 
     }
 
+    @Test
+    public void Given_9availableCopieRecordInDatabase_When_findAll_Then_shouldReturn9() {
+        // GIVEN
+
+        // WHEN
+        final List<AvailableCopie> result  = classUnderTest.findAll();
+        // THEN
+        assertThat(result.size()).isEqualTo(9);
+    }
+
+    @Test
+    public void Given_existingAvailableCopieId_When_existsById_Then_shouldReturnTrue() {
+        // GIVEN
+
+        // WHEN
+        final Boolean result = classUnderTest.existsById(new AvailableCopieKey(1,1));
+        // THEN
+        assertThat(result).isTrue();
+    }
+
+    @Test
+    public void Given_notExistingAvailableCopieId_When_existsById_Then_shouldReturnFalse() {
+        // GIVEN
+
+        // WHEN
+        final Boolean result = classUnderTest.existsById(new AvailableCopieKey(10,1));
+        // THEN
+        assertThat(result).isFalse();
+    }
+
+    @Test
+    public void Given_availableCopieBean_When_deleteById_Then_shouldReturnListSizeLess1() {
+        // GIVEN
+        AvailableCopie availableCopie = classUnderTest.findById(new AvailableCopieKey(3,3)).get();
+        int availableCopieCountBeforeDelete = classUnderTest.findAll().size();
+        // WHEN
+        classUnderTest.deleteById(new AvailableCopieKey(3,3));
+        final int result = classUnderTest.findAll().size();
+        classUnderTest.save(availableCopie);
+        // THEN
+        assertThat(result).isEqualTo(availableCopieCountBeforeDelete - 1);
+    }
 
 }

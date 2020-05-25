@@ -45,6 +45,8 @@ public class BorrowManagerImpl implements BorrowManager {
         int libraryId = borrow.getLibrary().getId();
         int userId = borrow.getRegistereduser().getId();
 
+        Borrow BorrowToSave = new Borrow(borrow);
+
         if (operationType.equals("extend")){
 
             //check operations
@@ -52,14 +54,14 @@ public class BorrowManagerImpl implements BorrowManager {
             checkIfReturnDateIsOutDated(borrow);
 
             // Add 4 weeks to return date
-            borrow.setReturnDate(borrow.getReturnDate().plusWeeks(4));
+            BorrowToSave.setReturnDate(BorrowToSave.getReturnDate().plusWeeks(4));
 
             // Set true extended duration attribute
-            borrow.setExtendedDuration(true);
+            BorrowToSave.setExtendedDuration(true);
         }
 
         // Save or update borrow
-        Borrow savedBorrow = borrowDao.save(borrow);
+        Borrow savedBorrow = borrowDao.save(BorrowToSave);
 
         // Update related availableCopie, triggered by borrow action(add or return)
         availableCopieManager.relatedAvailableCopieUpdate(bookId, libraryId, operationType);

@@ -141,4 +141,14 @@ public class ReservationManagerImplIntegrationTest {
         int reservationCountAfterSave = classUnderTest.findAll().size();
         assertThat(reservationCountAfterSave).isEqualTo(reservationCount + 1);
     }
+
+    @Test
+    public void Given_reservationBeanId_When_findById_Then_shouldReturnReservationBeanWithIdIs1() {
+        // GIVEN
+
+        // WHEN
+        final Reservation result = classUnderTest.findById(1).get();
+        // THEN
+        assertThat(result.getId()).isEqualTo(1);
+    }
 }
