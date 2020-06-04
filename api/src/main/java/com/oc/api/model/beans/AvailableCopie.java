@@ -11,9 +11,6 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
-/**
- * AvailableCopie
- */
 @Entity
 @Table(uniqueConstraints = {@UniqueConstraint(columnNames = {"book_id", "library_id"})})
 public class AvailableCopie {
@@ -23,12 +20,10 @@ public class AvailableCopie {
     @Valid
     private AvailableCopieKey id;
 
-
     @ManyToOne
     @MapsId("book_id")
     @JoinColumn(name = "book_id")
     private Book book;
-
 
     @ManyToOne
     @MapsId("library_id")
@@ -44,11 +39,12 @@ public class AvailableCopie {
     @NotNull
     private Boolean bookCanBeReserved;
 
-
     private LocalDate nearestReturnDate;
 
     @NotNull
     private int reservationCount;
+
+    /* Constructeurs  + Getter & Setter */
 
     public AvailableCopie() {
     }

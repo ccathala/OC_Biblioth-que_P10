@@ -128,7 +128,7 @@ public class AvailableCopieManagerImpl implements AvailableCopieManager {
 
 
     /**
-     *
+     * Update reservation count
      * @return
      */
     @Override

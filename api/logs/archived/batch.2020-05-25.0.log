@@ -1,0 +1,95 @@
+2020-05-24 09:58:35,428 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 8515 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 09:58:35,470 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 09:58:35,471 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 09:58:43,193 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$9146d519 [main] Set Swagger2 documentation
+2020-05-24 09:58:44,382 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 9.204 seconds (JVM running for 10.951)
+2020-05-24 09:59:07,843 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 8581 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 09:59:07,845 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 09:59:07,845 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 09:59:13,343 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-24 09:59:14,504 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 7.031 seconds (JVM running for 8.556)
+2020-05-24 10:04:26,269 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 8979 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:04:26,271 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:04:26,272 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:04:31,933 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-24 10:04:32,973 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 6.931 seconds (JVM running for 8.413)
+2020-05-24 10:08:42,733 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 9112 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:08:42,767 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:08:42,767 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:08:48,119 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$2ea2d688 [main] Set Swagger2 documentation
+2020-05-24 10:08:49,162 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 6.656 seconds (JVM running for 8.122)
+2020-05-24 10:12:32,683 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 9256 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:12:32,757 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:12:32,757 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:12:38,580 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$44112173 [main] Set Swagger2 documentation
+2020-05-24 10:12:39,701 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 7.373 seconds (JVM running for 8.619)
+2020-05-24 10:14:08,670 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 9349 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:14:08,672 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:14:08,673 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:14:14,215 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$eedb5ace [main] Set Swagger2 documentation
+2020-05-24 10:14:15,346 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 6.995 seconds (JVM running for 8.28)
+2020-05-24 10:16:21,748 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 9460 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:16:21,750 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:16:21,750 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:16:26,947 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$528d138 [main] Set Swagger2 documentation
+2020-05-24 10:16:28,030 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 6.635 seconds (JVM running for 7.974)
+2020-05-24 10:17:39,917 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 9561 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:17:39,919 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:17:39,919 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:17:45,014 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$528d138 [main] Set Swagger2 documentation
+2020-05-24 10:17:46,133 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 6.504 seconds (JVM running for 7.901)
+2020-05-24 10:18:14,897 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 9674 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:18:14,903 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:18:14,913 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:18:22,320 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$79d9056d [main] Set Swagger2 documentation
+2020-05-24 10:18:23,664 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 9.338 seconds (JVM running for 11.415)
+2020-05-24 10:18:25,321 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Starting OutDatedReservationManagerImplTest on charles with PID 9674 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:18:25,322 DEBUG com.oc.api.unit.OutDatedReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:18:25,322 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:18:27,118 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$79d9056d [main] Set Swagger2 documentation
+2020-05-24 10:18:27,605 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Started OutDatedReservationManagerImplTest in 2.328 seconds (JVM running for 15.356)
+2020-05-24 10:18:27,632 DEBUG com.oc.api.manager.impl.OutDatedReservationManagerImpl [main] Deleting outdated reservations
+2020-05-24 10:18:27,663 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 9674 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:18:27,663 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:18:27,663 INFO com.oc.api.unit.ReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:18:29,070 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$79d9056d [main] Set Swagger2 documentation
+2020-05-24 10:18:29,730 INFO com.oc.api.unit.ReservationManagerImplTest [main] Started ReservationManagerImplTest in 2.084 seconds (JVM running for 17.481)
+2020-05-24 10:18:29,820 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 9674 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:18:29,821 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:18:29,822 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:18:31,185 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$79d9056d [main] Set Swagger2 documentation
+2020-05-24 10:18:31,629 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.839 seconds (JVM running for 19.38)
+2020-05-24 10:18:31,724 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 9674 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:18:31,725 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:18:31,725 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:18:32,297 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.597 seconds (JVM running for 20.049)
+2020-05-24 10:18:32,481 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-24 10:18:32,481 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-05-24 10:18:32,514 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-24 10:18:32,542 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-24 10:18:32,566 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-05-24 10:18:32,580 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-05-24 10:18:32,643 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-24 10:18:32,643 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-05-24 10:18:32,650 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-24 10:18:32,662 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-24 10:25:40,308 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Starting ReservationManagerImplIntegrationTest on charles with PID 10199 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:25:40,310 DEBUG com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:25:40,311 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-24 10:25:45,738 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$d9523614 [main] Set Swagger2 documentation
+2020-05-24 10:25:46,886 INFO com.oc.api.manager.ReservationManagerImplIntegrationTest [main] Started ReservationManagerImplIntegrationTest in 6.902 seconds (JVM running for 8.145)
+2020-05-24 10:39:41,038 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 10744 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:39:41,040 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:39:41,040 INFO com.oc.api.unit.UtilsManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:39:46,578 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$982e5325 [main] Set Swagger2 documentation
+2020-05-24 10:39:47,713 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 6.874 seconds (JVM running for 8.417)
+2020-05-24 10:40:17,471 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 10841 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:40:17,475 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:40:17,478 INFO com.oc.api.unit.UtilsManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:40:23,202 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$f5feb1cc [main] Set Swagger2 documentation
+2020-05-24 10:40:24,381 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 7.22 seconds (JVM running for 8.522)
+2020-05-24 10:41:28,295 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 10928 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-24 10:41:28,309 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-24 10:41:28,309 INFO com.oc.api.unit.UtilsManagerImplTest [main] The following profiles are active: integration
+2020-05-24 10:41:35,080 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$28e91ec6 [main] Set Swagger2 documentation
+2020-05-24 10:41:36,716 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 8.897 seconds (JVM running for 10.264)

@@ -1,0 +1,92 @@
+2020-05-28 10:15:18,539 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Starting OutDatedReservationManagerImplTest on charles with PID 14256 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:15:18,547 DEBUG com.oc.api.unit.OutDatedReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:15:18,548 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-28 10:15:24,538 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$ddb9dc3b [main] Set Swagger2 documentation
+2020-05-28 10:15:25,569 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Started OutDatedReservationManagerImplTest in 7.322 seconds (JVM running for 8.827)
+2020-05-28 10:15:25,633 DEBUG com.oc.api.manager.impl.OutDatedReservationManagerImpl [main] Deleting outdated reservations
+2020-05-28 10:15:25,762 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 14256 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:15:25,762 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:15:25,762 INFO com.oc.api.unit.ReservationManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-28 10:15:26,988 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$ddb9dc3b [main] Set Swagger2 documentation
+2020-05-28 10:15:27,384 INFO com.oc.api.unit.ReservationManagerImplTest [main] Started ReservationManagerImplTest in 1.642 seconds (JVM running for 10.642)
+2020-05-28 10:15:27,462 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 14256 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:15:27,462 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:15:27,462 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-28 10:15:28,653 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$ddb9dc3b [main] Set Swagger2 documentation
+2020-05-28 10:15:29,002 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.555 seconds (JVM running for 12.26)
+2020-05-28 10:15:29,043 INFO com.oc.api.unit.UtilsManagerImplTest [main] Starting UtilsManagerImplTest on charles with PID 14256 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:15:29,043 DEBUG com.oc.api.unit.UtilsManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:15:29,043 INFO com.oc.api.unit.UtilsManagerImplTest [main] No active profile set, falling back to default profiles: default
+2020-05-28 10:15:30,029 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$ddb9dc3b [main] Set Swagger2 documentation
+2020-05-28 10:15:30,340 INFO com.oc.api.unit.UtilsManagerImplTest [main] Started UtilsManagerImplTest in 1.31 seconds (JVM running for 13.599)
+2020-05-28 10:45:58,358 DEBUG org.jboss.logging [background-preinit] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2020-05-28 10:45:58,489 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 31701 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:45:58,491 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:45:58,496 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-28 10:46:04,803 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$600f5882 [main] Set Swagger2 documentation
+2020-05-28 10:46:06,016 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 7.842 seconds (JVM running for 9.385)
+2020-05-28 10:46:07,421 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Starting OutDatedReservationManagerImplTest on charles with PID 31701 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:46:07,421 DEBUG com.oc.api.unit.OutDatedReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:46:07,421 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-28 10:46:08,771 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$600f5882 [main] Set Swagger2 documentation
+2020-05-28 10:46:09,138 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Started OutDatedReservationManagerImplTest in 1.733 seconds (JVM running for 12.507)
+2020-05-28 10:46:09,162 DEBUG com.oc.api.manager.impl.OutDatedReservationManagerImpl [main] Deleting outdated reservations
+2020-05-28 10:46:09,186 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 31701 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:46:09,186 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:46:09,187 INFO com.oc.api.unit.ReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-28 10:46:10,285 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$600f5882 [main] Set Swagger2 documentation
+2020-05-28 10:46:10,625 INFO com.oc.api.unit.ReservationManagerImplTest [main] Started ReservationManagerImplTest in 1.452 seconds (JVM running for 13.993)
+2020-05-28 10:46:10,678 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 31701 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:46:10,678 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:46:10,678 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2020-05-28 10:46:11,669 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$600f5882 [main] Set Swagger2 documentation
+2020-05-28 10:46:12,028 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.364 seconds (JVM running for 15.396)
+2020-05-28 10:46:12,101 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 31701 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 10:46:12,102 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 10:46:12,102 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-05-28 10:46:12,615 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.532 seconds (JVM running for 15.983)
+2020-05-28 10:46:12,708 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-28 10:46:12,708 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-05-28 10:46:12,727 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-28 10:46:12,744 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-28 10:46:12,758 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-05-28 10:46:12,767 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-05-28 10:46:12,828 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-28 10:46:12,829 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-05-28 10:46:12,847 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-28 10:46:12,857 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-28 11:25:26,536 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Starting RegisteredUserManagerImplIntegrationTest on charles with PID 767 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 11:25:26,542 DEBUG com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 11:25:26,544 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] The following profiles are active: integration
+2020-05-28 11:25:33,362 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$e1f2d133 [main] Set Swagger2 documentation
+2020-05-28 11:25:34,431 INFO com.oc.api.manager.RegisteredUserManagerImplIntegrationTest [main] Started RegisteredUserManagerImplIntegrationTest in 8.263 seconds (JVM running for 9.757)
+2020-05-28 11:25:35,902 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Starting OutDatedReservationManagerImplTest on charles with PID 767 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 11:25:35,902 DEBUG com.oc.api.unit.OutDatedReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 11:25:35,903 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-28 11:25:39,256 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$e1f2d133 [main] Set Swagger2 documentation
+2020-05-28 11:25:40,925 INFO com.oc.api.unit.OutDatedReservationManagerImplTest [main] Started OutDatedReservationManagerImplTest in 5.052 seconds (JVM running for 16.251)
+2020-05-28 11:25:40,984 DEBUG com.oc.api.manager.impl.OutDatedReservationManagerImpl [main] Deleting outdated reservations
+2020-05-28 11:25:41,011 INFO com.oc.api.unit.ReservationManagerImplTest [main] Starting ReservationManagerImplTest on charles with PID 767 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 11:25:41,012 DEBUG com.oc.api.unit.ReservationManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 11:25:41,012 INFO com.oc.api.unit.ReservationManagerImplTest [main] The following profiles are active: integration
+2020-05-28 11:25:42,356 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$e1f2d133 [main] Set Swagger2 documentation
+2020-05-28 11:25:45,747 INFO com.oc.api.unit.ReservationManagerImplTest [main] Started ReservationManagerImplTest in 4.751 seconds (JVM running for 21.073)
+2020-05-28 11:25:45,817 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on charles with PID 767 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 11:25:45,817 DEBUG com.oc.api.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 11:25:45,817 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2020-05-28 11:25:47,151 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$e1f2d133 [main] Set Swagger2 documentation
+2020-05-28 11:25:47,614 INFO com.oc.api.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 1.818 seconds (JVM running for 22.94)
+2020-05-28 11:25:47,712 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Starting ReservationControllerIntegrationTest on charles with PID 767 (started by charles in /home/charles/Dev/OC_Bibliotheque_P10/api)
+2020-05-28 11:25:47,712 DEBUG com.oc.api.controller.ReservationControllerIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-28 11:25:47,713 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] The following profiles are active: integration
+2020-05-28 11:25:48,316 INFO com.oc.api.controller.ReservationControllerIntegrationTest [main] Started ReservationControllerIntegrationTest in 0.623 seconds (JVM running for 23.642)
+2020-05-28 11:25:48,471 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-28 11:25:48,472 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation demandé n'existe pas, id: 1
+2020-05-28 11:25:48,494 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-28 11:25:48,512 INFO com.oc.api.web.controllers.ReservationController [main] Updating reservation in database, id: 1
+2020-05-28 11:25:48,541 INFO com.oc.api.web.controllers.ReservationController [main] Adding new reservation in database
+2020-05-28 11:25:48,560 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: all reservation list
+2020-05-28 11:25:48,635 INFO com.oc.api.web.controllers.ReservationController [main] Deleting reservation from database: id: 1
+2020-05-28 11:25:48,636 DEBUG com.oc.api.web.controllers.ReservationController [main] L'entité réservation n'existe pas, id: 1
+2020-05-28 11:25:48,643 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1
+2020-05-28 11:25:48,656 INFO com.oc.api.web.controllers.ReservationController [main] Providing reservation resource from database: reservation id: 1

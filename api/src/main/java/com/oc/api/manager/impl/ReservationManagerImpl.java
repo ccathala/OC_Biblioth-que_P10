@@ -58,7 +58,7 @@ public class ReservationManagerImpl implements ReservationManager {
     }
 
     /**
-     *
+     * Delete reservation
      */
     @Override
     @Transactional
@@ -66,9 +66,13 @@ public class ReservationManagerImpl implements ReservationManager {
         Reservation reservationToDelete = reservationDao.findById(id).get();
         int bookId = reservationToDelete.getAvailableCopie().getId().getBookId();
         int libraryid = reservationToDelete.getAvailableCopie().getId().getLibraryId();
+        // Delete reservation
         reservationDao.deleteById(id);
+        // Update reservations positions after delete
         offsetReservationsPositionAfterDelete(bookId, libraryid, reservationToDelete.getPosition());
-        availableCopieManager.updateReservationCount(reservationToDelete.getAvailableCopie().getId().getBookId(), reservationToDelete.getAvailableCopie().getId().getLibraryId());
+        // Update reservation count
+        availableCopieManager.updateReservationCount(reservationToDelete.getAvailableCopie().getId().getBookId(),
+                reservationToDelete.getAvailableCopie().getId().getLibraryId());
     }
 
     /**
@@ -89,30 +93,35 @@ public class ReservationManagerImpl implements ReservationManager {
     }
 
     /**
-     *
+     * Save reservation bean
      */
     @Override
     @Transactional
     public Reservation save(Reservation reservation) throws FunctionnalException {
+
+        // If new reservation check rules are respected
         if (reservation.getId() == 0){
             checkReservation(reservation);
         }
 
         int bookId = reservation.getAvailableCopie().getId().getBookId();
         int libraryId = reservation.getAvailableCopie().getId().getLibraryId();
-        int reservationPosition = setReservationPosition(bookId, libraryId, reservation.getPosition());
 
+        // Set reservation position
+        int reservationPosition = setReservationPosition(bookId, libraryId, reservation.getPosition());
         reservation.setPosition(reservationPosition);
 
+        // Save
         Reservation savedReservation = reservationDao.save(reservation);
 
-        availableCopieManager.updateReservationCount(reservation.getAvailableCopie().getId().getBookId(), reservation.getAvailableCopie().getId().getLibraryId());
+        // After save update reservation count for related AvailableCopie bean
+        availableCopieManager.updateReservationCount(reservation.getAvailableCopie().getId().getBookId(),
+                reservation.getAvailableCopie().getId().getLibraryId());
 
         return savedReservation;
     }
 
     private void checkReservation(Reservation reservation) throws FunctionnalException {
-
         int bookId = reservation.getAvailableCopie().getId().getBookId();
         int libraryId = reservation.getAvailableCopie().getId().getLibraryId();
         int userId = reservation.getRegistereduser().getId();
@@ -120,9 +129,7 @@ public class ReservationManagerImpl implements ReservationManager {
         checkIfReservationListIsFull(bookId, libraryId);
         checkIfBookIsAlreadyBorrowed(bookId, userId);
         checkIfBookIsAlreadyReserved(bookId, userId);
-
     }
-
     /**
      * Check if the reservation list is full, reservation list size must be equal to owned quantity x 2
      */
@@ -131,7 +138,6 @@ public class ReservationManagerImpl implements ReservationManager {
         int reservationCountMax = availableCopie.getOwnedQuantity() * 2;
         if (availableCopie.getReservationCount() >= reservationCountMax) throw new FunctionnalException("La liste de reservation est pleine");
     }
-
     /**
      * Check if user already has an active borrow for this book
      */
@@ -142,7 +148,6 @@ public class ReservationManagerImpl implements ReservationManager {
                 throw new FunctionnalException("L'utilisateur a déjà un emprunt en cours concernant ce livre");
         }
     }
-
     /**
      *Check if user already has a reservation for this book
      */
@@ -154,9 +159,8 @@ public class ReservationManagerImpl implements ReservationManager {
         }
     }
 
-
     /**
-     *
+     * Return reservation position
      */
     public int setReservationPosition(int bookId, int libraryId,int reservationPosition) {
         if (reservationPosition == 0) {

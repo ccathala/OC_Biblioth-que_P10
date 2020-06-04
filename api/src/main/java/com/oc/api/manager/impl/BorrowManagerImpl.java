@@ -75,6 +75,22 @@ public class BorrowManagerImpl implements BorrowManager {
         return savedBorrow;
     }
 
+    /**
+     * Check if return date is outdated
+     */
+    public void checkIfReturnDateIsOutDated(Borrow borrow) throws FunctionnalException {
+        LocalDate today = LocalDate.now();
+        if (borrow.getReturnDate().isBefore(today)) throw new
+                FunctionnalException("Le prêt ne peut pas être prolongé car la date de retour est dépassée");
+    }
+
+    /**
+     * Check if borrow has already been extended
+     */
+    public void checkIfBorrowIsAlreadyExtended(Borrow borrow) throws FunctionnalException {
+        if (borrow.getExtendedDuration()) throw new FunctionnalException("Le prêt à déjà été prolongé");
+    }
+
     @Override
     public void deleteById(int id) {
         borrowDao.deleteById(id);
@@ -90,19 +106,6 @@ public class BorrowManagerImpl implements BorrowManager {
         return borrowDao.findAllByBookIdAndLibraryId(book_id, library_id);
     }
 
-    /**
-     * Check if return date is outdated
-     */
-    public void checkIfReturnDateIsOutDated(Borrow borrow) throws FunctionnalException {
-        LocalDate today = LocalDate.now();
-        if (borrow.getReturnDate().isBefore(today)) throw new FunctionnalException("Le prêt ne peut pas être prolongé car la date de retour est dépassée");
-    }
 
-    /**
-     * Check if borrow has already been extended
-     */
-    public void checkIfBorrowIsAlreadyExtended(Borrow borrow) throws FunctionnalException {
-        if (borrow.getExtendedDuration()) throw new FunctionnalException("Le prêt à déjà été prolongé");
-    }
 
 }

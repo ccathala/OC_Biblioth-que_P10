@@ -1,23 +1,19 @@
-# OC-Bibliothèque
+# OC-Bibliothèque V1.1.0
 
 ## Présentation
 
-OC-Bibliothèque est un site web dédié aux usagers du réseau de bibliothèques du même nom, cette application web JEE a été réalisée dans le cadre du parcours Développeur d'application Java de la plateforme d'enseignement OpenClassrooms.
+Ce projet est un fork du projet OC-bibliothèque réalisé dans le cadre du projet 7. L'objectif est de reprendre le travail fait sur la version 1 du projet livrée pour y apporter des améliorations et amener des correctifs.
 
-Les compétences évaluées sont les suivantes:
+Les compétences évaluées sont les suivantes :
+* Apporter des améliorations de fonctionnalités demandées par le client
+* Compléter une suite de tests unitaires et d’intégration afin de prendre en compte les modifications apportées
+* Corriger des dysfonctionnements signalés par le client sur l’application
 
-* Concevoir une application web avec une approche par composants
-* Respecter les bonnes pratiques de développement en vigueur
-* Créer une API web avec un microservice REST
-* Sélectionner les langages de programmation adaptés pour le développement de l’application
-* Interagir avec des composants externes
+## Modifications apportées
 
-Les fonctions suivantes sont implémentées:
-
-* Rechercher des ouvrages et voir le nombre d’exemplaires disponibles.
-* Permettre aux usagers de consulter leurs prêts en cours. Les prêts sont pour une période de 4 semaines.
-* Prolonger un prêt en cours. Le prêt d’un ouvrage n’est prolongeable qu’une seule fois. La prolongation ajoute une nouvelle période de prêt (4 semaines) à la période initiale.
-* Login via un formulaire
+* Ticket#1 - Ajout d'une fonctionnalité de réservation d'ouvrages
+* Ticket#2 - Correction d'un bug dans la gestion des prolongations de prêt
+* Ticket#3 - Mise en place d'une stratégie de tests
 
 ## Guide de démarrage
 
@@ -80,11 +76,14 @@ server.ssl.keyStoreType=PKCS12
 server.ssl.keyAlias=ocbclient
 ```
 
-#### Cron expression | Heure d'envoi des mails de relance (Batch seulement)
+#### Cron expression (Batch seulement)
 
 ```properties
-batch.time.event=30 45 10 * * ?
+batch.time.event.lateborrows=30 21 17 * * ?
+batch.time.event.reservationsnotifications=30 45 10 * * ?
 ```
+
+Exemple fonction mail de relance :
 
 Seconde=30  
 Minute=45  
@@ -120,11 +119,65 @@ Remplacer les valeurs username et password par les identifiants du compte Gmail.
 
 #### I. Tests
 
-1. Ouvrez le répertoire du service choisi, ex: /api
+##### A. API
+
+Les tests de l'API sont répartis en 2 catégories :
+* Les tests unitaires
+* Les tests d'integrations
+
+###### 1. Répertoires de test
+
+* Les classes de tests unitaires se trouvent dans le répertoire src/test
+* Les classes de tests d'integrations se trouvent dans le répertoire src/test-integration
+
+###### 2. Profils
+
+Un profil Maven test-integration est déclaré dans le pom.xml, il définit en tant que répertoire de test l'emplacement src/test-integration.
+
+###### 3. Paramétrage du Datasource pour les tests d'integrations
+
+Le Datasource est paramétré via le fichier application.properties à l'emplacement src/test-integration/resources.
+
+La clé spring.profiles.active permet de déclarer le DataSource à utiliser.
+
+```properties
+spring.profiles.active=dev
+```
+Pour utiliser le Datasource défini dans le fichier application-dev.properties qui correspond à l'utilisation de la base de données dockerisée pour l'intégration continue.
+
+```properties
+spring.profiles.active=integration
+```
+Pour utiliser le Datasource défini dans le fichier application-integration.properties qui correspond à l'utilisation de la base de données locale.
+
+###### 4. Commandes
+
+1. Ouvrez un terminal à l'emplacement /api
+
+2. Lancer l'une des commande de test suivante:
+
+Test unitaires:
+```terminal
+mvn test
+```
+
+Test unitaires + tests d'integrations :
+```terminal
+mvn test -Ptest-integration
+```
+
+Test unitaires + tests d'integrations + rapport de couverture de code :
+```terminal
+mvn verify -Ptest-integration
+```
+
+##### B. Module webapp et batch
+
+1. Ouvrez le répertoire du service choisi, ex : /webapp ou /batch
 
 2. Ouvrez un terminal à cet emplacement
 
-3. Exécuter la commande suivante:
+3. Exécuter la commande suivante :
 
 ```terminal
 mvn test
@@ -166,13 +219,27 @@ Remplacez application.jar par le nom de l'application à lancer.
 
 1. Lancer une première fois le service api pour générer les tables dans la base de données.
 
-2. À l'aide de pgAdmin, éxécuter le script sql _data_demo.sql_.
+2. À l'aide de pgAdmin, éxécuter le script sql _data_demo_v1.1.0.sql_.
 
-Ce fichier se trouve dans le répertoire /database
+Ce fichier se trouve dans le répertoire /database/v1.1.0
 
-### Utilisateur enregistré
+### Migration des données v1.0.0 ==> v1.1.0
 
-Identifiant : ccathala.dev@gmail.com  
+À l'aide de pgAdmin, éxécuter les script sql suivants dans cet ordre :
+
+1. _update_table.sql_ (mise à jour les tables)
+2. _update_data_demo.sql_ (mise à jour des données de démo)
+
+Ces fichiers se trouvent dans le répertoire /database/migration_v1.0.0_to_v1.1.0
+
+### Utilisateurs enregistrés
+
+Identifiants :
+ * ccathala.dev@gmail.com  
+ * agetten.dev@gmail.com
+ * dvalat.dev@gmail.com
+ * slassy.dev@gmail.com
+ 
 Mot de passe : azerty
 
 ## Technologies utilisées

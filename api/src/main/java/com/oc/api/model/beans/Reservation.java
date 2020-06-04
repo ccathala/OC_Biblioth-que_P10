@@ -34,6 +34,8 @@ public class Reservation {
     @NotNull
     private int position;
 
+    /* Constructeurs  + Getter & Setter */
+
 
     public Reservation() {
     }

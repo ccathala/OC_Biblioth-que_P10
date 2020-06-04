@@ -44,15 +44,12 @@ public class AvailableCopieManagerImplTest {
     @MockBean
     private BorrowManager borrowManager;
 
-    /**
-     *
-     */
+
     @BeforeEach
     public void initBeforeEach() {
         classUnderTest = new AvailableCopieManagerImpl();
         classUnderTest.setReservationManager(reservationManager);
         classUnderTest.setBorrowManager(borrowManager);
-
 
         copieToRefresh = new AvailableCopie(
                 new AvailableCopieKey(1, 1),
@@ -63,11 +60,9 @@ public class AvailableCopieManagerImplTest {
                 true, LocalDate.of(2020,5,12) , 2);
     }
 
-    /**
-     *
-     */
     @AfterEach
     public void undefAfterEach() {
+        classUnderTest = null;
         copieToRefresh = null;
     }
 
